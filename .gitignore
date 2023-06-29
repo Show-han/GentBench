@@ -1,3 +1,9 @@
+# Custom
+test/
+test.ipynb
+gentbench/benchmark/private/
+gentbench/benchmark/raw/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
