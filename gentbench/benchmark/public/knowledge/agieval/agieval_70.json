@@ -1,0 +1,7 @@
+{
+    "problem": "Both Zhang Fei and Li Bai applied for the MBA this year.There are four assertions about their exams? (1) They have at least one exam; (2) Zhang Fei is not necessarily exam; Bai did pass the exam; (4) Not that Zhang Fei might fail the exam.The final admission result shows that two of the four assertions are true and two are false.Q: Which of the following results can be derived from the above conditions? Answer Choices: (A)Zhang Fei was admitted, but Li Bai was not. (B)Both Zhang Fei and Li Bai were admitted. (C)Zhang Fei and Li Bai failed the exam (D)Li Bai was admitted, but Zhang Fei was not.\nA: Among A through D, the answer is",
+    "solution": "A",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

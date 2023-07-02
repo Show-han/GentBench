@@ -1,0 +1,7 @@
+{
+    "problem": "If you follow these instructions, do you return to the starting point? Turn left. Take 9 steps. Take 3 steps. Turn right.\nOptions:\n- Yes\n- No",
+    "solution": "No",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

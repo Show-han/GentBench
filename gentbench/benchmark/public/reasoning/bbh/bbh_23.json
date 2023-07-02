@@ -1,0 +1,7 @@
+{
+    "problem": "\"Here comes a perfectly valid argument: To start with, whoever is an expert of BSC Young Boys is not an ex-fan of Real Betis Balompi\u00e9. Now, whoever is a friend of FC Dynamo Kyiv is not an expert of BSC Young Boys. Hence, no friend of FC Dynamo Kyiv is an ex-fan of Real Betis Balompi\u00e9.\"\nIs the argument, given the explicitly stated premises, deductively valid or invalid?\nOptions:\n- valid \n- invalid",
+    "solution": "invalid",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

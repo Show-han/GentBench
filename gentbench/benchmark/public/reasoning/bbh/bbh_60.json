@@ -1,0 +1,7 @@
+{
+    "problem": "Find a movie similar to Forrest Gump, The Fugitive, The Shawshank Redemption, Pulp Fiction:\nOptions:\n(A) Anchors Aweigh\n(B) Looney Tunes Back in Action\n(C) Porky's Revenge\n(D) Dances with Wolves",
+    "solution": "(D)",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

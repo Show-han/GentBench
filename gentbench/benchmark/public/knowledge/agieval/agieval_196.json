@@ -1,0 +1,7 @@
+{
+    "problem": "问题：曲线 $y=(a x+1) e^{x}$ 在点 $(0,1)$ 处的切线的斜率为 -2 , 则 $a=(\\quad)$.\n答案：",
+    "solution": "-3",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: How many of the 343 smallest positive integers written in base 7 use 4 or 5 (or both) as a digit?",
-    "solution": "$343 = 7^3 = 1000_7$, so the first 343 natural numbers in base 7 are $1_7, 2_7, \\ldots 1000_7$.  Any number in this list that neither includes 4 or 5 only includes the digits 0, 1, 2, 3, and 6.  If we replace 6 with 4, these have the same decimal expansions as the integers in base 5.  Since there are $5^3 = 125$ positive integers less than or equal to $1000_5$, there are 125 integers less than or equal to $1000_7$ that contain no 4's or 5's in base 7, which means there are $343 - 125 = \\boxed{218}$ integers that include a 4 or a 5.",
+    "problem": "A fisherman can see seven aquatic creatures in a lake --- four crocodiles, a catfish, and two giant squid. If he does not wish to fish two crocodiles consecutively, in how many orders can he catch all seven creatures? (Individuals from the same species are indistinguishable.)",
+    "solution": "The crocodiles must be separated from each other by one of the other creatures, so he must catch them first, third, fifth, and seventh. For the second, fourth, and sixth slots, there are $3!$ ways to arrange the remaining three creatures.\n\nHowever, there are two giant squid, so we must divide by $2!$, the number of ways to arrange the squid.\n\nThe answer is $\\dfrac{3!}{2!}=\\boxed{3}$ ways.",
     "tags": [
         "reasoning/math"
     ]

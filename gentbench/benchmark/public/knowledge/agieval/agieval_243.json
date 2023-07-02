@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Let $a,$ $b,$ and $c$ be distinct real numbers.  Find the degree of the polynomial\n\\[p(x) = \\frac{(x - b)(x - c)}{(a - b)(a - c)} + \\frac{(x - a)(x - c)}{(b - a)(b - c)} + \\frac{(x - a)(x - b)}{(c - a)(c - b)}.\\]\nA: The answer is",
+    "solution": "0",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to count numbers whose oth and nth bits are set.\n\nYour code should pass these tests:\n\nassert count_Num(2) == 1\nassert count_Num(3) == 2\nassert count_Num(1) == 1\n\n",
+    "solution": "def count_Num(n): \r\n    if (n == 1): \r\n        return 1\r\n    count = pow(2,n - 2) \r\n    return count ",
+    "test": "assert count_Num(2) == 1\nassert count_Num(3) == 2\nassert count_Num(1) == 1",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

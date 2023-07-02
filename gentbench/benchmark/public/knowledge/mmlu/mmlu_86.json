@@ -1,0 +1,7 @@
+{
+    "problem": "Mars has an atmospheric pressure of 600 pascals. If the acceleration due to gravity on Mars is (roughly) 4 m/s2 and the surface area of Mars is about 145000000 square km what is the approximate mass of the martian atmosphere?\nA. 2.2x1011 kg\nB. 2.2x1014kg\nC. 2.2x1020kg\nD. 2.2x1016 kg\nAmong A through D, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

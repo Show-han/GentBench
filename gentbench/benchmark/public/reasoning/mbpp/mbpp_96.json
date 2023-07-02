@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to convert camel case string to snake case string.\n\nYour code should pass these tests:\n\nassert camel_to_snake('PythonProgram')==('python_program')\nassert camel_to_snake('pythonLanguage')==('python_language')\nassert camel_to_snake('ProgrammingLanguage')==('programming_language')\n\n",
+    "solution": "def camel_to_snake(text):\r\n        import re\r\n        str1 = re.sub('(.)([A-Z][a-z]+)', r'\\1_\\2', text)\r\n        return re.sub('([a-z0-9])([A-Z])', r'\\1_\\2', str1).lower()",
+    "test": "assert camel_to_snake('PythonProgram')==('python_program')\nassert camel_to_snake('pythonLanguage')==('python_language')\nassert camel_to_snake('ProgrammingLanguage')==('programming_language')",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

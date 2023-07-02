@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Which of the following statements is true about the graph of the equation $2 y-3 x=-4$ in the $x y$-plane? Answer Choices: (A)It has a negative slope and a positive $y$-intercept. (B)It has a negative slope and a negative $y$-intercept. (C)It has a positive slope and a positive $y$-intercept. (D)It has a positive slope and a negative $y$-intercept.\nA: Among A through D, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

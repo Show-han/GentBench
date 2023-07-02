@@ -1,0 +1,7 @@
+{
+    "problem": "Q: How many dollars in interest are earned in two years on a deposit of $\\$$10,000 invested at 4.5$\\%$ and compounded annually? Express your answer to the nearest cent.\nA: The answer is",
+    "solution": "920.25",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

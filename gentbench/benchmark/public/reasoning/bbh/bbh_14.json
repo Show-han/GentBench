@@ -1,0 +1,7 @@
+{
+    "problem": "Which sentence has the correct adjective order:\nOptions:\n(A) midsize purple Russian gold snorkeling sock\n(B) gold Russian midsize purple snorkeling sock",
+    "solution": "(A)",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

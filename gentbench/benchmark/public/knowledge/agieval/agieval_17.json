@@ -1,0 +1,7 @@
+{
+    "problem": "In a study, pairs of trained dogs were placed side by side and given a command such as \"sit.\" After both obeyed the command, one dog was given a treat while its partner was given no reward at all. Over time, the dogs who went unrewarded began to disobey the command. This shows that dogs have an aversion to being treated unfairly.Q: Which one of the following would be most useful to know in order to evaluate the argument? Answer Choices: (A)Were dogs who were accustomed to receiving regular rewards prior to the study more inclined to obey the command? (B)Is there a decline in obedience if rewards are withheld from both dogs in the pair? (C)Were dogs who received treats in one trial ever used as dogs that did not receive treats in other trials? (D)Were there any cases in which the dog who was given a reward became more inclined to obey the command? (E)How many repetitions were required before the unrewarded dogs began to disobey the command?\nA: Among A through E, the answer is",
+    "solution": "B",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

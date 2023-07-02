@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find m number of multiples of n.\n\nYour code should pass these tests:\n\nassert multiples_of_num(4,3)== [3,6,9,12]\nassert multiples_of_num(2,5)== [5,10]\nassert multiples_of_num(9,2)== [2,4,6,8,10,12,14,16,18]\n\n",
+    "solution": "def multiples_of_num(m,n): \r\n    multiples_of_num= list(range(n,(m+1)*n, n)) \r\n    return list(multiples_of_num)",
+    "test": "assert multiples_of_num(4,3)== [3,6,9,12]\nassert multiples_of_num(2,5)== [5,10]\nassert multiples_of_num(9,2)== [2,4,6,8,10,12,14,16,18]",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

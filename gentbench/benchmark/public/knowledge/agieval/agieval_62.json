@@ -1,0 +1,7 @@
+{
+    "problem": "In the first half of this year, Beijing Kaihua Taxi received twice as many passenger complaints as Beijing Anda Taxi, indicating that Anda Taxi has more standardized management and higher service quality than Kaihua Taxi.Q: If the following statement is true, which one best supports the above conclusion? Answer Choices: (A)Kaihua Taxi's number of complaints is not as high as that of Anda Taxi. (B)Kaihua Taxi's number of complaints has risen faster than that of Anda Taxi. (C)Anda Taxi has twice as many vehicles as Kaihua Taxi. (D)Complaint calls to Kaihua Taxi are usually longer than complaints to Anda Taxi.\nA: Among A through D, the answer is",
+    "solution": "C",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

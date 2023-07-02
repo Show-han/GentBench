@@ -1,0 +1,7 @@
+{
+    "problem": "Research shows that in university classrooms, 90% of people with severe insomnia often work until 2 am.Zhang Hong is a university teacher and often works until 2 am, so Zhang Hong is likely to be a severe insomniac.Q: Which of the following statements most accurately indicates the error in the above reasoning? Answer Choices: (A)It relies on an unconfirmed assumption? 90% of university teachers who often work until 2am are severe insomniacs. (B)It does not take this situation into consideration? Zhang Hong may belong to those 10% of people who work regularly until 2am without suffering from severe insomnia. (C)It does not take into account this situation? In addition to working regularly until 2 am, there are other causes of severe insomnia for university teachers. (D)It relies on an unconfirmed hypothesis? Working regularly until 2 am is the only reason people suffer from severe insomnia.\nA: Among A through D, the answer is",
+    "solution": "A",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

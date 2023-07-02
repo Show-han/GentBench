@@ -1,0 +1,7 @@
+{
+    "problem": "Bert fills out the daily crossword puzzle in the newspaper every day. He uses up a pencil to fill out the puzzles every two weeks. On average, it takes him 1050 words to use up a pencil. How many words are in each crossword puzzle on average?",
+    "solution": "At 7 days a week, it takes Bert 2 * 7 = <<2*7=14>>14 days of daily crossword puzzles to use up a pencil.\nSince Bert does one puzzle a day, each crossword puzzle has 1050 / 14 = <<1050/14=75>>75 words.\n#### 75",
+    "tags": [
+        "reasoning/math"
+    ]
+}

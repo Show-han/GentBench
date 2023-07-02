@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: For positive integers $N$ and $k$, define $N$ to be $k$-nice if there exists a positive integer $a$ such that $a^{k}$ has exactly $N$ positive divisors. Find the number of positive integers less than $1000$ that are neither $7$-nice nor $8$-nice.\n",
-    "solution": "We claim that an integer $N$ is only $k$-nice if and only if $N \\equiv 1 \\pmod k$. By the number of divisors formula, the number of divisors of $\\prod_{i=1}^n p_i^{a_i}$ is $\\prod_{i=1}^n (a_i+1)$. Since all the $a_i$s are divisible by $k$ in a perfect $k$ power, the only if part of the claim follows. To show that all numbers $N \\equiv 1 \\pmod k$ are $k$-nice, write $N=bk+1$. Note that $2^{kb}$ has the desired number of factors and is a perfect kth power. By PIE, the number of positive integers less than $1000$ that are either $1 \\pmod 7$ or $1\\pmod 8$ is $143+125-18=250$, so the desired answer is $999-250=\\boxed{749}$.",
+    "problem": "Suppose the graph of $y=f(x)$ includes the points $(1,5),$ $(2,3),$ and $(3,1)$.\n\nBased only on this information, there are two points that must be on the graph of $y=f(f(x))$. If we call those points $(a,b)$ and $(c,d),$ what is $ab+cd$?",
+    "solution": "We know that $f(1)=5,$ $f(2)=3,$ and $f(3)=1$.\n\nTherefore, $f(f(2))=f(3)=1$ and $f(f(3))=f(1)=5$.\n\nThis tells us that the graph of $y=f(f(x))$ passes through $(2,1)$ and $(3,5)$, and the desired expression is $(2)(1)+(3)(5)=\\boxed{17}$.",
     "tags": [
         "reasoning/math"
     ]

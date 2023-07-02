@@ -1,0 +1,7 @@
+{
+    "problem": "Which likely would live in the hottest environment?\nA. bear\nB. penguin\nC. moose\nD. scorpion\nAmong A through D, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

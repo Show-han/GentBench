@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: Given that $a$ is an odd multiple of $7767$, find the greatest common divisor of $6a^2+49a+108$ and $2a+9$.",
-    "solution": "We can use the Euclidean Algorithm. The closest multiple of $2a+9$ that we can spot to $6a^2 + 49a + 108$ is $6a^2 + 49a + 99 = (2a+9)(3a+11),$ so we have\n\\begin{align*}\n\\text{gcd}\\,(6a^2+49a+108,2a+9)\n&=\\text{gcd}\\,(6a^2+49a+108-(2a+9)(3a+11),2a+9)\\\\\n&=\\text{gcd}\\,(6a^2+49a+108-(6a^2+49a+99),2a+9)\\\\\n&=\\text{gcd}\\,(9,2a+9).\n\\end{align*}Since $7767$ is a multiple of 9, both $2a$ and $9$ are multiples of $9$, $2a+9$ is also a multiple of $9$ so the greatest common divisor is $\\boxed{9}$.",
+    "problem": "A robot moving forward at a constant speed takes 2.5 hours to travel 1 kilometer. Moving forward at this same constant speed, it takes the robot 90 seconds to travel the length of a particular hallway. How many meters long is the hallway?",
+    "solution": "We see that 2.5 hours is the same as $2.5\\cdot 60 = 150$ minutes, or $150\\cdot 60 = 9000$ seconds.  This is 100 times longer than the robot was traveling the hallway, meaning the hallway is $\\frac{1}{100}$ kilometers, or $\\frac{1000}{100} = \\boxed{10}$ meters long.",
     "tags": [
         "reasoning/math"
     ]

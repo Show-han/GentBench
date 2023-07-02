@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the area of a pentagon.\n\nYour code should pass these tests:\n\nassert area_pentagon(5)==43.01193501472417\nassert area_pentagon(10)==172.0477400588967\nassert area_pentagon(15)==387.10741513251753\n\n",
+    "solution": "import math\r\ndef area_pentagon(a):\r\n  area=(math.sqrt(5*(5+2*math.sqrt(5)))*pow(a,2))/4.0\r\n  return area",
+    "test": "assert area_pentagon(5)==43.01193501472417\nassert area_pentagon(10)==172.0477400588967\nassert area_pentagon(15)==387.10741513251753",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

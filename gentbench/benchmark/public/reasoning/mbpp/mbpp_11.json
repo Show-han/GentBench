@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to rotate a given list by specified number of items to the right direction.\n\nYour code should pass these tests:\n\nassert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],3,4)==[8, 9, 10, 1, 2, 3, 4, 5, 6]\nassert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],2,2)==[9, 10, 1, 2, 3, 4, 5, 6, 7, 8]\nassert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],5,2)==[6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8]\n\n",
+    "solution": "def rotate_right(list1,m,n):\r\n  result =  list1[-(m):]+list1[:-(n)]\r\n  return result",
+    "test": "assert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],3,4)==[8, 9, 10, 1, 2, 3, 4, 5, 6]\nassert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],2,2)==[9, 10, 1, 2, 3, 4, 5, 6, 7, 8]\nassert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],5,2)==[6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8]",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

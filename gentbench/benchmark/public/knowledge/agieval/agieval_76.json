@@ -1,0 +1,7 @@
+{
+    "problem": "In the past 12 months, the Shenzhen property market has experienced a thrilling decline.The average price of the property market has plummeted by 36%.If you count the crazy rise in the previous 18 months, the Shenzhen property market has been carrying Various people experienced a roller coaster-like dizziness.No one knows where the express train ends, and certainly no one knows how to get off.Q: If the above statement is true, which of the following statements must be false? Answer Choices: (A)No one knows where the express train ends, and no one knows how to get off. (B)Some people know where the express train ends, but all people do n’t know how to get off. (C)Some people do n’t know where the express train ends, and some people do n’t know how to get off. (D)No one knows where the express train ends, and some people do n’t know how to get off.\nA: Among A through D, the answer is",
+    "solution": "B",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

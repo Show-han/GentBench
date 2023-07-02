@@ -1,0 +1,7 @@
+{
+    "problem": "Question: Bernita tells the truth. Audrie says Bernita lies. Millie says Audrie tells the truth. Kandi says Millie lies. Fletcher says Kandi tells the truth. Does Fletcher tell the truth?",
+    "solution": "Yes",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

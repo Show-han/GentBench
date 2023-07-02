@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to check whether an array contains only one distinct element or not.\n\nYour code should pass these tests:\n\nassert unique_Element([1,1,1],3) == 'YES'\nassert unique_Element([1,2,1,2],4) == 'NO'\nassert unique_Element([1,2,3,4,5],5) == 'NO'\n\n",
+    "solution": "def unique_Element(arr,n):\r\n    s = set(arr)\r\n    if (len(s) == 1):\r\n        return ('YES')\r\n    else:\r\n        return ('NO')",
+    "test": "assert unique_Element([1,1,1],3) == 'YES'\nassert unique_Element([1,2,1,2],4) == 'NO'\nassert unique_Element([1,2,3,4,5],5) == 'NO'",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

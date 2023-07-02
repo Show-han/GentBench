@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to convert a given string list to a tuple.\n\nYour code should pass these tests:\n\nassert string_list_to_tuple((\"python 3.0\")) == ('p', 'y', 't', 'h', 'o', 'n', '3', '.', '0')\nassert string_list_to_tuple((\"bigdata\")) == ('b', 'i', 'g', 'd', 'a', 't', 'a')\nassert string_list_to_tuple((\"language\")) == ('l', 'a', 'n', 'g', 'u', 'a', 'g','e')\n\n",
+    "solution": "def string_list_to_tuple(str1):\r\n    result = tuple(x for x in str1 if not x.isspace()) \r\n    return result",
+    "test": "assert string_list_to_tuple((\"python 3.0\")) == ('p', 'y', 't', 'h', 'o', 'n', '3', '.', '0')\nassert string_list_to_tuple((\"bigdata\")) == ('b', 'i', 'g', 'd', 'a', 't', 'a')\nassert string_list_to_tuple((\"language\")) == ('l', 'a', 'n', 'g', 'u', 'a', 'g','e')",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

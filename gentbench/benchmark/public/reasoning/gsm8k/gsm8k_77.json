@@ -1,0 +1,7 @@
+{
+    "problem": "Cassandra collected 5000 pennies for the charity drive. James collected 276 fewer pennies. How many pennies did they donate to charity?",
+    "solution": "James has 5000 - 276 = <<5000-276=4724>>4724 pennies.\nThey donated a total of 5000 + 4724 = <<5000+4724=9724>>9724 pennies.\n#### 9724",
+    "tags": [
+        "reasoning/math"
+    ]
+}

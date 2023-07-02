@@ -1,0 +1,7 @@
+{
+    "problem": "问题：葡萄糖酒酿制期间, 酵母细胞内由 ADP 转化为 ATP 的过程（ $）$ 选项：(A)在无氧条件下不能进行 (B)只能在线粒体中进行  (C)不需要能量的输入 (D)需要酶的催化\n答案：从A到D, 我们应选择",
+    "solution": "D",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

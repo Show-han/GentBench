@@ -1,0 +1,7 @@
+{
+    "problem": "Protons used in cancer therapy are typically accelerated to about 0.6c. How much work must be done on a particle of mass m in order for it to reach this speed, assuming it starts at rest?\nA. 0.25mc^2\nB. 0.60mc^2\nC. 0.67mc^2\nD. 1.25mc^2\nAmong A through D, the answer is",
+    "solution": "A",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Engine noise from boats travelling through killer whales' habitats ranges in frequency from 100 hertz to 3,000 hertz, an acoustical range that overlaps that in which the whales communicate through screams and squeals. Though killer whales do not seem to behave differently around running boat engines, engine noise from boats can be loud enough to damage their hearing over time. Therefore, ____.Q: Which one of the following most logically completes the argument? Answer Choices: (A)younger killer whales are better able to tolerate engine noise from boats than older whales are (B)killer whales are less likely to attempt to communicate with one another when boat engines are operating nearby (C)noise from boat engines may impair killer whales' ability to communicate (D)killer whales are most likely to prefer areas where boat traffic is present, but light (E)killer whales would probably be more successful in finding food if boats did not travel through their habitats\nA: Among A through E, the answer is",
+    "solution": "C",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

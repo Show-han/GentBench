@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: Kaleb defined a $\\emph{clever integer}$ as an even integer that is greater than 20, less than 120, and such that the sum of its digits is 9. What fraction of all clever integers is divisible by 27? Express your answer as a common fraction.",
-    "solution": "You can easily list out the numbers between 20 and 120 that have digits that add to 9: 27, 36, 45, 54, 63, 72, 81, 90, 108, 117.\n\nTo be a $\\emph{clever integer}$ the number must be even, which leaves us with 36, 54, 72, 90, and 108, a total of 5 numbers.\n\nThe problem asks which fraction of these five clever integers are divisible by 27. Only two, 54 and 108 are divisible by 27, thus the total fraction is $\\boxed{\\frac{2}{5}}$.",
+    "problem": "What is the reciprocal of $0.\\overline{714285}$? Express your answer as a decimal.",
+    "solution": "Let's first convert $0.\\overline{714285}$ to a fraction. If we define the variable $s$ to be $0.\\overline{714285}$, then multiplying both sides of $s=0.\\overline{714285}$ by 1,000,000 gives us $$1,\\!000,\\!000s = 714,\\!285.\\overline{714285}.$$Subtracting $s$ from $1,\\!000,\\!000s$ and $0.\\overline{714285}$ from $714,\\!285.\\overline{714285}$ tells us that $999,\\!999s = 714,\\!285$ and thus $$s=\\frac{714,\\!285}{999,\\!999}= \\frac{5 \\cdot 142,\\!857}{7 \\cdot 142,\\!857} = \\frac{5}{7} \\cdot \\frac{\\cancel{142,\\!857}}{\\cancel{142,\\!857}}=\\frac{5}{7}.$$Note that $714,\\!285 = 5 \\cdot 142,\\!857$ and $999,\\!999=7 \\cdot 142,\\!857$. The reciprocal of $\\frac{5}{7}$ is $\\frac{7}{5} = \\boxed{1.4}.$",
     "tags": [
         "reasoning/math"
     ]

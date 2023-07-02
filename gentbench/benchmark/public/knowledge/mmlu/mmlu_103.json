@@ -1,0 +1,7 @@
+{
+    "problem": "Kontractor agreed to build a power plant for a public utility. Subbo agreed with Kontractor to lay the foundation for $200,000. Subbo supplied goods and services worth $150,000, for which Kontractor made progress payments aggregating $100,000 as required by the subcontract. Subbo then breached by refusing unjustifiably to perform further. Kontractor reasonably spent $120,000 to have the work completed by another subcontractor. Subbo sues Kontractor for the reasonable value of benefits conferred, and Kontractor counterclaims for breach of contract. Which of the following should be the court's decision? \nA. Subbo recovers $50,000, the benefit conferred on Kontractor for which Subbo has not been paid. \nB. Subbo recovers $30,000, the benefit Subbo conferred on Kontractor minus the $20,000 in damages incurred by Kontractor. \nC. Kontractor recovers $20,000, the excess over the contract price that was paid by Kontractor for the performance it had bargained to receive from Subbo. \nD. Neither party recovers anything, because Subbo committed a material, unexcused breach and Kontractor received a $50,000 benefit from Subbo for which Subbo has not been paid. \nAmong A through D, the answer is",
+    "solution": "C",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

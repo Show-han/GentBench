@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Compute $\\cos 30^\\circ$.\nA: The answer is",
+    "solution": "\\frac{\\sqrt{3}}{2}",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

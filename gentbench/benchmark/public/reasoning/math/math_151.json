@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: Three different natural numbers $x$, $y$ and $z$ each have exactly three natural-number factors. How many factors does $x^{2}y^{3}z^{4}$ have?",
-    "solution": "By the formula for the total number of positive divisors, only natural numbers in the form $p^{2}$ for some prime $p$ have exactly three positive factors. Thus, $x=p_1^2$, $y=p_2^2$, and $z=p_3^2$ for distinct primes $p_1$, $p_2$, $p_3$. Then $x^2y^3z^4=p_1^4\\cdot p_2^6\\cdot p_3^8$, which has $(4+1)(6+1)(8+1)=\\boxed{315}$ positive factors.",
+    "problem": "What is the shortest distance between the circles defined by $x^2-24x +y^2-32y+384=0$ and $x^2+24x +y^2+32y+384=0$?",
+    "solution": "We complete the square for the first equation by adding $(-24/2)^2$ and $(-32/2)^2$ to both sides, which gives \\[\n(x^2-24x +144) +(y^2-32y +256)-16=0,\n\\] which is also equivalent to \\[\n(x-12)^2 +(y-16)^2 =4^2.\n\\] Similarly, the equation for the second circle is \\[\n(x+12)^2 +(y+16)^2 =4^2.\n\\] Hence, the centers of the circles are $(12,16)$ and $(-12,-16)$ respectively. Furthermore, the radii of the circles are equal to $4$.  Now the distance between the points $(12,16)$ and $(-12,-16)$ by the distance formula or similarity of $3-4-5$ triangles is $40$.  Therefore, to find the shortest distance between the two circles, we must subtract from $40$ the distances from the centers to the circles.  Thus, the shortest distance between the circles is $40-4-4 = \\boxed{32}$.",
     "tags": [
         "reasoning/math"
     ]

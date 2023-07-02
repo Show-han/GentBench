@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: If $a$, $b$, and $c$ are positive integers such that $\\gcd(a,b) = 168$ and $\\gcd(a,c) = 693$, then what is the smallest possible value of $\\gcd(b,c)$?",
-    "solution": "Note that $\\gcd(168,693) = 21$.  Since $\\gcd(a,b) = 168 = 8 \\cdot 21$, both $a$ and $b$ are divisible by 21.  Since $\\gcd(a,c) = 693 = 21 \\cdot 33$, both $a$ and $c$ are divisible by 21.  Therefore, $\\gcd(b,c)$ must be at least 21.\n\nIf we take $a = 5544$ (which is $21 \\cdot 8 \\cdot 33$), $b = 168$, and $c = 693$, then $\\gcd(a,b) = \\gcd(5544,168) = 168$, $\\gcd(a,c) = \\gcd(5544,693) = 693$, and $\\gcd(b,c) = \\gcd(168,693) = 21$, which shows that the value of 21 is attainable.  Therefore, the smallest possible value of $\\gcd(b,c)$ is $\\boxed{21}$.",
+    "problem": "What is the largest number, with its digits all different, whose digits add up to 16?",
+    "solution": "For a number to be as large as possible, we want as many places (digits) as possible. To allow for as many digits as possible, we want the digits to be small so that there will be more digits that add up to $16$. We start with the smallest number, $0$ and keep adding the next number. $0+1+2+3+4=10$. However, we cannot add $5$, because then we are left with $16-10-5=1$, and we already have the number $1$. Therefore, the next number to be added would be $16-10=6$.\nNow, we have the numbers $0,1,2,3,4,6$ to form a number. We want the larger places to have larger numbers. Therefore, we order the numbers in decreasing order to form the number $\\boxed{643210}$.",
     "tags": [
         "reasoning/math"
     ]

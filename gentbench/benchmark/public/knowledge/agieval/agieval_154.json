@@ -1,0 +1,7 @@
+{
+    "problem": "Q: What is the shortest distance, in units, between the circles $(x-9)^2 + (y-5)^2 = 6.25$ and $(x+6)^2 + (y+3)^2 = 49$? Express your answer as a decimal to the nearest tenth.\nA: The answer is",
+    "solution": "7.5",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

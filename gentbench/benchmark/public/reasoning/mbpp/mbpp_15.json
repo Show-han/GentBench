@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to substract the contents of one tuple with corresponding index of other tuple.\n\nYour code should pass these tests:\n\nassert substract_elements((10, 4, 5), (2, 5, 18)) == (8, -1, -13)\nassert substract_elements((11, 2, 3), (24, 45 ,16)) == (-13, -43, -13)\nassert substract_elements((7, 18, 9), (10, 11, 12)) == (-3, 7, -3)\n\n",
+    "solution": "def substract_elements(test_tup1, test_tup2):\r\n  res = tuple(map(lambda i, j: i - j, test_tup1, test_tup2))\r\n  return (res) ",
+    "test": "assert substract_elements((10, 4, 5), (2, 5, 18)) == (8, -1, -13)\nassert substract_elements((11, 2, 3), (24, 45 ,16)) == (-13, -43, -13)\nassert substract_elements((7, 18, 9), (10, 11, 12)) == (-3, 7, -3)",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

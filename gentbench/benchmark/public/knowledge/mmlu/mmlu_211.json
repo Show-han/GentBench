@@ -1,0 +1,7 @@
+{
+    "problem": "If peas and carrots are planted alternately,\nA. fields are useless\nB. dirt is refreshed\nC. sand is dried\nD. water is poisoned\nAmong A through D, the answer is",
+    "solution": "B",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

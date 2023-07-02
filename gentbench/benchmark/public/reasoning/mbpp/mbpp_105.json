@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the average of odd numbers till a given odd number.\n\nYour code should pass these tests:\n\nassert average_Odd(9) == 5\nassert average_Odd(5) == 3\nassert average_Odd(11) == 6\n\n",
+    "solution": "def average_Odd(n) : \r\n    if (n%2==0) : \r\n        return (\"Invalid Input\") \r\n        return -1 \r\n    sm =0\r\n    count =0\r\n    while (n>=1) : \r\n        count=count+1\r\n        sm = sm + n \r\n        n = n-2\r\n    return sm//count ",
+    "test": "assert average_Odd(9) == 5\nassert average_Odd(5) == 3\nassert average_Odd(11) == 6",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

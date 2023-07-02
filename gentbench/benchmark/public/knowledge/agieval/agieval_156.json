@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Find the total no. of distinct bike no.'s that can beformed using 2 letters followed by 2 no.'s. How many letters need to be distinct? Answer Choices: (A)74453 (B)64543 (C)74325 (D)65000 (E)97656\nA: Among A through E, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

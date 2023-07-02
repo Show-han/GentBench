@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to return the sum of all divisors of a number.\n\nYour code should pass these tests:\n\nassert sum_div(8)==7\nassert sum_div(12)==16\nassert sum_div(7)==1\n\n",
+    "solution": "def sum_div(number):\r\n    divisors = [1]\r\n    for i in range(2, number):\r\n        if (number % i)==0:\r\n            divisors.append(i)\r\n    return sum(divisors)",
+    "test": "assert sum_div(8)==7\nassert sum_div(12)==16\nassert sum_div(7)==1",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

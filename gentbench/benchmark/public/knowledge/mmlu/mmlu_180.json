@@ -1,0 +1,7 @@
+{
+    "problem": "A beam of electrons has speed 10^7 m/s. It is desired to use the magnetic field of the Earth, 5 \u00d7 10\u22125 T, to bend the electron beam into a circle. What will be the radius of this circle?\nA. 1 nm\nB. 1 \u03bcm\nC. 1 mm\nD. 1 m\nAmong A through D, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Tom, Tim, and Paul are collecting photos of cars. Paul has 10 photos more than Tim. Tim has one hundred photos less than the total amount of photos which is 152. How many photos does Tom have?",
+    "solution": "Tim has 152 photos - 100 photos = <<152-100=52>>52 photos.\nWhen Tim has 52 photos, then Paul has 52 + 10 photos = <<52+10=62>>62 photos.\nTim and Paul have together 52 photos + 62 photos = <<52+62=114>>114 photos.\nThat leaves Tom with 152 photos - 114 photos = <<152-114=38>>38 photos.\n#### 38",
+    "tags": [
+        "reasoning/math"
+    ]
+}

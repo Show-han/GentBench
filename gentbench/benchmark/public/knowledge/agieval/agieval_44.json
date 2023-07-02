@@ -1,0 +1,7 @@
+{
+    "problem": "Psychologist: In our study, participants who were offered the opportunity to purchase a coffee mug were not willing to pay more than $5. If, however, they were given a very similar mug and asked immediately afterwards how much they would be willing to sell it for, most of them held out for more than $5.Q: Which one of the following, if true, most helps to resolve the apparent discrepancy described above? Answer Choices: (A)A person's assessment of the value of an object depends on his or her evaluation of the inherent properties of the object. (B)People are usually unable to judge the value of an object when they have possessed it for a long period of time. (C)The amount a person is willing to spend on an object is determined by the amount that object sold for in the past. (D)People tend to value an object that they do no town less than they value a very similar object that they already own. (E)People are more likely to undervalue objects they have been given than objects they have purchased.\nA: Among A through E, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: For all composite integers $n$, what is the largest integer that always divides into the difference between $n$ and the cube of $n$?",
-    "solution": "Notice that $n^3 - n$ factors as $n^3 - n = n(n^2 - 1) = (n-1)n(n+1)$. We observe that among any three consecutive integers, at least one must be divisible by $2$ and one must be divisible by $3$. Thus, we know that $6$ must always divide into $n^3 - n$. Indeed, this is the largest such integer; for $n = 6$, then $n^3 - n = 210 = 6 \\cdot 5 \\cdot 7$, and for $n = 33$, then $n^3 - n = 32 \\cdot 33 \\cdot 34 = 6 \\cdot 32 \\cdot 11 \\cdot 17$, whose greatest common divisor is $\\boxed{6}$.",
+    "problem": "A rectangular cow pasture is enclosed on three sides by a fence and the fourth side is part of the side of a barn that is $400$ feet long. The fence costs $\\$5$ per foot, and $\\$1,\\!200$ altogether. To the nearest foot, find the length of the side parallel to the barn that will maximize the area of the pasture.",
+    "solution": "Let the sides perpendicular to the barn be of length $x$. Notice that there are a total of $1200/5=240$ feet of fencing. Therefore, the side parallel to the barn has length $240-2x$, so the area to be maximized is $240x-2x^2$. Completing the square results in $-2(x-60)^2+7200$, which is maximized when $x=60$. Therefore, the side parallel to the barn has length $240-2(60)=\\boxed{120}$ feet.",
     "tags": [
         "reasoning/math"
     ]

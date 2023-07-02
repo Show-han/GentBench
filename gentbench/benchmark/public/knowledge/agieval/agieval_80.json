@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Find the smallest positive integer $n$ such that $$ 617n \\equiv 943n \\pmod{18}. $$\nA: The answer is",
+    "solution": "9",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

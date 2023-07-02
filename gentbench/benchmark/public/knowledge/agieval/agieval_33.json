@@ -1,0 +1,7 @@
+{
+    "problem": "Mr.Chen is going to hold a gathering of friends and family.He came forward and invited his father's brother-in-law, his brother-in-law's father, his brother's mother-in-law, his brother-in-law's brother.Q: How many guests did Mr.Chen come forward to invite? Answer Choices: (A)No guest invited (B)1 guest (C)2 guests (D)3 guests\nA: Among A through D, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

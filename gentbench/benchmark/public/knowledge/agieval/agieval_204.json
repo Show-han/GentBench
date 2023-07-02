@@ -1,0 +1,7 @@
+{
+    "problem": "Within a company, many very specialized departments have recently been established.This shows that the company is very interested in the following questions? How to grasp its consumer groups in a more precise way?Q: Which of the following options is missing from the above reasoning? Answer Choices: (A)Premise? These new departments are grasping their consumer groups in a more precise way (B)Conclusion? The management department requires new measures to seize its consumer groups. (C)Premise? Before setting up these new departments, the company failed to seize its consumer groups. (D)Conclusion? The company will soon make more efforts to seize its consumer groups.\nA: Among A through D, the answer is",
+    "solution": "A",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "问题：$(1+\\sqrt{3} i)^{3}=(\\qquad)$\\\\\n 选项：(A)-8 (B)8 (C)$-8 \\mathrm{i}$ (D)$8 \\mathrm{i}$\n答案：从A到D, 我们应选择",
+    "solution": "A",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

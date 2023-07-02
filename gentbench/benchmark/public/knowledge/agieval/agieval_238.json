@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Simplify $\\cos 54^\\circ \\cos 4^\\circ - \\cos 36^\\circ \\cos 86^\\circ.$\n\nEnter your answer is a trigonometric function evaluated at an integer, such as \"sin 7\".  (The system will assume that the angle is in degrees.)\nA: The answer is",
+    "solution": "\\cos 58^\\circ",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

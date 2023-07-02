@@ -1,0 +1,7 @@
+{
+    "problem": "Q: The points $(x, y)$ represented in this table lie on a straight line. The point $(13, q)$ lies on the same line. What is the value of $p + q?$ Express your answer as a decimal to the nearest tenth. $$\\begin{array}{c|c}\nx & y \\\\ \\hline\n2 & -5 \\\\\np & -14 \\\\\np+2 & -17 \\\\\n\\end{array}$$\nA: The answer is",
+    "solution": "-13.5",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Sort the following words alphabetically: List: coypu anharmonic inflammation beauteous",
+    "solution": "anharmonic beauteous coypu inflammation",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

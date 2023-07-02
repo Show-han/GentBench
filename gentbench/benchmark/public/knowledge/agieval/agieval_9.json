@@ -1,0 +1,7 @@
+{
+    "problem": "In a magic show, from the seven magicians-G.H.K.L.N.P and Q, choose 6 people to play, and the performance is divided into two teams? 1 team and 2 teams.Each team consists of three positions? front, middle, and back.The magicians on the field happen to occupy one position each.The choice and location of the magician must meet the following conditions? (1) If G or H is arranged to play, they must be in the front.Bit.(2) If K is scheduled to play, he must be in the middle.(3) If L is scheduled to play, he must be on team 1.(4) Neither P nor K can be in the same team as N.(5) P cannot be in the same team as Q.(6) If H is in team 2, Q is in the middle of team 1.Q: If H is in Team 2, which of the listed arrangements is acceptable for Team 1? Answer Choices: (A)Before? L Middle? Q After? N (B)Before? G In? K After? N (C)Before? L Middle? Q After? G (D)Before? G Middle? K After? L\nA: Among A through D, the answer is",
+    "solution": "A",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

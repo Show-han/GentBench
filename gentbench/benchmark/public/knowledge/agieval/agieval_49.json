@@ -1,0 +1,7 @@
+{
+    "problem": "Forest fragmentation occurs when development severs a continuous area of forest, breaking it down into small patches. Some animals, such as white-footed mice, thrive in conditions of forest fragmentation, reaching their highest population densities in small forest patches. These mice are the main carrier of the bacteria that cause Lyme disease, a debilitating illness that is often transmitted from white-footed mice to humans by deer ticks.Q: Which one of the following is most strongly supported by the information above? Answer Choices: (A)White-footed mice are very rarely found in unfragmented forests. (B)The population density for most species of small animals increases when a continuous area of forest becomes fragmented. (C)Forest fragmentation reduces the number and variety of animal species that an area can support. (D)Efforts to stop the fragmentation of forests can have a beneficial effect on human health. (E)Deer ticks reach their highest population densities in small forest patches\nA: Among A through E, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

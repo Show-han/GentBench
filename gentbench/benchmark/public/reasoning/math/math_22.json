@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: The integer $n$ is the largest positive multiple of $15$ such that every digit of $n$ is either $8$ or $0$. Compute $\\frac{n}{15}$.\n",
-    "solution": "Any multiple of 15 is a multiple of 5 and a multiple of 3.\nAny multiple of 5 ends in 0 or 5; since $n$ only contains the digits 0 and 8, the units digit of $n$ must be 0.\nThe sum of the digits of any multiple of 3 must be divisible by 3. If $n$ has $a$ digits equal to 8, the sum of the digits of $n$ is $8a$. For this number to be divisible by 3, $a$ must be divisible by 3. We also know that $a>0$ since $n$ is positive. Thus $n$ must have at least three copies of the digit 8.\nThe smallest number which meets these two requirements is 8880. Thus the answer is $\\frac{8880}{15} = \\boxed{592}$.",
+    "problem": "What is the domain of the function $$f(t) = \\frac{1}{(t-1)^2+(t+1)^2}~?$$ Express your answer in interval notation.",
+    "solution": "The fraction $\\frac{1}{(t-1)^2+(t+1)^2}$ fails to be defined only if the denominator is zero. But $(t-1)^2$ and $(t+1)^2$ are both nonnegative for all $t$, and are never simultaneously $0$, so their sum is always positive (and, specifically, nonzero). Therefore, the domain of $f(t)$ is all real numbers or, in interval notation, $\\boxed{(-\\infty,\\infty)}$.",
     "tags": [
         "reasoning/math"
     ]

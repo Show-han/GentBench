@@ -1,0 +1,7 @@
+{
+    "problem": "Mickey and Johnny are having a contest to see who can run around their block the most. One time around the block equals 200 meters. Johnny runs around the block 4 times. Mickey runs around the block half as many times as Johnny. What is the average distance run by Johnny and Mickey?",
+    "solution": "Mickey runs around the block twice because half of 4 is <<4/2=2>>2.\nMickey runs 400 meters in total because 2 times 200 equals <<2*200=400>>400.\nJohnny runs 800 meters because 4 times 200 equals <<4*200=800>>800.\nIn total, they run 1200 meters because 400 plus 800 equals 1200.\nOn average, they run 600 meters because 1200 divided by 2 equals <<1200/2=600>>600\n#### 600",
+    "tags": [
+        "reasoning/math"
+    ]
+}

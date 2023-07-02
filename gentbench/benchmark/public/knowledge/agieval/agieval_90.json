@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Right $\\triangle ABC$ with legs $AB=3$ cm and $CB=4$ cm is rotated about one of its legs. What is the greatest possible number of cubic centimeters in the volume of the resulting solid? Express your answer to the nearest whole number.\nA: The answer is",
+    "solution": "50",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: For how many integer values of $n$ between 1 and 474 inclusive does the decimal representation of $\\frac{n}{475}$ terminate?",
-    "solution": "Recall that the decimal representation of a simplified fraction terminates if and only if the denominator is divisible by no primes other than 2 and 5. Prime factorizing 475 as $5^2\\cdot 19$, we see that $\\frac{n}{475}$ terminates if and only if $n$ is divisible by 19. There are 24 multiples of 19 from 1 to 474, so there are $\\boxed{24}$ possible values of $n$ that make $\\frac{n}{475}$ a terminating decimal.",
+    "problem": "A function $f$ is defined on the complex numbers by $f(z)=(a+bi)z,$ where $a$ and $b$ are positive numbers. This function has the property that for each complex number $z$, $f(z)$ is equidistant from both $z$ and the origin. Given that $|a+bi|=8$, find $b^2.$",
+    "solution": "From the given property,\n\\[|f(z) - z| = |f(z)|.\\]Then\n\\[|(a + bi) z - z| = |(a + bi)z|,\\]so $|a + bi - 1||z| = |a + bi||z|.$  Since this holds for all complex numbers $z,$\n\\[|a + bi - 1| = |a + bi| = 8.\\]Then $(a - 1)^2 + b^2 = 64$ and $a^2 + b^2 = 64.$  Subtracting these equations, we get $2a - 1 = 0,$ so $a = \\frac{1}{2}.$  Hence,\n\\[b^2 = 64 - a^2 = 64 - \\frac{1}{4} = \\boxed{\\frac{255}{4}}.\\]",
     "tags": [
         "reasoning/math"
     ]

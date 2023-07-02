@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Find the reflection of $\\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix}$ over the vector $\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}.$\nA: The answer is",
+    "solution": "\\begin{pmatrix} 6/5 \\\\ -17/5 \\end{pmatrix}",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

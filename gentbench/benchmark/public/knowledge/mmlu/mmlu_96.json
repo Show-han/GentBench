@@ -1,0 +1,7 @@
+{
+    "problem": "The concept of V/f control of inverters driving induction motors resuls in\nA. constant torque operation\nB. speed reversal\nC. reduced magnetic loss\nD. hormonic elimination\nAmong A through D, the answer is",
+    "solution": "A",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "In some jurisdictions, lawmakers have instituted sentencing guidelines that mandate a penalty for theft that is identical to the one they have mandated for bribery. Hence, lawmakers in those jurisdictions evidently consider the harm resulting from theft to be equal to the harm resulting from bribery.Q: Which one of the following, if true, would most strengthen the argument? Answer Choices: (A)In general, lawmakers mandate penalties for crimes that are proportional to the harm they believe to result from those crimes. (B)In most cases, lawmakers assess the level of harm resulting from an act in determining whether to make that act illegal. (C)Often, in response to the unusually great harm resulting from a particular instance of a crime, lawmakers will mandate an increased penalty for that crime. (D)In most cases, a victim of theft is harmed no more than a victim of bribery is harmed. (E)If lawmakers mandate penalties for crimes that are proportional to the harm resulting from those crimes, crime in those lawmakers' jurisdictions will be effectively deterred.\nA: Among A through E, the answer is",
+    "solution": "A",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

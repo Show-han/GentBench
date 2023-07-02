@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find n-th rencontres number.\n\nYour code should pass these tests:\n\nassert rencontres_number(7, 2) == 924\nassert rencontres_number(3, 0) == 2\nassert rencontres_number(3, 1) == 3\n\n",
+    "solution": "def binomial_coeffi(n, k): \r\n\tif (k == 0 or k == n): \r\n\t\treturn 1\r\n\treturn (binomial_coeffi(n - 1, k - 1) \r\n\t\t+ binomial_coeffi(n - 1, k)) \r\ndef rencontres_number(n, m): \r\n\tif (n == 0 and m == 0): \r\n\t\treturn 1\r\n\tif (n == 1 and m == 0): \r\n\t\treturn 0\r\n\tif (m == 0): \r\n\t\treturn ((n - 1) * (rencontres_number(n - 1, 0)+ rencontres_number(n - 2, 0))) \r\n\treturn (binomial_coeffi(n, m) * rencontres_number(n - m, 0))",
+    "test": "assert rencontres_number(7, 2) == 924\nassert rencontres_number(3, 0) == 2\nassert rencontres_number(3, 1) == 3",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

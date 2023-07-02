@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the largest postive number from the given list.\n\nYour code should pass these tests:\n\nassert largest_pos([1,2,3,4,-1]) == 4\nassert largest_pos([0,1,2,-5,-1,6]) == 6\nassert largest_pos([0,0,1,0]) == 1\n\n",
+    "solution": "def largest_pos(list1): \r\n    max = list1[0] \r\n    for x in list1: \r\n        if x > max : \r\n             max = x  \r\n    return max",
+    "test": "assert largest_pos([1,2,3,4,-1]) == 4\nassert largest_pos([0,1,2,-5,-1,6]) == 6\nassert largest_pos([0,0,1,0]) == 1",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

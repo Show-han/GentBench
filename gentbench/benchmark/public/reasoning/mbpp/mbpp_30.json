@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the nth newman\u2013shanks\u2013williams prime number.\n\nYour code should pass these tests:\n\nassert newman_prime(3) == 7 \nassert newman_prime(4) == 17\nassert newman_prime(5) == 41\n\n",
+    "solution": "def newman_prime(n): \r\n\tif n == 0 or n == 1: \r\n\t\treturn 1\r\n\treturn 2 * newman_prime(n - 1) + newman_prime(n - 2)",
+    "test": "assert newman_prime(3) == 7 \nassert newman_prime(4) == 17\nassert newman_prime(5) == 41",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

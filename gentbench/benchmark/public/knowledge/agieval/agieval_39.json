@@ -1,0 +1,7 @@
+{
+    "problem": "Q: What is the remainder when $5^{30}$ is divided by 7?\nA: The answer is",
+    "solution": "1",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

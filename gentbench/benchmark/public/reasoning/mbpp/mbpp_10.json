@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to check if the triangle is valid or not.\n\nYour code should pass these tests:\n\nassert validity_triangle(60,50,90)==False\nassert validity_triangle(45,75,60)==True\nassert validity_triangle(30,50,100)==True\n\n",
+    "solution": "def validity_triangle(a,b,c):\r\n total = a + b + c\r\n if total == 180:\r\n    return True\r\n else:\r\n    return False",
+    "test": "assert validity_triangle(60,50,90)==False\nassert validity_triangle(45,75,60)==True\nassert validity_triangle(30,50,100)==True",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

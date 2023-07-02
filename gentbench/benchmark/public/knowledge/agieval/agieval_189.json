@@ -1,0 +1,7 @@
+{
+    "problem": "Q: In trapezoid $ABCD$, $\\overline{AB}$ is parallel to $\\overline{CD}$, $AB = 7$ units, and $CD = 10$ units. Segment $EF$ is drawn parallel to $\\overline{AB}$ with $E$ lying on $\\overline{AD}$ and $F$ lying on $\\overline{BC}$. If $BF:FC = 3:4$, what is $EF$? Express your answer as a common fraction.\nA: The answer is",
+    "solution": "\\frac{58}{7}",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

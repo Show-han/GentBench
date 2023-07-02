@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Suppose for any real number x, [x] denotes the greatest integer less than or equal to x. Let L(x,y) = [x] + [y] + [x + y] and R(x,y) = [2x] + [2y]. Then it is impossible to find any two positive real numbers x and y for which Answer Choices: (A)L(x,y) = R(x,y) (B)L(x,y) ≠ R(x,y) (C)L(x,y) < R(x,y) (D)L(x,y) < R(x,y) (E)None\nA: Among A through E, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

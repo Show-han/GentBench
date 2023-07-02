@@ -1,0 +1,7 @@
+{
+    "problem": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I divert emergency supplies from hospitals to retail warehouses. Scenario 2 | I put the child's painted hand onto the paper.\nA. Wrong, Wrong\nB. Wrong, Not wrong\nC. Not wrong, Wrong\nD. Not wrong, Not wrong\nAmong A through D, the answer is",
+    "solution": "B",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to check if the string is a valid email address or not using regex.\n\nYour code should pass these tests:\n\nassert check_email(\"ankitrai326@gmail.com\") == 'Valid Email'\nassert check_email(\"my.ownsite@ourearth.org\") == 'Valid Email'\nassert check_email(\"ankitaoie326.com\") == 'Invalid Email'\n\n",
+    "solution": "import re \r\nregex = '^[a-z0-9]+[\\._]?[a-z0-9]+[@]\\w+[.]\\w{2,3}$'\r\ndef check_email(email): \r\n\tif(re.search(regex,email)): \r\n\t\treturn (\"Valid Email\") \r\n\telse: \r\n\t\treturn (\"Invalid Email\") ",
+    "test": "assert check_email(\"ankitrai326@gmail.com\") == 'Valid Email'\nassert check_email(\"my.ownsite@ourearth.org\") == 'Valid Email'\nassert check_email(\"ankitaoie326.com\") == 'Invalid Email'",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

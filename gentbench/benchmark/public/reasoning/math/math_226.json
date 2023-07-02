@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: How many of the positive divisors of 3240 are multiples of 3?",
-    "solution": "$$ 3240 = 2^3 \\cdot 3^4 \\cdot 5^1 $$A positive divisor of 3240 is a multiple of 3 when it has a prime factorization in the form $2^a \\cdot 3^b \\cdot 5^c$ where $0 \\le a \\le 3$, $1 \\le b \\le 4$, and $0 \\le c \\le 1$.  There are $4 \\cdot 4 \\cdot 2 = \\boxed{32}$ choices for $a$, $b$, and $c$, giving the number of positive divisors of 3240 that are multiples of 3.",
+    "problem": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function such that\n\\[f(x^2 + yf(z)) = xf(x) + zf(y)\\]for all real numbers $x,$ $y,$ and $z.$\n\nLet $n$ be the number of possible values of $f(5),$ and let $s$ be the sum of all possible values of $f(5).$  Find $n \\times s.$",
+    "solution": "Setting $x = y = 0,$ we get\n\\[f(0) = zf(0)\\]for all $z,$ so $f(0) = 0.$\n\nSetting $y = 0,$ we get\n\\[f(x^2) = xf(x)\\]for all $x.$\n\nSetting $x = 0,$ we get\n\\[f(yf(z)) = zf(y).\\]In particular, for $y = 1,$ $f(f(z)) = zf(1).$\n\nSince $f(x^2) = xf(x),$\n\\[f(f(x^2)) = f(xf(x)).\\]But $f(f(x^2)) = x^2 f(1)$ and $f(xf(x)) = xf(x),$ so\n\\[x^2 f(1) = xf(x).\\]Then for $x \\neq 0,$ $f(x) = f(1) x.$  Since $f(0) = 0,$\n\\[f(x) = f(1) x\\]for all $x.$\n\nLet $c = f(1),$ so $f(x) = cx.$  Substituting into the given equation, we get\n\\[cx^2 + c^2 yz = cx^2 + cyz.\\]For this to hold for all $x,$ $y,$ and $z,$ we must have $c^2 = c,$ so $c = 0$ or $c = 1.$\n\nThus, the solutions are $f(x) = 0$ and $f(x) = x.$  This means $n = 2$ and $s = 0 + 5,$ so $n \\times s = \\boxed{10}.$",
     "tags": [
         "reasoning/math"
     ]

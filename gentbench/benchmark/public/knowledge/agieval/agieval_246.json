@@ -1,0 +1,7 @@
+{
+    "problem": "问题：下列关于 $\\mathrm{Na}$ 的化合物之间转化反应的离子方程式书写正确的是 选项：(A)碱转化为酸式盐: $\\mathrm{OH}^{-}+2 \\mathrm{H}^{+}+\\mathrm{CO}_{3}^{2-}=\\mathrm{HCO}_{3}^{-}+2 \\mathrm{H}_{2} \\mathrm{O}$  (B)碱转化为两种盐: $2 \\mathrm{OH}^{-}+\\mathrm{Cl}_{2}=\\mathrm{ClO}^{-}+\\mathrm{Cl}^{-}+\\mathrm{H}_{2} \\mathrm{O}$ (C)过氧化物转化为碱: $2 \\mathrm{O}_{2}^{2-}+2 \\mathrm{H}_{2} \\mathrm{O}=4 \\mathrm{OH}^{-}+\\mathrm{O}_{2} \\uparrow$ (D)盐转化为另一种盐: $\\mathrm{Na}_{2} \\mathrm{SiO}_{3}+2 \\mathrm{H}^{+}=\\mathrm{H}_{2} \\mathrm{SiO}_{3} \\downarrow+2 \\mathrm{Na}^{+}$\n答案：从A到D, 我们应选择",
+    "solution": "B",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

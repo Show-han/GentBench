@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to calculate the sum of the positive integers of n+(n-2)+(n-4)... (until n-x =< 0).\n\nYour code should pass these tests:\n\nassert sum_series(6)==12\nassert sum_series(10)==30\nassert sum_series(9)==25\n\n",
+    "solution": "def sum_series(n):\r\n  if n < 1:\r\n    return 0\r\n  else:\r\n    return n + sum_series(n - 2)",
+    "test": "assert sum_series(6)==12\nassert sum_series(10)==30\nassert sum_series(9)==25",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

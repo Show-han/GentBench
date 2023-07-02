@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: How many positive integers $n$ satisfy\\[\\dfrac{n+1000}{70} = \\lfloor \\sqrt{n} \\rfloor?\\](Recall that $\\lfloor x\\rfloor$ is the greatest integer not exceeding $x$.)\n$\\textbf{(A) } 2 \\qquad\\textbf{(B) } 4 \\qquad\\textbf{(C) } 6 \\qquad\\textbf{(D) } 30 \\qquad\\textbf{(E) } 32$\n",
-    "solution": "First notice that the graphs of $(n+1000)/70$ and $\\sqrt[]{n}$ intersect at 2 points. Then, notice that $(n+1000)/70$ must be an integer. This means that n is congruent to $50 \\pmod{70}$.\nFor the first intersection, testing the first few values of $n$ (adding $70$ to $n$ each time and noticing the left side increases by $1$ each time) yields $n=20$ and $n=21$. Estimating from the graph can narrow down the other cases, being $n=47$, $n=50$. This results in a total of $\\boxed{6}$ cases.",
+    "problem": "What is the smallest positive integer $n$ for which $9n-2$ and $7n + 3$ share a common factor greater than $1$?",
+    "solution": "By the Euclidean algorithm, \\begin{align*}\n\\text{gcd}\\,(9n-2,7n+3) &= \\text{gcd}\\,(9n-2-(7n+3),7n+3) \\\\\n&= \\text{gcd}\\,(2n-5,7n+3) \\\\\n&= \\text{gcd}\\,(2n-5,7n+3-3(2n-5)) \\\\\n&= \\text{gcd}\\,(2n-5,n+18) \\\\\n&= \\text{gcd}\\,(2n-5-2(n+18),n+18) \\\\\n&= \\text{gcd}\\,(-41,n+18).\n\\end{align*}Since $41$ is prime, it follows that $9n-2$ and $7n+3$ have a common factor greater than 1 only if $n+18$ is divisible by 41. The smallest such positive integer value of $n$ is $41-18=\\boxed{23}$. Note that $9n-2 = 205 = 5 \\times 41$ and $7n+3 = 164 = 4 \\times 41$.",
     "tags": [
         "reasoning/math"
     ]

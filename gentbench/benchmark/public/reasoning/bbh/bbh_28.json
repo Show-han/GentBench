@@ -1,0 +1,7 @@
+{
+    "problem": "Sort the following words alphabetically: List: breezy germinal biplane canada nutrient archipelago peloponnese thigh conspiracy constructor accrue dobbin lost hamburger insubstantial malleable ted laramie",
+    "solution": "accrue archipelago biplane breezy canada conspiracy constructor dobbin germinal hamburger insubstantial laramie lost malleable nutrient peloponnese ted thigh",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

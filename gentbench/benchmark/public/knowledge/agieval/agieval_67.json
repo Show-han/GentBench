@@ -1,0 +1,7 @@
+{
+    "problem": "Q: For a polynomial $p(x)$, the value of $p(3)$ is -2 .Which of the following must be true about $p(x)$ ? Answer Choices: (A)$x-5$ is a factor of $p(x)$. (B)$x-2$ is a factor of $p(x)$. (C)$x+2$ is a factor of $p(x)$. (D)The remainder when $p(x)$ is divided by $x-3$ is -2 .\nA: Among A through D, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

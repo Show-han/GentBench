@@ -1,0 +1,7 @@
+{
+    "problem": "The square footage of the two bedrooms in the apartment that Jenny and Martha share totals 300 square feet. If Jenny's bedroom is 60 square feet larger than Martha's, how large, in square feet, is Martha's bedroom?",
+    "solution": "Let M be the number of square feet in Matha's bedroom\nJenny's bedroom is M+60 square feet.\nM+M+60=300\n2M+60=300\n2M=240\nM=<<120=120>>120\nMartha's bedroom is 120 square feet.\n#### 120",
+    "tags": [
+        "reasoning/math"
+    ]
+}

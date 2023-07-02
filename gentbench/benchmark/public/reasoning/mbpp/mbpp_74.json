@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to locate the left insertion point for a specified value in sorted order.\n\nYour code should pass these tests:\n\nassert left_insertion([1,2,4,5],6)==4\nassert left_insertion([1,2,4,5],3)==2\nassert left_insertion([1,2,4,5],7)==4\n\n",
+    "solution": "import bisect\r\ndef left_insertion(a, x):\r\n    i = bisect.bisect_left(a, x)\r\n    return i",
+    "test": "assert left_insertion([1,2,4,5],6)==4\nassert left_insertion([1,2,4,5],3)==2\nassert left_insertion([1,2,4,5],7)==4",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

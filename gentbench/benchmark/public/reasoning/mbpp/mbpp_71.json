@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the occurrences of n most common words in a given text.\n\nYour code should pass these tests:\n\nassert n_common_words(\"python is a programming language\",1)==[('python', 1)]\nassert n_common_words(\"python is a programming language\",1)==[('python', 1)]\nassert n_common_words(\"python is a programming language\",5)==[('python', 1),('is', 1), ('a', 1), ('programming', 1), ('language', 1)]\n\n",
+    "solution": "from collections import Counter\r\nimport re\r\ndef n_common_words(text,n):\r\n  words = re.findall('\\w+',text)\r\n  n_common_words= Counter(words).most_common(n)\r\n  return list(n_common_words)",
+    "test": "assert n_common_words(\"python is a programming language\",1)==[('python', 1)]\nassert n_common_words(\"python is a programming language\",1)==[('python', 1)]\nassert n_common_words(\"python is a programming language\",5)==[('python', 1),('is', 1), ('a', 1), ('programming', 1), ('language', 1)]",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

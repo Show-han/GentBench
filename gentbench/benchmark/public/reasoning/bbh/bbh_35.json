@@ -1,0 +1,7 @@
+{
+    "problem": "I have four pianos, four snails, three chickens, a pig, a dog, and two cows. How many animals do I have?",
+    "solution": "11",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

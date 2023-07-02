@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the frequency of a number in a given array.\n\nYour code should pass these tests:\n\nassert frequency([1,2,3],4) == 0\nassert frequency([1,2,2,3,3,3,4],3) == 3\nassert frequency([0,1,2,3,1,2],1) == 2\n\n",
+    "solution": "def frequency(a,x): \r\n    count = 0  \r\n    for i in a: \r\n        if i == x: count += 1\r\n    return count ",
+    "test": "assert frequency([1,2,3],4) == 0\nassert frequency([1,2,2,3,3,3,4],3) == 3\nassert frequency([0,1,2,3,1,2],1) == 2",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the length of the longest increasing subsequence of the given sequence.\n\nYour code should pass these tests:\n\nassert longest_increasing_subsequence([10, 22, 9, 33, 21, 50, 41, 60]) == 5\nassert longest_increasing_subsequence([3, 10, 2, 1, 20]) == 3\nassert longest_increasing_subsequence([50, 3, 10, 7, 40, 80]) == 4 \n\n",
+    "solution": "def longest_increasing_subsequence(arr): \r\n\tn = len(arr) \r\n\tlongest_increasing_subsequence = [1]*n \r\n\tfor i in range (1 , n): \r\n\t\tfor j in range(0 , i): \r\n\t\t\tif arr[i] > arr[j] and longest_increasing_subsequence[i]< longest_increasing_subsequence[j] + 1 : \r\n\t\t\t\tlongest_increasing_subsequence[i] = longest_increasing_subsequence[j]+1\r\n\tmaximum = 0\r\n\tfor i in range(n): \r\n\t\tmaximum = max(maximum , longest_increasing_subsequence[i]) \r\n\treturn maximum",
+    "test": "assert longest_increasing_subsequence([10, 22, 9, 33, 21, 50, 41, 60]) == 5\nassert longest_increasing_subsequence([3, 10, 2, 1, 20]) == 3\nassert longest_increasing_subsequence([50, 3, 10, 7, 40, 80]) == 4 ",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

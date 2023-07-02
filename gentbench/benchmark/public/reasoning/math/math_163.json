@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: For how many integer values of $n$ between 1 and 1000 inclusive does the decimal representation of $\\frac{n}{1400}$ terminate?",
-    "solution": "The decimal representation of a simplified fraction terminates if and only if the denominator is divisible by no primes other than 2 and 5. The prime factorization of $1400$ is $2^3 \\cdot 5^2 \\cdot 7$. For the fraction to simplify to having only the primes $2$ and $5$ in the denominator, there must be a factor of $7$ in the numerator. There are $\\left\\lfloor\\frac{1000}{7}\\right\\rfloor=142$ multiples of $7$ between $1$ and $1000$, so there are $\\boxed{142}$ integers values for $n$.",
+    "problem": "On the Cartesian plane, the midpoint between two points $A(a,b)$ and $B(c,d)$ is $M(m,n)$. If $A$ is moved vertically upwards 20 units and horizontally to the right 14 units, and $B$ is moved vertically downwards 4 units and horizontally to the left 2 units, then the new midpoint between $A$ and $B$ is $M'$. What is the distance between $M$ and $M'$?",
+    "solution": "Before moving, the midpoint (in terms of $a$, $b$, $c$, and $d$) is $M(m,n)=\\left(\\frac{a+c}{2},\\frac{b+d}{2}\\right)$. $A$ is moved to a point $(a+14,b+20)$. $B$ is moved to a point $(c-2,d-4)$. We find that the new midpoint $M'$ is  \\begin{align*}\n\\left(\\frac{a+14+c-2}{2},\\frac{b+20+d-4}{2}\\right)&=\\left(\\frac{a+c}{2}+6,\\frac{b+d}{2}+8\\right)\\\\\n&=(m+6,n+8).\n\\end{align*}Thus, the distance between $M$ and $M'$ is equivalent to the distance between $(m,n)$ and $(m+6,n+8)$, or $$\\sqrt{(m+6-m)^2+(n+8-n)^2}=\\boxed{10}.$$",
     "tags": [
         "reasoning/math"
     ]

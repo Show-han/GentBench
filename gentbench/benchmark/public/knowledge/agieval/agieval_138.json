@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Minneapolis-St. Paul International Airport is 8 miles southwest of downtown St. Paul and 10 miles southeast of downtown Minneapolis. To the nearest integer, how many miles apart are   downtown St. Paul and downtown Minneapolis?\nA: The answer is",
+    "solution": "\\text{13}",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

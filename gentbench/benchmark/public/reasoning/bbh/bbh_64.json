@@ -1,0 +1,7 @@
+{
+    "problem": "\"Is Fred a fan of Liverpool? Are supporters of Real Madrid devotees of PSG? In European football, it is sometimes difficult to keep track of the mutual admiration and dislike. The following argument seeks to clarify some such relations: First of all, no member of Juventus is an expert of Getafe CF. Next, somebody is a follower of West Ham United FC and an expert of Getafe CF. So, necessarily, not every follower of West Ham United FC is a member of Juventus.\"\nIs the argument, given the explicitly stated premises, deductively valid or invalid?\nOptions:\n- valid \n- invalid",
+    "solution": "valid",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

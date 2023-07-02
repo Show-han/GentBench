@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to increment the numeric values in the given strings by k.\n\nYour code should pass these tests:\n\nassert increment_numerics([\"MSM\", \"234\", \"is\", \"98\", \"123\", \"best\", \"4\"] , 6) == ['MSM', '240', 'is', '104', '129', 'best', '10']\nassert increment_numerics([\"Dart\", \"356\", \"is\", \"88\", \"169\", \"Super\", \"6\"] , 12) == ['Dart', '368', 'is', '100', '181', 'Super', '18']\nassert increment_numerics([\"Flutter\", \"451\", \"is\", \"44\", \"96\", \"Magnificent\", \"12\"] , 33) == ['Flutter', '484', 'is', '77', '129', 'Magnificent', '45']\n\n",
+    "solution": "def increment_numerics(test_list, K):\r\n  res = [str(int(ele) + K) if ele.isdigit() else ele for ele in test_list]\r\n  return res ",
+    "test": "assert increment_numerics([\"MSM\", \"234\", \"is\", \"98\", \"123\", \"best\", \"4\"] , 6) == ['MSM', '240', 'is', '104', '129', 'best', '10']\nassert increment_numerics([\"Dart\", \"356\", \"is\", \"88\", \"169\", \"Super\", \"6\"] , 12) == ['Dart', '368', 'is', '100', '181', 'Super', '18']\nassert increment_numerics([\"Flutter\", \"451\", \"is\", \"44\", \"96\", \"Magnificent\", \"12\"] , 33) == ['Flutter', '484', 'is', '77', '129', 'Magnificent', '45']",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

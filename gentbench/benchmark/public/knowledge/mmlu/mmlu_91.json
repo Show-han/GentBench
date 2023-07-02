@@ -1,0 +1,7 @@
+{
+    "problem": "Del's sporting goods shop was burglarized by an escaped inmate from a nearby prison. The inmate stole a rifle and bullets from a locked cabinet. The burglar alarm at Del's shop did not go off because Del had negligently forgotten to activate the alarm's motion detector. Shortly thereafter, the inmate used the rifle and ammunition stolen from Del in a shooting spree that caused injury to several people, including Paula. If Paula sues Del for the injury she suffered, will Paula prevail? \nA. Yes, if Paula's injury would have been prevented had the motion detector been activated. \nB. Yes, because Del was negligent in failing to activate the motion detector. \nC. No, because the storage and sale of firearms and ammunition is not an abnormally dangerous activity. \nD. No, unless there is evidence of circumstances suggesting a high risk of theft and criminal use of firearms stocked by Del.\nAmong A through D, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

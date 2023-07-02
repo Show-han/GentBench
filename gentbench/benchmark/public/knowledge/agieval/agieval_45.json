@@ -1,0 +1,7 @@
+{
+    "problem": "Laws protecting wild animal populations should not be compulsorily applied to hunting activities that depend on the capture of wild animals but do not threaten the continuation of wild animal populationsQ: If the following statement is true, which one is the strongest proof of the justification of the above principle? Answer Choices: (A)For any profit-taking purpose of capturing wild animals, the Wildlife Protection Law should be enforced (B)Although the eyeglass cord is protected by law, the act of killing the eyeglass cord due to the threat to human life will not be punished by law (C)The Inuit in the northernmost part of the polar region feed on bowhead whales, and the number of bowhead whales captured is much lower than the number of newly survived bowhead whales each year. (D)Humans have hunted elephants for thousands of years and have not extinct the elephant populations, so it is not necessary to enforce laws protecting wild elephants\nA: Among A through D, the answer is",
+    "solution": "C",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Q: $$\\frac{x^{2}-1}{x-1}=-2$$What are all values of $x$ that satisfy the equation above? Answer Choices: (A)-3 (B)0 (C)1 (D)-3 and -1\nA: Among A through D, the answer is",
+    "solution": "A",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

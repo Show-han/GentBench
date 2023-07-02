@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the sum of squares of binomial co-efficients.\n\nYour code should pass these tests:\n\nassert sum_of_square(4) == 70\nassert sum_of_square(5) == 252\nassert sum_of_square(2) == 6\n\n",
+    "solution": "def factorial(start,end): \r\n    res = 1 \r\n    for i in range(start,end + 1): \r\n        res *= i      \r\n    return res \r\ndef sum_of_square(n): \r\n   return int(factorial(n + 1, 2 * n)  /factorial(1, n)) ",
+    "test": "assert sum_of_square(4) == 70\nassert sum_of_square(5) == 252\nassert sum_of_square(2) == 6",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

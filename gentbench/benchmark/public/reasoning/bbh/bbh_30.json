@@ -1,0 +1,7 @@
+{
+    "problem": "I have an orange, a grape, a strawberry, three apples, a plum, a banana, a raspberry, a blackberry, a nectarine, and three peaches. How many fruits do I have?",
+    "solution": "14",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

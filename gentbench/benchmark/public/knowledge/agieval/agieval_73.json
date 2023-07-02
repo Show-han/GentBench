@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Richard is building a rectangular playground from 200 feet of fencing. The fencing must entirely enclose the playground. What is the maximum area of this playground?\nA: The answer is",
+    "solution": "2500",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Alex has not washed his clothes for a month; 18 shirts, 12 pants, 17 sweaters, and 13 jeans are waiting to be washed. Alex's washing machine can wash a maximum of 15 items per cycle. Each cycle takes 45 minutes. How many hours will it take the washing machine to wash all the clothes?",
+    "solution": "Alex will wash 18 + 12 + 17 + 13 = <<18+12+17+13=60>>60 items.\nWith 20 items per wash cycle, Alex will wash the clothes in 60 / 15 = 4 cycles.\nWith 45 minutes per cycle, the washing machine will take 45 * 4 = <<45*4=180>>180 minutes to wash the clothes.\nAs 1 hour has 60 minutes, the washing machine will take 180 / 60 = <<180/60=3>>3 hours to wash the clothes.\n#### 3",
+    "tags": [
+        "reasoning/math"
+    ]
+}

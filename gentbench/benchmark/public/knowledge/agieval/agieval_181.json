@@ -1,0 +1,7 @@
+{
+    "problem": "Q: On Saturday afternoon, Armand sent $m$ text messages each hour for 5 hours, and Tyrone sent $p$ text messages each hour for 4 hours. Which of the following represents the total number of messages sent by Armand and Tyrone on Saturday afternoon? Answer Choices: (A)$9 m p$ (B)$20 m p$ (C)$5 m+4 p$ (D)$4 m+5 p$\nA: Among A through D, the answer is",
+    "solution": "C",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

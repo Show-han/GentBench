@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Which of the following points is farthest from the origin: $(1,4)$, $(3,5)$, $(-6,0)$, $(-4,-2)?$\nA: The answer is",
+    "solution": "(-6,0)",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

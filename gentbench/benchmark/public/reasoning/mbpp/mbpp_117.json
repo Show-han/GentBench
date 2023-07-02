@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the fixed point in the given array.\n\nYour code should pass these tests:\n\nassert find_fixed_point([-10, -1, 0, 3, 10, 11, 30, 50, 100],9) == 3\nassert find_fixed_point([1, 2, 3, 4, 5, 6, 7, 8],8) == -1\nassert find_fixed_point([0, 2, 5, 8, 17],5) == 0\n\n",
+    "solution": "def find_fixed_point(arr, n): \r\n\tfor i in range(n): \r\n\t\tif arr[i] is i: \r\n\t\t\treturn i \r\n\treturn -1",
+    "test": "assert find_fixed_point([-10, -1, 0, 3, 10, 11, 30, 50, 100],9) == 3\nassert find_fixed_point([1, 2, 3, 4, 5, 6, 7, 8],8) == -1\nassert find_fixed_point([0, 2, 5, 8, 17],5) == 0",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

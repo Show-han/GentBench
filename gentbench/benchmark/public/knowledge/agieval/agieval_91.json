@@ -1,0 +1,7 @@
+{
+    "problem": "Q: What is the value of $$\\left( \\sqrt{100} - \\sqrt{36} \\right)^2?$$\nA: The answer is",
+    "solution": "16",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

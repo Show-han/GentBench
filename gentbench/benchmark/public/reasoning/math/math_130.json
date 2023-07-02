@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: What is the remainder when $333^{333}$ is divided by $11$?",
-    "solution": "We use the property that $a \\equiv b \\pmod{m}$ implies $a^c \\equiv b^c \\pmod{m}$.\n\n$333 \\equiv 3 \\pmod{11}$, therefore $333^{333} \\equiv 3^{333} \\pmod{11}$.\n\nSince $3^5 \\equiv 1 \\pmod{11}$, we get that $333^{333} \\equiv 3^{333}=3^{5 \\cdot 66 +3}=(3^5)^{66} \\cdot 3^3 \\equiv 1^{66} \\cdot 27 \\equiv \\boxed{5} \\pmod{11}$.",
+    "problem": "Segment $s_1$ has endpoints at $(3+\\sqrt{2},5)$ and $(4,7)$.  Segment $s_2$ has endpoints at $(6-\\sqrt{2},3)$ and $(3,5)$.  Find the midpoint of the segment with endpoints at the midpoints of $s_1$ and $s_2$.  Express your answer as $(a,b)$.",
+    "solution": "Using the midpoint formula, we find that the midpoint of $s_1$ has coordinates $\\left(\\frac{3+\\sqrt{2}+4}{2},\\frac{5+7}{2}\\right)=\\left(\\frac{7+\\sqrt{2}}{2}, 6\\right)$.\n\nThe midpoint of $s_2$ has coordinates $\\left(\\frac{6-\\sqrt{2}+3}{2},\\frac{3+5}{2}\\right)=\\left(\\frac{9-\\sqrt{2}}{2}, 4\\right)$.\n\nApplying the formula once more we see that the desired point is at $\\left(\\dfrac{\\dfrac{7+\\sqrt{2}+9-\\sqrt{2}}{2}}{2},\\frac{4+6}{2}\\right)=\\boxed{(4,5)}.$",
     "tags": [
         "reasoning/math"
     ]

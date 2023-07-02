@@ -1,0 +1,7 @@
+{
+    "problem": "问题：已知双曲线 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$ 的离心率为 2 , 则该双曲线的渐近线方程为 $(\\quad)$\n答案：",
+    "solution": "$y=\\pm\\sqrt{3}x$",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

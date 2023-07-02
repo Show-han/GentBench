@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to move all zeroes to the end of the given list.\n\nYour code should pass these tests:\n\nassert move_zero([1,0,2,0,3,4]) == [1,2,3,4,0,0]\nassert move_zero([2,3,2,0,0,4,0,5,0]) == [2,3,2,4,5,0,0,0,0]\nassert move_zero([0,1,0,1,1]) == [1,1,1,0,0]\n\n",
+    "solution": "def move_zero(num_list):\r\n    a = [0 for i in range(num_list.count(0))]\r\n    x = [ i for i in num_list if i != 0]\r\n    x.extend(a)\r\n    return (x)",
+    "test": "assert move_zero([1,0,2,0,3,4]) == [1,2,3,4,0,0]\nassert move_zero([2,3,2,0,0,4,0,5,0]) == [2,3,2,4,5,0,0,0,0]\nassert move_zero([0,1,0,1,1]) == [1,1,1,0,0]",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

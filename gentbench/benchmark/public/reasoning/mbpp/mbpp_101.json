@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find minimum of three numbers.\n\nYour code should pass these tests:\n\nassert min_of_three(10,20,0)==0\nassert min_of_three(19,15,18)==15\nassert min_of_three(-10,-20,-30)==-30\n\n",
+    "solution": "def min_of_three(a,b,c): \r\n      if (a <= b) and (a <= c): \r\n        smallest = a \r\n      elif (b <= a) and (b <= c): \r\n        smallest = b \r\n      else: \r\n        smallest = c \r\n      return smallest ",
+    "test": "assert min_of_three(10,20,0)==0\nassert min_of_three(19,15,18)==15\nassert min_of_three(-10,-20,-30)==-30",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

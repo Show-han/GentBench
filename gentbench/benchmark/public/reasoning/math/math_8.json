@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: Let $a_n=6^{n}+8^{n}$. Determine the remainder upon dividing $a_ {83}$ by $49$.\n",
-    "solution": "Since $\\phi(49) = 42$ (see Euler's totient function), Euler's Totient Theorem tells us that $a^{42} \\equiv 1 \\pmod{49}$ where $\\text{gcd}(a,49) = 1$. Thus $6^{83} + 8^{83} \\equiv 6^{2(42)-1}+8^{2(42)-1}$ $\\equiv 6^{-1} + 8^{-1} \\equiv \\frac{8+6}{48}$ $\\equiv \\frac{14}{-1}\\equiv \\boxed{35} \\pmod{49}$.",
+    "problem": "Simplify $\\frac{\\sqrt{40\\cdot9}}{\\sqrt{49}}$.",
+    "solution": "Factoring the squares out of $40\\cdot9$ gives us $2^2\\cdot3^2\\cdot10 = 6^2\\cdot10$.  Thus, the numerator is $6\\sqrt{10}$.\n\nThe denominator is $7$, because $7^2=49$.  So our answer is $\\boxed{\\frac{6\\sqrt{10}}{7}}$.",
     "tags": [
         "reasoning/math"
     ]

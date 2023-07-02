@@ -1,0 +1,7 @@
+{
+    "problem": "问题：不能正确表示下列变化的离子方程式是 选项：(A)碳酸镁与稀盐酸反应: $\\mathrm{CO}_{3}^{2-}+2 \\mathrm{H}^{+}=\\mathrm{CO}_{2} \\uparrow+\\mathrm{H}_{2} \\mathrm{O}$ (B)亚硫酸氢钠的水解: $\\mathrm{HSO}_{3}^{-}+\\mathrm{H}_{2} \\mathrm{O} \\square \\mathrm{H}_{2} \\mathrm{SO}_{3}+\\mathrm{OH}^{-}$ (C)锌溶于氢氧化钠溶液: $\\mathrm{Zn}+2 \\mathrm{OH}^{-}+2 \\mathrm{H}_{2} \\mathrm{O}=\\left[\\mathrm{Zn}(\\mathrm{OH})_{4}\\right]^{2-}+\\mathrm{H}_{2} \\uparrow$ (D)亚硝酸钠与氯化铵溶液受热反应: $\\mathrm{NO}_{2}^{-}+\\mathrm{NH}_{4}^{+} \\square \\mathrm{N}_{2} \\uparrow+2 \\mathrm{H}_{2} \\mathrm{O}$\n答案：从A到D, 我们应选择",
+    "solution": "A",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

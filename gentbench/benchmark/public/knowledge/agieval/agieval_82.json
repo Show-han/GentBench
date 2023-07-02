@@ -1,0 +1,7 @@
+{
+    "problem": "Q: By himself, Jack can clean a yacht in 12 hours. On a particular day, he happens to finish two-thirds of the work. The remaining portion of the work is done by Jill, whose rate of cleaning is just 5% of what Jack can do. How long does it take Jill to finish the remaining work? Answer Choices: (A)4 (B)8 (C)22 (D)50 (E)20\nA: Among A through E, the answer is",
+    "solution": "E",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

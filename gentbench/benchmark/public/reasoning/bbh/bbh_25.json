@@ -1,0 +1,7 @@
+{
+    "problem": "Which statement is sarcastic?\nOptions:\n(A) Why would they have weapons drawn when they've been called to the scene of a fire?\n(B) Why would they have weapons drawn when they've been called to the scene of a shooting?",
+    "solution": "(B)",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

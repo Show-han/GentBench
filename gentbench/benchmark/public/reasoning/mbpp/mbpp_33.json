@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to get an item of a tuple.\n\nYour code should pass these tests:\n\nassert get_item((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),3)==('e')\nassert get_item((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),-4)==('u')\nassert get_item((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),-3)==('r')\n\n",
+    "solution": "def get_item(tup1,index):\r\n  item = tup1[index]\r\n  return item",
+    "test": "assert get_item((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),3)==('e')\nassert get_item((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),-4)==('u')\nassert get_item((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),-3)==('r')",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

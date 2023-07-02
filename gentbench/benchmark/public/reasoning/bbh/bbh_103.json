@@ -1,0 +1,7 @@
+{
+    "problem": "I have three potatoes, a carrot, a snake, a yam, a cauliflower, a stalk of celery, and a garlic. How many vegetables do I have?",
+    "solution": "8",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

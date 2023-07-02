@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to get the sum of a non-negative integer.\n\nYour code should pass these tests:\n\nassert sum_digits(345)==12\nassert sum_digits(12)==3\nassert sum_digits(97)==16\n\n",
+    "solution": "def sum_digits(n):\r\n  if n == 0:\r\n    return 0\r\n  else:\r\n    return n % 10 + sum_digits(int(n / 10))",
+    "test": "assert sum_digits(345)==12\nassert sum_digits(12)==3\nassert sum_digits(97)==16",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

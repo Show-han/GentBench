@@ -1,0 +1,7 @@
+{
+    "problem": "Ethicist: The general principle-if one ought to do something then one can do it-does not always hold true. This may be seen by considering an example. Suppose, someone promises to meet a friend at a certain time, but-because of an unforeseen traffic jam-it is impossible to do so.Q: Which one of the following is an assumption required by the ethicist's argument? Answer Choices: (A)If a person failed to do something she or he ought to have done, then that person failed to do something that.she or he promised to do. (B)Only an event like an unforeseen.traffic jam could excuse a person from the obligation to keep a promise. (C)If there is something that a.person ought not do, then it is something that that person is capable of not doing. (D)The obligation created by a promise is not relieved by the fact that the promise cannot be kept. (E)If an event like an unforeseen traffic jam interferes with someone's keeping a promise, then that person should not have made the promise to begin with.\nA: Among A through E, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

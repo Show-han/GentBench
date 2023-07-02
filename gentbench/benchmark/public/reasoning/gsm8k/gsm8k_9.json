@@ -1,0 +1,7 @@
+{
+    "problem": "Adam bought 3 kilograms of nuts and 2.5 kilograms of dried fruits at a store. One kilogram of nuts costs $12 and one kilogram of dried fruit costs $8. How much did his purchases cost?",
+    "solution": "For the nuts Adam paid 3 * $12 = $<<3*12=36>>36.\nAnd for dried fruits Adam paid 2.5 * $8 = $<<2.5*8=20>>20.\nSo in total for his purchases Adam paid $36 + $20 = $<<36+20=56>>56.\n#### 56",
+    "tags": [
+        "reasoning/math"
+    ]
+}

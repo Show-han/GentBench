@@ -1,0 +1,7 @@
+{
+    "problem": "((7 + 1 + 9 * 1) + (7 - -3 + 3 * 1)) =",
+    "solution": "30",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "I have a trumpet, an accordion, three clarinets, and a violin. How many musical instruments do I have?",
+    "solution": "6",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

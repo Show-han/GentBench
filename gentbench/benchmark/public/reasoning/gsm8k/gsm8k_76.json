@@ -1,0 +1,7 @@
+{
+    "problem": "A package of candy has 3 servings with 120 calories each.  John eats half the package.  How many calories did he eat?",
+    "solution": "There were 3*120=<<3*120=360>>360 calories in the package\nSo he ate 360/2=<<360/2=180>>180 calories\n#### 180",
+    "tags": [
+        "reasoning/math"
+    ]
+}

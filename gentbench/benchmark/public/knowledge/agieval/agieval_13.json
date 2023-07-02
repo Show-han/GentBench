@@ -1,0 +1,7 @@
+{
+    "problem": "问题：已知 $a \\in \\mathrm{R}$, 函数 $f(x)=\\left\\{\\begin{array}{l}x^{2}-4, x>2 \\\\ |x-3|+a, x \\leq 2,\\end{array}\\right.$ 若 $f[f(\\sqrt{6})]=3$, 则 $a=(\\quad)$\n答案：",
+    "solution": "2",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

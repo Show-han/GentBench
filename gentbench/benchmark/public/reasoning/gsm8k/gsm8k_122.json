@@ -1,0 +1,7 @@
+{
+    "problem": "Six kids and two adults are going to the circus. Kid's tickets are on sale for only half of the adult tickets. The total cost is $50. How much is one kid's ticket?",
+    "solution": "Let X be the price of one kid's ticket.\nSo the price of one adult ticket is X*2.\nFive kids and two adults are going to the circus, so 6*X + 2*(X*2) = $50.\nSo 10X=$50\nSo the price of one kid's ticket is X = $<<5=5>>5.\n#### 5",
+    "tags": [
+        "reasoning/math"
+    ]
+}

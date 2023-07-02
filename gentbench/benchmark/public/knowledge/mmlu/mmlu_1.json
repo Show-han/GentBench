@@ -1,0 +1,7 @@
+{
+    "problem": "A number $x$ equals $2^{15}\\cdot3^6$. What number's cube equals $x$?\nA. 288\nB. 27\nC. 125\nD. 121\nAmong A through D, the answer is",
+    "solution": "A",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

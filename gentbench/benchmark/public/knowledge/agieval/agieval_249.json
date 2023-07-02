@@ -1,0 +1,7 @@
+{
+    "problem": "There is a toxin-producing microorganism that turns sea water into red.This phenomenon is called red tide.When the main food source of sea otters is contaminated with red tide toxins, sea otters will not forage in those areas.One explanation for this behavior of sea otters is that sea otters will taste a few clams before they formally forage somewhere , And be able to detect any toxins in it.Q: Which of the following is true will most strongly indicate that the above explanation is incorrect? Answer Choices: (A)In some sea areas where red tides appear, there are no clams or sea otters. (B)A small amount of red tide toxin will not cause any harm, but a large amount of this toxin will kill sea otters. (C)When a piece of seawater affected by the red tide was artificially dyed brown-red, the sea otters did not eat the clams in those places. (D)The presence of sea otters in a certain sea area is a remarkable sign that other marine life can be found there.\nA: Among A through D, the answer is",
+    "solution": "C",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

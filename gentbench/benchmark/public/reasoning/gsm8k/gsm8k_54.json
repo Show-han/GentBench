@@ -1,0 +1,7 @@
+{
+    "problem": "Manny has a tree that grows at the rate of fifty centimeters every two weeks. If the tree is currently 2 meters tall, how tall, in centimeters, will the tree be in 4 months?",
+    "solution": "A month has four weeks, so there are 4*4= <<4*4=16>>16 weeks in four months.\nSince the tree grows for five centimeters every two weeks, it will grow by fifty centimeters every week for 16/2 = 8 weeks.\nThe tree will increase in height by 8*50 = <<8*50=400>>400 centimeters after four months.\nSince 1 meter equals 100 centimeters, the tree is currently 2*100 = <<2*100=200>>200 centimeters tall.\nAfter growing by 400 centimeters for four months, the tree will be 400+200 = <<400+200=600>>600 centimeters tall.\n#### 600",
+    "tags": [
+        "reasoning/math"
+    ]
+}

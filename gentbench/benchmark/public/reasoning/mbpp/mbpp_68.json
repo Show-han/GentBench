@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the first digit of a given number.\n\nYour code should pass these tests:\n\nassert first_Digit(123) == 1\nassert first_Digit(456) == 4\nassert first_Digit(12) == 1\n\n",
+    "solution": "def first_Digit(n) :  \r\n    while n >= 10:  \r\n        n = n / 10; \r\n    return int(n) ",
+    "test": "assert first_Digit(123) == 1\nassert first_Digit(456) == 4\nassert first_Digit(12) == 1",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

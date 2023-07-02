@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: The number 236! ends in how many zeros when expressed as an integer?",
-    "solution": "To find the number of terminal zeros, we must find the number of products $2\\times5$ in $236!$. Since there are more factors of 2 than factors of 5, we can get our answer by finding the largest power of 5 that divides $236!$.  Every multiple of 5 less than 236 gives a factor of 5, each multiple of 25 gives an additional factor of 5, and each multiple of 125 gives a third factor of 5.  Therefore, the number of factors of 5 in $236!$ is $\\left\\lfloor\\frac{236}{5}\\right\\rfloor+ \\left\\lfloor\\frac{236}{25}\\right\\rfloor+ \\left\\lfloor\\frac{236}{125}\\right\\rfloor = 47+9+1=57$. The highest power of 5 that divides $236!$ is $5^{57}$ so $236!$ ends in $\\boxed{57}$ zeros.",
+    "problem": "How many numbers can you get by multiplying two or more distinct members of the set $\\{1,2,3,5,11\\}$ together?",
+    "solution": "Note that, because two or more members can be multiplied, multiplying by $1$ will only make a difference if it is one of two numbers. Thus, multiplying by $1$ adds four potential numbers.\n\nNow, we only need to consider the number of combinations that can be made from $2$, $3$, $5$, and $11$.\n\nChoosing two from this set offers six possiblities: $2 \\cdot 3$, $2 \\cdot 5$, $2 \\cdot 11$, $3 \\cdot 5$, $3 \\cdot 11$, and $5 \\cdot 11$.\n\nChoosing three offers four possibilities: $2 \\cdot 3 \\cdot 5$, $2 \\cdot 3 \\cdot 11$, $2 \\cdot 5 \\cdot 11$, and $3 \\cdot 5 \\cdot 11$.\n\nFinally, there is one possibility with four chosen: $2 \\cdot 3 \\cdot 5 \\cdot 11$. Thus, there are $4 + 6 + 4 + 1 = \\boxed{15}$.",
     "tags": [
         "reasoning/math"
     ]

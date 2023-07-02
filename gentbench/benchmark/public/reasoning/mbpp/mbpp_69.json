@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to get the length of a complex number.\n\nYour code should pass these tests:\n\nassert len_complex(3,4)==5.0\nassert len_complex(9,10)==13.45362404707371\nassert len_complex(7,9)==11.40175425099138\n\n",
+    "solution": "import cmath\r\ndef len_complex(a,b):\r\n  cn=complex(a,b)\r\n  length=abs(cn)\r\n  return length",
+    "test": "assert len_complex(3,4)==5.0\nassert len_complex(9,10)==13.45362404707371\nassert len_complex(7,9)==11.40175425099138",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

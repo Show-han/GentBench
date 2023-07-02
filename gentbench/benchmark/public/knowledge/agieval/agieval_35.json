@@ -1,0 +1,7 @@
+{
+    "problem": "Q: $$\\begin{aligned}& y<-x+a \\\\& y>x+b\\end{aligned}$$In the $x y$-plane, if $(0,0)$ is a solution to the system of inequalities above, which of the following relationships between $a$ and $b$ must be true? Answer Choices: (A)$a>b$ (B)$b>a$ (C)$|a|>|b|$ (D)$a=-b$\nA: Among A through D, the answer is",
+    "solution": "A",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

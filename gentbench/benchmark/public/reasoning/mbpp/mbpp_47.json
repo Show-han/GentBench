@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the last occurrence of a character in a string.\n\nYour code should pass these tests:\n\nassert last_occurence_char(\"hello world\",'l')==10\nassert last_occurence_char(\"language\",'g')==7\nassert last_occurence_char(\"little\",'y')==None\n\n",
+    "solution": "def last_occurence_char(string,char):\r\n flag = -1\r\n for i in range(len(string)):\r\n     if(string[i] == char):\r\n         flag = i\r\n if(flag == -1):\r\n    return None\r\n else:\r\n    return flag + 1",
+    "test": "assert last_occurence_char(\"hello world\",'l')==10\nassert last_occurence_char(\"language\",'g')==7\nassert last_occurence_char(\"little\",'y')==None",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

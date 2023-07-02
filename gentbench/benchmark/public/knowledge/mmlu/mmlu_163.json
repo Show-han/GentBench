@@ -1,0 +1,7 @@
+{
+    "problem": "Leo is thirteen years old. He has a brother and a sister. He has 10 tennis bats, 8 baseballs, 6 ping-pong balls, 12 soccer balls and 18 volleyballs, but he never  plays sports. His brother, Neal likes soccer . He is a member  of the city soccer club. He plays soccer every day with his friends. His sister, Nancy likes volleyball, but she doesn't play it. ,,. There are  _  balls in their family.\nA. 18\nB. 36\nC. 54\nD. 44\nAmong A through D, the answer is",
+    "solution": "D",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

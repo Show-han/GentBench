@@ -1,0 +1,10 @@
+{
+    "problem": "问题：秦的法律形式有哪些? 选项：(A)制、诏 (B)决事比 (C)程、式 (D)廷行事\n答案：从A到D, 我们应选择",
+    "solution": [
+        "A",
+        "D"
+    ],
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

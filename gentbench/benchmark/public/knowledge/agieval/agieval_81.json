@@ -1,0 +1,7 @@
+{
+    "problem": "If the city builds the proposed convention center, several national professional organizations will hold conventions there. And if several large conventions are held in the city, the total number of visitors will of course increase. Tax revenues will certainly increase if the number of visitors increases. Thus, building the convention center will increase the city's tax revenues.Q: The conclusion of the argument follows logically if which one of the following is assumed? Answer Choices: (A)If the number of visitors to the city does not increase, then the city's tax revenues will not increase. (B)If the number of visitors to the city increases, then the amount of money spent by visitors will increase. (C)The city's tax revenues will not increase unless the convention center is built. (D)People who are now regular visitors to the city will continue to visit the city if the new convention center is built. (E)If several national professional organizations hold their conventions in the convention center, those conventions will be large.\nA: Among A through E, the answer is",
+    "solution": "E",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

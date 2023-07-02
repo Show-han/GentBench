@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Evaluate $\\log_5\\frac{1}{625}$.\nA: The answer is",
+    "solution": "-4",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

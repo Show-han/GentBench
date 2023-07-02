@@ -1,0 +1,7 @@
+{
+    "problem": "Q: If \\[\\frac{x}{y} = \\frac{4}{5}, \\; \\frac{y}{z} = \\frac{3}{10}, \\;\\text{and} \\; \\frac{z}{w} = \\frac{6}{7},\\] what is the value of $\\dfrac{x + y + w}{z}$? Express your answer as a common fraction.\nA: The answer is",
+    "solution": "\\frac{128}{75}",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

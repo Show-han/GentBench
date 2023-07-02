@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Printer A and Printer B can each print 1⁄2 page per second. How long will it take both printers working together to print 100 pages? Answer Choices: (A)25 seconds (B)50 seconds (C)100 seconds (D)200 seconds (E)400 seconds\nA: Among A through E, the answer is",
+    "solution": "C",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

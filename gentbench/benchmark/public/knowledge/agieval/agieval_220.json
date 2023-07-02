@@ -1,0 +1,7 @@
+{
+    "problem": "Farmer: Agricultural techniques such as crop rotation that do not use commercial products may solve agricultural problems at least as well as any technique, such as pesticide application, that does use such products. Nonetheless, no private for-profit corporation will sponsor research that is unlikely to lead to marketable products. Thus, for the most part, only government-sponsored research investigates agricultural techniques that do not use commercial products.Q: Which one of the following, if true, most strengthens the farmer's argument? Answer Choices: (A)The government sponsors at least some investigations of agricultural techniques that are considered likely to solve agricultural problems and do not use commercial products. (B)For almost any agricultural problem, there is at least one agricultural technique that does not use commercial products but that would solve that agricultural problem. (C)Investigations of agricultural techniques are rarely sponsored by individuals or by any entity other than private for-profit corporations or the government. (D)Most if not all investigations of agricultural techniques that use commercial products are sponsored by private for-profit corporations. (E)Most if not all government-sponsored agricultural research investigates agricultural techniques that do not use commercial products.\nA: Among A through E, the answer is",
+    "solution": "C",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

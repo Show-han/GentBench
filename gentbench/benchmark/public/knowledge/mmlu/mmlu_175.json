@@ -1,0 +1,7 @@
+{
+    "problem": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | My baby rode on my lap while I drove the car on the freeway. Scenario 2 | The stranger on the subway told a hilarious joke and I laughed with him.\nA. Wrong, Wrong\nB. Wrong, Not wrong\nC. Not wrong, Wrong\nD. Not wrong, Not wrong\nAmong A through D, the answer is",
+    "solution": "B",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to shift first element to the end of given list.\n\nYour code should pass these tests:\n\nassert move_last([1,2,3,4]) == [2,3,4,1]\nassert move_last([2,3,4,1,5,0]) == [3,4,1,5,0,2]\nassert move_last([5,4,3,2,1]) == [4,3,2,1,5]\n\n",
+    "solution": "def move_last(num_list):\r\n    a = [num_list[0] for i in range(num_list.count(num_list[0]))]\r\n    x = [ i for i in num_list if i != num_list[0]]\r\n    x.extend(a)\r\n    return (x)",
+    "test": "assert move_last([1,2,3,4]) == [2,3,4,1]\nassert move_last([2,3,4,1,5,0]) == [3,4,1,5,0,2]\nassert move_last([5,4,3,2,1]) == [4,3,2,1,5]",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

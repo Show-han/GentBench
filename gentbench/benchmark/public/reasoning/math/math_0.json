@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: Find the largest negative integer $x$ which satisfies the congruence $34x+6\\equiv 2\\pmod {20}$.",
-    "solution": "We can simplify the congruence as follows (all of the following congruences are equivalent):\n\\begin{align*}\n34x+6&\\equiv 2\\pmod {20}\\\\\n14x+6&\\equiv 2\\pmod {20}\\\\\n14x&\\equiv 16\\pmod {20}\\\\\n7x&\\equiv 8\\pmod {10}\\\\\n21x&\\equiv 8\\cdot 3\\pmod {10}\\\\\nx&\\equiv 24\\pmod{10}\\\\\nx&\\equiv 4\\pmod{10}\\\\\nx&\\equiv \\boxed{-6}\\pmod{10}.\n\\end{align*}",
+    "problem": "Find all the solutions to\n\\[\\sqrt{x} + 2 \\sqrt{x^2 + 7x} + \\sqrt{x + 7} = 35 - 2x.\\]Enter all the solutions, separated by commas.",
+    "solution": "First, we write the given equation as\n\\[\\sqrt{x} + \\sqrt{x + 7} + 2 \\sqrt{x^2 + 7x} + 2x = 35.\\]Let $y = \\sqrt{x} + \\sqrt{x + 7}.$  Then\n\\[y^2 = x + 2 \\sqrt{x(x + 7)} + x + 7 = 2 \\sqrt{x^2 + 7x} + 2x + 7.\\]Hence, $y + y^2 - 7 = 35.$  Then $y^2 + y - 42 = 0,$ which factors as $(y - 6)(y + 7) = 0.$  Since $y$ is positive, $y = 6.$\n\nHence,\n\\[\\sqrt{x} + \\sqrt{x + 7} = 6.\\]Then $\\sqrt{x + 7} = 6 - \\sqrt{x}.$  Squaring both sides, we get\n\\[x + 7 = 36 - 12 \\sqrt{x} + x.\\]Then $12 \\sqrt{x} = 29,$ so $x = \\left( \\frac{29}{12} \\right)^2 = \\boxed{\\frac{841}{144}}.$  We check that this solution works.",
     "tags": [
         "reasoning/math"
     ]

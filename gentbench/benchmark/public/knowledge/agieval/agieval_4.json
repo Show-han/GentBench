@@ -1,0 +1,7 @@
+{
+    "problem": "Critic: Fillmore, an influential television executive, argues that watching television regularly is not detrimental to very young children. Fillmore bases this on the claim, which I grant, that children can learn much that is beneficial from television. But we should reject Fillmore's argument, because clearly it is to Fillmore's benefit to convince parents that television is not harmful to their children.Q: Which one of the following most accurately describes a flaw in the critic's reasoning? Answer Choices: (A)It takes a necessary condition for something's being harmful to be a sufficient condition for being harmful. (B)It concludes that something is true merely on the grounds that there is no evidence to the contrary. (C)It rejects an argument solely on the grounds that the argument could serve the interests of the person making that argument. (D)It is based on an appeal to the views of someone with questionable authority on the subject matter. (E)It bases its conclusion on claims that are inconsistent with one another.\nA: Among A through E, the answer is",
+    "solution": "C",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

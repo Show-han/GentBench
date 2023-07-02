@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to count the number of equal numbers from three given integers.\n\nYour code should pass these tests:\n\nassert test_three_equal(1,1,1) == 3\nassert test_three_equal(-1,-2,-3) == 0\nassert test_three_equal(1,2,2) == 2\n\n",
+    "solution": "def test_three_equal(x,y,z):\r\n  result= set([x,y,z])\r\n  if len(result)==3:\r\n    return 0\r\n  else:\r\n    return (4-len(result))",
+    "test": "assert test_three_equal(1,1,1) == 3\nassert test_three_equal(-1,-2,-3) == 0\nassert test_three_equal(1,2,2) == 2",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

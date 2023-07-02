@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to check whether the given number can be represented by product of two squares or not.\n\nYour code should pass these tests:\n\nassert prod_Square(25) == False\nassert prod_Square(30) == False\nassert prod_Square(16) == True\n\n",
+    "solution": "def prod_Square(n):\r\n    for i in range(2,(n) + 1):\r\n        if (i*i < (n+1)):\r\n            for j in range(2,n + 1):\r\n                if ((i*i*j*j) == n):\r\n                    return True;\r\n    return False;",
+    "test": "assert prod_Square(25) == False\nassert prod_Square(30) == False\nassert prod_Square(16) == True",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "问题：一个氢原子从 $n=3$ 能级跃迁到 $n=2$ 能级, 该氢原子 选项：(A)放出光子, 能量增加 (B)放出光子, 能量减少 (C)吸收光子, 能量增加 (D)吸收光子, 能量减少\n答案：从A到D, 我们应选择",
+    "solution": "B",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

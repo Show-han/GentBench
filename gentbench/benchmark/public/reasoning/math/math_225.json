@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: A standard six-sided die is rolled, and  $P$ is the product of the five numbers that are visible. What is the largest number that is certain to divide $P$?",
-    "solution": "Since $6! = 720 = 2^4 \\cdot 3^2 \\cdot 5$, the prime factors of $P$ can consist of at most 2's, 3's, and 5's.  The least possible number of 2's is two, which occurs when 4 is not visible. The least possible number of 3's is one, which occurs when either 3 or 6 is not visible, and the least number of 5's is zero, when 5 is not visible.  Thus $P$ must be divisible by $2^2\\cdot3 =\n\\boxed{12}$, but not necessarily by any larger number.",
+    "problem": "The sides of a triangle with positive area have lengths 4, 6, and $x$. The sides of a second triangle with positive area have lengths 4, 6, and $y$. What is the smallest positive number that is $\\textbf{not}$ a possible value of $|x-y|$?",
+    "solution": "By the Triangle Inequality, each of $x$ and $y$ can be any number strictly between 2 and 10, so $0\\le |x-y|<8$. Therefore, the smallest positive number that is not a possible value of $|x-y|$ is $10-2=\\boxed{8}$.",
     "tags": [
         "reasoning/math"
     ]

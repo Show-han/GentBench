@@ -1,0 +1,7 @@
+{
+    "problem": "Q: One gram of a certain health food contains 9 percent of the minimum daily requirement of vitamin E and 8 percent of the minimum daily requirement of vitamin A. If vitamins E and A are to be obtained from no other source, how many grams of the health food must be eaten daily to provide at least the minimum daily requirement of both vitamins? Answer Choices: (A)8.5 (B)10.5 (C)12.5 (D)14.5 (E)16.5\nA: Among A through E, the answer is",
+    "solution": "C",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

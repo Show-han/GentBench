@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to calculate the harmonic sum of n-1.\n\nYour code should pass these tests:\n\nassert harmonic_sum(7) == 2.5928571428571425\nassert harmonic_sum(4) == 2.083333333333333\nassert harmonic_sum(19) == 3.547739657143682\n\n",
+    "solution": "def harmonic_sum(n):\r\n  if n < 2:\r\n    return 1\r\n  else:\r\n    return 1 / n + (harmonic_sum(n - 1)) ",
+    "test": "assert harmonic_sum(7) == 2.5928571428571425\nassert harmonic_sum(4) == 2.083333333333333\nassert harmonic_sum(19) == 3.547739657143682",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

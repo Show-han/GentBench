@@ -1,0 +1,7 @@
+{
+    "problem": "问题：$i$ 是虚数单位, 复数 $\\frac{9+2 i}{2+i}=(\\quad)$.\n答案：",
+    "solution": "$4-\\mathrm{i}$",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

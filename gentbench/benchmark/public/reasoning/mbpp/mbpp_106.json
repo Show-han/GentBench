@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the length of the last word in a given string.\n\nYour code should pass these tests:\n\nassert length_Of_Last_Word(\"python language\") == 8\nassert length_Of_Last_Word(\"PHP\") == 3\nassert length_Of_Last_Word(\"\") == 0\n\n",
+    "solution": "def length_Of_Last_Word(a): \r\n    l = 0\r\n    x = a.strip() \r\n    for i in range(len(x)): \r\n        if x[i] == \" \": \r\n            l = 0\r\n        else: \r\n            l += 1\r\n    return l ",
+    "test": "assert length_Of_Last_Word(\"python language\") == 8\nassert length_Of_Last_Word(\"PHP\") == 3\nassert length_Of_Last_Word(\"\") == 0",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

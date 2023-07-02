@@ -1,0 +1,7 @@
+{
+    "problem": "Q: If $3(c+d)=5$, what is the value of $c+d ?$ Answer Choices: (A)$\\frac{3}{5}$ (B)$\\frac{5}{3}$ (C)3 (D)5\nA: Among A through D, the answer is",
+    "solution": "B",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

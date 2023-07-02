@@ -1,0 +1,7 @@
+{
+    "problem": "There are 6 warehouses in a warehouse, in order from 1 to 6.There are 6 kinds of goods F, G, L, M, P, T.Each warehouse stores exactly one of 6 kinds of goods, and different kinds of goods cannot be stored in the same warehouse.The following conditions must also be met when storing goods? (1) The warehouse number for storing G is larger than the warehouse number for storing L.(2) The warehouse number storing L is larger than the warehouse number storing T.(3) The warehouse number storing P is larger than the warehouse number storing F.(4) The warehouse storing T is next to the warehouse storing P.Q: Which of the following goods cannot be stored in warehouse No.4? Answer Choices: (A)L (B)G (C)M (D)P\nA: Among A through D, the answer is",
+    "solution": "B",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

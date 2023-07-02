@@ -1,0 +1,7 @@
+{
+    "problem": "351 Gardener Street Los Angeles, CA90031 September 12 Relex Company 37 Pearl Street Clifton, NJ07013 Dear Sir or Madam: A year ago I bought a Relex camera second hand. It's a SW 705 model, and it's about five years old. Here's my problem: The light metre was fine when I bought the camera, but now it isn't working and my pictures are coming out too dark. I checked the batteries, and they are still good. I took the camera to some repair shops, but they said they couldn't repair it because the model is too old and they don't have the necessary part. Do you have the parts for this model in stock? If so, could I send you the camera for repairs? How much would the repairs cost? I'm going to buy your new SW800 model in about six months, but I would still like to fix this old one. Thank you very much. Sincerely yours Sarah H, McDaniel How old is Sarah's camera?\nA. One.\nB. Five.\nC. Six.\nD. About six.\nAmong A through D, the answer is",
+    "solution": "B",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

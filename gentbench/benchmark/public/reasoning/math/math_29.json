@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: How many distinct, natural-number factors does $4^3 \\cdot 5^4 \\cdot 6^2$ have?",
-    "solution": "We prime factorize the given number as $2^8\\cdot 3^2\\cdot 5^4$. A factor of this number takes the form $2^a3^b5^c$ for integers $a$ between 0 and 8, $b$ between 0 and 2, and $c$ between 0 and 4. There are $9$ ways to choose $a$, 3 ways to choose $b$, and 5 ways to choose $c$. In total, there are $9\\cdot3\\cdot5 = \\boxed{135}$ factors.",
+    "problem": "The equation of the circle that passes through $(-1,6)$ and which has a center at $(2,3)$ can be written as $x^2 + y^2 + Ax + By + C = 0$. Find $A\\times B\\times C$.",
+    "solution": "As the center of the circle is at the point $(2,3)$, and one point on the circle is at the point $(-1,6)$, by the distance formula, the radius of the circle is $\\sqrt{(2-(-1))^2 + (3-6)^2} = \\sqrt{3^2 + 3^2} = \\sqrt{18}$. The equation of the circle is then given by $(x -2)^2 + (y-3)^2 = 18$, and expanding, $$x^2 - 4x + 4 + y^2 - 6y + 9 - 18 = 0 \\Longrightarrow x^2 + y^2 - 4x - 6y - 5 = 0.$$ Thus, $A\\times B\\times C= -4\\times -6\\times -5= \\boxed{-120}$.",
     "tags": [
         "reasoning/math"
     ]

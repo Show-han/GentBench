@@ -1,0 +1,7 @@
+{
+    "problem": "((1 - 6 * 0 - -7) * (6 * 0 + 6 - -3)) =",
+    "solution": "72",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

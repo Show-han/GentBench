@@ -1,6 +1,6 @@
 {
-    "problem": "Answer in short: The members of a band are arranged in a rectangular formation. When they are arranged in 8 rows, there are 2 positions unoccupied in the formation. When they are arranged in 9 rows, there are 3 positions unoccupied. How many members are in the band if the membership is between 100 and 200?",
-    "solution": "The number of members in the band leaves a remainder of 6 when divided by 8 and a remainder of 6 when divided by 9.  Therefore, the number of members is 6 more than a multiple of $9\\times8=72$.  The only such number between 100 and 200 is $72\\cdot 2 + 6=150$, so there are $\\boxed{150}$ members.",
+    "problem": "Compute $121_3+2122_3-1200_3-2111_3$. Express your answer in base 3.",
+    "solution": "It doesn't matter the order in which we add and subtract values, but we'll start with $2122_3-2111_3$ since the values are close. $$ \\begin{array}{c@{}c@{\\;}c@{}c@{}c@{}c} & & 2& 1 & 2 & 2_3\\\\ &- & 2 & 1 & 1 & 1_3\\\\ \\cline{2-6} & & & & 1 & 1_3\\\\ \\end{array} $$Now we're left with  $121_3-1200_3+11_3$. We add $121_3+11_3$. $$ \\begin{array}{c@{}c@{\\;}c@{}c@{}c@{}c} & & & 1 & 2 & 1_3\\\\ &+ & & & 1 & 1_3\\\\ \\cline{2-6} & & & 2 & 0 & 2_3\\\\ \\end{array} $$So we have $202_3-1200_3=-(1200_3-202_3)$. $$ \\begin{array}{c@{}c@{\\;}c@{}c@{}c@{}c} & & 1 & 2 & 0 & 0_3\\\\ &-& & 2 & 0 & 2_3\\\\ \\cline{2-6} & & & 2 & 2 & 1_3\\\\ \\end{array} $$Our answer is $\\boxed{-221_3}$.",
     "tags": [
         "reasoning/math"
     ]

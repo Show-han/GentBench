@@ -1,0 +1,8 @@
+{
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to count the number of integral co-ordinates that lie inside a square.\n\nYour code should pass these tests:\n\nassert count_Intgral_Points(1,1,4,4) == 4\nassert count_Intgral_Points(1,2,1,2) == 1\nassert count_Intgral_Points(4,2,6,4) == 1\n\n",
+    "solution": "def count_Intgral_Points(x1,y1,x2,y2): \r\n    return ((y2 - y1 - 1) * (x2 - x1 - 1)) ",
+    "test": "assert count_Intgral_Points(1,1,4,4) == 4\nassert count_Intgral_Points(1,2,1,2) == 1\nassert count_Intgral_Points(4,2,6,4) == 1",
+    "tags": [
+        "reasoning/coding"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "I have a table, a yam, a cauliflower, two cabbages, a head of broccoli, two potatoes, an onion, and two garlics. How many vegetables do I have?",
+    "solution": "10",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Is the following sentence plausible? \"Neymar did a maradona on the defender in the Champions Leage Semifinal.\"",
+    "solution": "yes",
+    "tags": [
+        "reasoning/commonsense"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "problem": "Light from a laser falls on a pair of very narrow slits separated by 0.5 micrometer, and bright fringes separated by 1.0 millimeter are observed on a distant screen. If the frequency of the laser light is doubled, what will be the separation of the bright fringes?\nA. 0.25 mm\nB. 0.5 mm\nC. 1.0 mm\nD. 2.0 mm\nAmong A through D, the answer is",
+    "solution": "B",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}

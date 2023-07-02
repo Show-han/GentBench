@@ -1,0 +1,7 @@
+{
+    "problem": "Q: Solve the congruence $2n \\equiv 15 \\pmod{47}$, as a residue modulo 47.  (Give an answer between 0 and 46.)\nA: The answer is",
+    "solution": "31",
+    "tags": [
+        "reasoning/domain_specific_knowledge"
+    ]
+}

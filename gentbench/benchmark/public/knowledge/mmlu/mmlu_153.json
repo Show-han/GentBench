@@ -1,0 +1,7 @@
+{
+    "problem": "What is the largest factor of 54,321 that is less than 54,321?\nA. 6\nB. 121\nC. 18107\nD. 54,320\nAmong A through D, the answer is",
+    "solution": "C",
+    "tags": [
+        "reasoning/world_knowledge"
+    ]
+}
