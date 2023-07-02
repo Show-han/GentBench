@@ -1,0 +1,7 @@
+{
+    "problem": "Answer in short: Given that $8^{-1} \\equiv 85 \\pmod{97}$, find $64^{-1} \\pmod{97}$, as a residue modulo 97.  (Give an answer between 0 and 96, inclusive.)",
+    "solution": "Since $8^{-1} \\equiv 85 \\pmod{97}$, $64^{-1} \\equiv (8^2)^{-1} \\equiv (8^{-1})^2 \\equiv 85^2 \\equiv \\boxed{47} \\pmod{97}$.",
+    "tags": [
+        "reasoning/math"
+    ]
+}
