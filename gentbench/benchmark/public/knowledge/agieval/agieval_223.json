@@ -1,7 +1,0 @@
-{
-    "problem": "Q: Two cars are travelling from the same starting point in the same direction, having started their commute at the same time. The first car travels at a steady rate of 55 mph, while the second travels at a steady rate of 52 mph. How much time will pass before the cars are 15 miles away from each other? Answer Choices: (A)3 hours (B)5 hours (C)6 hours (D)4 hours (E)7 hours\nA: Among A through E, the answer is",
-    "solution": "B",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

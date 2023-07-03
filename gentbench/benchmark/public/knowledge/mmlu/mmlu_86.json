@@ -1,7 +1,7 @@
 {
-    "problem": "Mars has an atmospheric pressure of 600 pascals. If the acceleration due to gravity on Mars is (roughly) 4 m/s2 and the surface area of Mars is about 145000000 square km what is the approximate mass of the martian atmosphere?\nA. 2.2x1011 kg\nB. 2.2x1014kg\nC. 2.2x1020kg\nD. 2.2x1016 kg\nAmong A through D, the answer is",
+    "problem": "Mr. Smith is an old man. He is very kind, so many people like him. He likes traveling. But he has a problem, he can't see clearly. One day he came to New York to visit his best friend. But his friend wasn't at home. So he had to find a hotel to live in. In the afternoon he went to buy two bottles of wine. When he came back to his room, he found a fly   was on the wall. But he thought it was a snail, so he put bottles on it. Of course, it came down to the floor and they broke. He had to buy another two bottles. The waiter in the hotel knew this, then she put a snail into the wall. When he came back, he looked up at the wall and found the fly was there again. So he walked carefully and hit it hard. At once he cried loudly. How many bottles of wine did Mr. Smith buy?\nA. one\nB. two\nC. three\nD. Four\nAmong A through D, the answer is",
     "solution": "D",
     "tags": [
-        "reasoning/world_knowledge"
+        "knowledge/world_knowledge"
     ]
 }

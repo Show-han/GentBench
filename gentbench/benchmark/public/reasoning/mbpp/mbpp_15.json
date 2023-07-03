@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to substract the contents of one tuple with corresponding index of other tuple.\n\nYour code should pass these tests:\n\nassert substract_elements((10, 4, 5), (2, 5, 18)) == (8, -1, -13)\nassert substract_elements((11, 2, 3), (24, 45 ,16)) == (-13, -43, -13)\nassert substract_elements((7, 18, 9), (10, 11, 12)) == (-3, 7, -3)\n\n",
-    "solution": "def substract_elements(test_tup1, test_tup2):\r\n  res = tuple(map(lambda i, j: i - j, test_tup1, test_tup2))\r\n  return (res) ",
-    "test": "assert substract_elements((10, 4, 5), (2, 5, 18)) == (8, -1, -13)\nassert substract_elements((11, 2, 3), (24, 45 ,16)) == (-13, -43, -13)\nassert substract_elements((7, 18, 9), (10, 11, 12)) == (-3, 7, -3)",
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the sum of fourth power of first n even natural numbers.\n\nYour code should pass these tests:\n\nassert even_Power_Sum(2) == 272\nassert even_Power_Sum(3) == 1568\nassert even_Power_Sum(4) == 5664\n\n",
+    "solution": "def even_Power_Sum(n): \r\n    sum = 0; \r\n    for i in range(1,n + 1): \r\n        j = 2*i; \r\n        sum = sum + (j*j*j*j); \r\n    return sum; ",
+    "test": "assert even_Power_Sum(2) == 272\nassert even_Power_Sum(3) == 1568\nassert even_Power_Sum(4) == 5664",
     "tags": [
         "reasoning/coding"
     ]

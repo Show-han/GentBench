@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to split a string into characters.\n\nYour code should pass these tests:\n\nassert split('python') == ['p','y','t','h','o','n']\nassert split('Name') == ['N','a','m','e']\nassert split('program') == ['p','r','o','g','r','a','m']\n\n",
-    "solution": "def split(word): \r\n    return [char for char in word] ",
-    "test": "assert split('python') == ['p','y','t','h','o','n']\nassert split('Name') == ['N','a','m','e']\nassert split('program') == ['p','r','o','g','r','a','m']",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

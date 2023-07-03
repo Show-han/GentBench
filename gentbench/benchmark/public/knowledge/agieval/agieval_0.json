@@ -1,7 +1,7 @@
 {
-    "problem": "Q: A pen company produces very fine quality of writing pens. Company knows that on average 10% of the produced pens are always defective so are rejected before packing. Company promises to deliver 7200 pens to its wholesaler at Rs. 10 each. It estimates the overall profit on all the manufactured pens to be 25%. What is the manufactured cost of each pen? Answer Choices: (A)Rs. 6 (B)Rs. 7.2 (C)Rs. 5.6 (D)Rs. 8 (E)None of these\nA: Among A through E, the answer is",
+    "problem": "问题：学习历史可以用想象的方法来“重建”历史场景。假如你生活在1913年的中国，可能会看到以下哪一情形？ 选项：(A)唐胥铁路开通 (B)街上路人互行脱帽鞠躬礼 (C)《申报》上刊登北伐的消息 (D)李大钊发表《庶民的胜利》的演说\n答案：从A到D, 我们应选择",
     "solution": "B",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

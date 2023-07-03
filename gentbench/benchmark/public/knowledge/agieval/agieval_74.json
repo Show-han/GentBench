@@ -1,7 +1,7 @@
 {
-    "problem": "Q: Determine the remainder of 194 (mod 11).\nA: The answer is",
-    "solution": "7",
+    "problem": "Q: Let $f(x)=2x-4$ and $g(x)=x^2+3$. What is $f(g(2))$?\nA: The answer is",
+    "solution": "10",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

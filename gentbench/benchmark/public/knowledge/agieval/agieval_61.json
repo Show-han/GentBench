@@ -1,7 +1,12 @@
 {
-    "problem": "Q: Let\n\\[x^8 + 3x^4 - 4 = p_1(x) p_2(x) \\dotsm p_k(x),\\]where each non-constant polynomial $p_i(x)$ is monic with integer coefficients, and cannot be factored further over the integers.  Compute $p_1(1) + p_2(1) + \\dots + p_k(1).$\nA: The answer is",
-    "solution": "10",
+    "problem": "问题：放纵制售伪劣商品犯罪行为罪的“情节严重”包括 选项：(A)放纵生产、销售假药或者有毒有害食品犯罪行为的 (B)放纵依法可能判处二年有期徒刑以上刑罚的生产、销售伪劣商品犯罪行为的 (C)对三个以上有生产、销售伪劣商品犯罪行为的单位或者个人不履行追究职责的 (D)致使国家和利益遭受重大损失或者造成恶劣影响的\n答案：从A到D, 我们应选择",
+    "solution": [
+        "A",
+        "B",
+        "C",
+        "D"
+    ],
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

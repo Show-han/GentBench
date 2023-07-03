@@ -1,7 +1,11 @@
 {
-    "problem": "Q: Which of the following points is farthest from the origin: $(1,4)$, $(3,5)$, $(-6,0)$, $(-4,-2)?$\nA: The answer is",
-    "solution": "(-6,0)",
+    "problem": "问题：以下说法正确的是: 选项：(A)合理的法律决定以合法性为前提，同时还必须追求合理性 (B)法律决定的可预测性是形式法治的要求，它的正当性是实质法治的要求 (C)法律决定的可预测性与正当性之间可能存在紧张关系，但是，法律决定的正当性具有初始的优先性 (D)法律人适用有效的法律规范解决具体案件的过程在形式上属于一个三段论的演绎推理过程\n答案：从A到D, 我们应选择",
+    "solution": [
+        "A",
+        "B",
+        "D"
+    ],
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

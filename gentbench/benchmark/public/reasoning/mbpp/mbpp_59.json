@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to convert the given tuple to a key-value dictionary using adjacent elements.\n\nYour code should pass these tests:\n\nassert tuple_to_dict((1, 5, 7, 10, 13, 5)) == {1: 5, 7: 10, 13: 5}\nassert tuple_to_dict((1, 2, 3, 4, 5, 6)) == {1: 2, 3: 4, 5: 6}\nassert tuple_to_dict((7, 8, 9, 10, 11, 12)) == {7: 8, 9: 10, 11: 12}\n\n",
-    "solution": "def tuple_to_dict(test_tup):\r\n  res = dict(test_tup[idx : idx + 2] for idx in range(0, len(test_tup), 2))\r\n  return (res) ",
-    "test": "assert tuple_to_dict((1, 5, 7, 10, 13, 5)) == {1: 5, 7: 10, 13: 5}\nassert tuple_to_dict((1, 2, 3, 4, 5, 6)) == {1: 2, 3: 4, 5: 6}\nassert tuple_to_dict((7, 8, 9, 10, 11, 12)) == {7: 8, 9: 10, 11: 12}",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

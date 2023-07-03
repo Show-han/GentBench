@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to convert the given string to lower case.\n\nYour code should pass these tests:\n\nassert is_lower(\"InValid\") == \"invalid\"\nassert is_lower(\"TruE\") == \"true\"\nassert is_lower(\"SenTenCE\") == \"sentence\"\n\n",
-    "solution": "def is_lower(string):\r\n  return (string.lower())",
-    "test": "assert is_lower(\"InValid\") == \"invalid\"\nassert is_lower(\"TruE\") == \"true\"\nassert is_lower(\"SenTenCE\") == \"sentence\"",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

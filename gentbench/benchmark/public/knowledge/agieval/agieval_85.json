@@ -1,9 +1,7 @@
 {
-    "problem": "问题：甲公司职工驾车外出办事，将车停在人行道非机动车位上，返回时发现车已经被乙公司拖走，遂赶到乙公司，乙公司要求其支付拖车费和停车费160元后，才让其将车取回。经查，乙公司是专门负责拖车业务的公司，上述费用系以乙公司名义开具发票。当日，乙公司发现该车所停位置不恰当，便自行决定将该车拖回。甲公司得知缘由后与乙公司发生纠纷o下列说法正确的是: 选项：(A)甲公司与乙公司形成事实合同关系，甲公司应支付该费用 (B)乙公司形成不当得利，应返回上述费用 (C)乙公司构成无因管理，甲公司应支付费用 (D)乙公司是执法行为，甲公司应支付上述费用\n答案：从A到D, 我们应选择",
-    "solution": [
-        "B"
-    ],
+    "problem": "According to the \"bottom-up\" theory of how ecosystems are structured, the availability of edible plants is what primarily determines an ecosystem's characteristics since it determines how many herbivores the ecosystem can support, which in turn determines how many predators it can support. This theory also holds that a reduction in the number of predators will have little impact on the rest of the ecosystem.Q: Which one of the following, if true, would provide evidence against the bottom-up theory? Answer Choices: (A)In an effort to build up the population of a rare species of monkey on Vahique Island, monkeys were bred in zoos and released into the wild. However, the effort failed because the trees on which the monkeys fed were also nearly extinct. (B)After hunting virtually eliminated predators on Rigu Island, the population of many herbivore species increased more than tenfold, causing the density of plants to be dramatically reduced. (C)After many of the trees on Jaevix Island were cleared, the island's leaf-cutter ants, which require a forested ecosystem, experienced a substantial decrease in population, as did the island's anteaters. (D)After a new species of fern was introduced to Lisdok Island, native ferns were almost eliminated. However, this did not affect the population of the herbivores that had eaten the native ferns, since they also thrived on a diet of the new fern. (E)Plants that are a dietary staple of wild pigs on Sedif Island have flourished over the last three decades, and the population of the pigs has not changed much in spite of extensive hunting.\nA: Among A through E, the answer is",
+    "solution": "B",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

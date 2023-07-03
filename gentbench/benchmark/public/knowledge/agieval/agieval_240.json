@@ -1,7 +1,0 @@
-{
-    "problem": "Q: A bag contains 11 candy bars: three cost 50 cents each, four cost $1 each and four cost $2\neach. How many ways can 3 candy bars be selected from the 11 candy bars so that the total cost is more than $4? Answer Choices: (A)8 (B)28 (C)46 (D)66 (E)70\nA: Among A through E, the answer is",
-    "solution": "C",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

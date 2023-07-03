@@ -1,7 +1,0 @@
-{
-    "problem": "Q: What is the greatest common divisor of $1313$ and $1001$?\nA: The answer is",
-    "solution": "13",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

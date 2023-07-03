@@ -1,6 +1,6 @@
 {
-    "problem": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Joe, and Amy. Eve finished below Amy. Eve finished above Joe.\nOptions:\n(A) Eve finished last\n(B) Joe finished last\n(C) Amy finished last",
-    "solution": "(B)",
+    "problem": "If you follow these instructions, do you return to the starting point? Turn around. Turn around. Take 7 steps. Take 6 steps. Take 5 steps.\nOptions:\n- Yes\n- No",
+    "solution": "No",
     "tags": [
         "reasoning/commonsense"
     ]

@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the occurence of characters 'std' in the given string 1. list item 1. list item 1. list item 2. list item 2. list item 2. list item\n\nYour code should pass these tests:\n\nassert count_occurance(\"letstdlenstdporstd\") == 3\nassert count_occurance(\"truststdsolensporsd\") == 1\nassert count_occurance(\"makestdsostdworthit\") == 2\n\n",
-    "solution": "def count_occurance(s):\r\n  count=0\r\n  for i in range(len(s)):\r\n    if (s[i]== 's' and s[i+1]=='t' and s[i+2]== 'd'):\r\n      count = count + 1\r\n  return count",
-    "test": "assert count_occurance(\"letstdlenstdporstd\") == 3\nassert count_occurance(\"truststdsolensporsd\") == 1\nassert count_occurance(\"makestdsostdworthit\") == 2",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

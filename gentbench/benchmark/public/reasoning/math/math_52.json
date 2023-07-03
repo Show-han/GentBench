@@ -1,6 +1,6 @@
 {
-    "problem": "Find the domain of the function $\\frac{x^4-4x^3+6x^2-4x+1}{x^2-4}$.",
-    "solution": "Because we cannot divide by zero, values of $x$ that make the denominator of the fraction equal to zero must be excluded from the domain. Thus, we must first find all values of $x$ that satisfy the equation $x^2-4=0$. Since this factors as $(x+2)(x-2)=0$, the only two values we need to exclude from the domain are $2$ and $-2$. This gives us the solution $x\\in\\boxed{(-\\infty,-2)\\cup(-2, 2)\\cup(2,\\infty)}$.",
+    "problem": "How many whole numbers between 99 and 999 contain exactly one 0?",
+    "solution": "Numbers with exactly one zero have the form $\\_ 0 \\_$ or $\\_ \\_ 0$, where the blanks are not zeros.  There are $(9\\cdot1\\cdot9)+(9\\cdot9\\cdot1) = 81+81 = \\boxed{162}$ such numbers.",
     "tags": [
         "reasoning/math"
     ]

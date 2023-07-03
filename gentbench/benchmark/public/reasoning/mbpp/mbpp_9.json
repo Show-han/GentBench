@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to find m number of multiples of n.\n\nYour code should pass these tests:\n\nassert multiples_of_num(4,3)== [3,6,9,12]\nassert multiples_of_num(2,5)== [5,10]\nassert multiples_of_num(9,2)== [2,4,6,8,10,12,14,16,18]\n\n",
-    "solution": "def multiples_of_num(m,n): \r\n    multiples_of_num= list(range(n,(m+1)*n, n)) \r\n    return list(multiples_of_num)",
-    "test": "assert multiples_of_num(4,3)== [3,6,9,12]\nassert multiples_of_num(2,5)== [5,10]\nassert multiples_of_num(9,2)== [2,4,6,8,10,12,14,16,18]",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the peak element in the given array.\n\nYour code should pass these tests:\n\nassert find_peak([1, 3, 20, 4, 1, 0], 6) == 2\nassert find_peak([2, 3, 4, 5, 6], 5) == 4\nassert find_peak([8, 9, 11, 12, 14, 15], 6) == 5 \n\n",
+    "solution": "def find_peak_util(arr, low, high, n): \r\n\tmid = low + (high - low)/2\r\n\tmid = int(mid) \r\n\tif ((mid == 0 or arr[mid - 1] <= arr[mid]) and\r\n\t\t(mid == n - 1 or arr[mid + 1] <= arr[mid])): \r\n\t\treturn mid \r\n\telif (mid > 0 and arr[mid - 1] > arr[mid]): \r\n\t\treturn find_peak_util(arr, low, (mid - 1), n) \r\n\telse: \r\n\t\treturn find_peak_util(arr, (mid + 1), high, n) \r\ndef find_peak(arr, n): \r\n\treturn find_peak_util(arr, 0, n - 1, n) ",
+    "test": "assert find_peak([1, 3, 20, 4, 1, 0], 6) == 2\nassert find_peak([2, 3, 4, 5, 6], 5) == 4\nassert find_peak([8, 9, 11, 12, 14, 15], 6) == 5 ",
     "tags": [
         "reasoning/coding"
     ]

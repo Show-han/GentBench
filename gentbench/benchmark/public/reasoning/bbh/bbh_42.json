@@ -1,6 +1,6 @@
 {
-    "problem": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are seven vehicles: a station wagon, a limousine, a truck, a minivan, a motorcyle, a hatchback, and a bus. The motorcyle is older than the truck. The station wagon is older than the hatchback. The motorcyle is newer than the hatchback. The bus is the second-newest. The minivan is the oldest. The limousine is older than the station wagon.\nOptions:\n(A) The station wagon is the oldest\n(B) The limousine is the oldest\n(C) The truck is the oldest\n(D) The minivan is the oldest\n(E) The motorcyle is the oldest\n(F) The hatchback is the oldest\n(G) The bus is the oldest",
-    "solution": "(D)",
+    "problem": "How would a typical person answer each of the following questions about causation?\nJanet is an employee in a factory. Since she works in the maintenance department, she knows how to grease and oil all of the machines in the factory. It is her responsibility to put oil into the machines. Kate is also an employee at the factory. While she works in the human resources department, she knows how to grease and oil all of the machines in the factory. If Janet does not put oil in the machines, it is not Kate's responsibility to do so. One day, Janet forgets to put oil in an important machine. Kate noticed that Janet did not put oil in the machine, and Kate also did not put oil in the machine. The machine broke down a few days later. Did Kate not putting oil in the machine cause it to break down?\nOptions:\n- Yes\n- No",
+    "solution": "Yes",
     "tags": [
         "reasoning/commonsense"
     ]

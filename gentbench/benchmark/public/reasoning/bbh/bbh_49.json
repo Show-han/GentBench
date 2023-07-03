@@ -1,6 +1,6 @@
 {
-    "problem": "\"Here comes a perfectly valid argument: First of all, nobody is neither a classmate of Georgia nor an ancestor of Geraldine. Next, every workmate of Regina is both a classmate of Georgia and a workmate of Carole. Plus,being an ancestor of Geraldine is necessary for not being a workmate of Carole. Therefore, everyone who is a workmate of Regina is an ancestor of Geraldine, too.\"\nIs the argument, given the explicitly stated premises, deductively valid or invalid?\nOptions:\n- valid \n- invalid",
-    "solution": "invalid",
+    "problem": "((1 * -9 - 4 + -9) + (-1 + -6 + 9 - 5)) =",
+    "solution": "-25",
     "tags": [
         "reasoning/commonsense"
     ]

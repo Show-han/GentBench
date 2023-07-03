@@ -1,6 +1,6 @@
 {
-    "problem": "A 20 person classroom is filled with 40% girls. If 5 new boys join the classroom, what is the new percentage of girls in the class?",
-    "solution": "The number of girls in the classroom is 20 * 40% = <<20*40*.01=8>>8 girls\nBefore new boys join, the number of boys in the classroom is 20 - 8 = <<20-8=12>>12 boys\nIf 5 new boys join, the new number of boys is 12+5=17 boys and the new total is 20+5=25 total people\nThe new percentage of girls in the class is 8 girls / 25 total people = 32%\n#### 32",
+    "problem": "Jasmine's teacher gives stickers for reward. She was given 15 stickers for participating in class, but she lost 7 stickers during playtime. However, her teacher gave her another 5 stickers for helping her classmates. How many stickers does she have at the end?",
+    "solution": "Jasmine had 15 stickers - 7 stickers = <<15-7=8>>8 stickers after losing 7.\nThen, she now has 8 stickers + 5 stickers = <<8+5=13>>13 stickers at the end.\n#### 13",
     "tags": [
         "reasoning/math"
     ]

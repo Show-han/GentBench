@@ -1,7 +1,0 @@
-{
-    "problem": "Editorial: It is usually desirable for people to have access to unregulated information, such as is found on the Internet. But a vast array of misinformation will always show up on the Internet, and it is difficult to determine which information is accurate. Accurate information is useless unless it can easily be distinguished from misinformation; thus, the information on the Internet should somehow be regulated.Q: Which one of the following principles, if valid, most helps to justiJY the editorial's argument? Answer Choices: (A)It is never possible to regulate misinformation without restricting people's access to accurate information. (B)Even if information is regulated, accurate information is often indistinguishable from misinfonnation. (C)Regulation of information makes it easy for people to distinguish between accurate information and misinformation. (D)It is acceptable for people to have access to a vast array of misinformation only if accurate information is never overlooked as a result (E)It is usually more desirable for people to have access to useless, unregulated misinformation than it is for them to have access only to accurate but regulated information.\nA: Among A through E, the answer is",
-    "solution": "C",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

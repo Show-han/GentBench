@@ -1,7 +1,7 @@
 {
-    "problem": "问题：公元前770年，周平王把都城迁到洛邑。这一时间也可表述为 选项：(A)公元前7世纪前期 (B)公元前7世纪后期 (C)公元前8世纪前期 (D)公元前8世纪后期\n答案：从A到D, 我们应选择",
-    "solution": "C",
+    "problem": "There are some irrationality in our legal system.In criminal law, although the motives for committing crimes are the same, the punishment for those who commit crimes is much heavier than those who attempt to commit crimes without success.However, in civil law, a person who deliberately defrauds without success is not required to pay a fine.Q: Which of the following statements is true and seriously weakens the views in the above discussion? Answer Choices: (A)People who study civil law are more likely to find work than those who study punishment, which shows that civil law is very different from criminal law. (B)Many jailed criminals will commit other crimes once released. (C)For this country, criminal trials pay a higher price than civil trials. (D)The goal of criminal law is to punish criminals, while the goal of civil law is to compensate victims.\nA: Among A through D, the answer is",
+    "solution": "D",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

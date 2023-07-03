@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to check whether the first and last characters of a given string are equal or not.\n\nYour code should pass these tests:\n\nassert check_Equality(\"abcda\") == \"Equal\"\nassert check_Equality(\"ab\") == \"Not Equal\"\nassert check_Equality(\"mad\") == \"Not Equal\"\n\n",
-    "solution": "def check_Equality(str):\r\n  if (str[0] == str[-1]):  \r\n    return (\"Equal\") \r\n  else:  \r\n    return (\"Not Equal\") ",
-    "test": "assert check_Equality(\"abcda\") == \"Equal\"\nassert check_Equality(\"ab\") == \"Not Equal\"\nassert check_Equality(\"mad\") == \"Not Equal\"",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

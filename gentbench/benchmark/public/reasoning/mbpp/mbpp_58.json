@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to remove even characters in a string.\n\nYour code should pass these tests:\n\nassert remove_even(\"python\")==(\"pto\")\nassert remove_even(\"program\")==(\"porm\")\nassert remove_even(\"language\")==(\"lnug\")\n\n",
-    "solution": "def remove_even(str1):\r\n str2 = ''\r\n for i in range(1, len(str1) + 1):\r\n    if(i % 2 != 0):\r\n        str2 = str2 + str1[i - 1]\r\n return str2",
-    "test": "assert remove_even(\"python\")==(\"pto\")\nassert remove_even(\"program\")==(\"porm\")\nassert remove_even(\"language\")==(\"lnug\")",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

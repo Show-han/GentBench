@@ -1,6 +1,6 @@
 {
-    "problem": "Kekai's family is having a garage sale. Kekai sells 5 shirts and 5 pairs of pants. Each shirt sells for $1, and each pair of pants sells for $3. If Kekai gives his parents half of the money he earns from selling his clothes, how much money does Kekai have left?",
-    "solution": "From selling his shirts, Kekai makes 5 * $1 = $<<5*1=5>>5\nFrom selling his pants, Kekai makes 5 * $3 = $<<5*3=15>>15\nThe total amount of money Kekai earns is $5 + $15 = $<<5+15=20>>20\nSince Kekai gives half of the money to his parents, he has $20 / 2 = $<<20/2=10>>10 left\n#### 10",
+    "problem": "Max needs 65 paper plates for the barbecue party.  He already has 22 green paper plates and 24 blue paper plates. How many more paper plates does he need?",
+    "solution": "He already has a total of 22 + 24 = <<22+24=46>>46 paper plates.\nTherefore, Max needs 65 - 46 = <<65-46=19>>19 more paper plates.\n#### 19",
     "tags": [
         "reasoning/math"
     ]

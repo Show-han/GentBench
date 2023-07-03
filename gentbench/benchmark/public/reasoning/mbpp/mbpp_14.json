@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to check for the number of jumps required of given length to reach a point of form (d, 0) from origin in a 2d plane.\n\nYour code should pass these tests:\n\nassert min_Jumps(3,4,11)==3.5\nassert min_Jumps(3,4,0)==0\nassert min_Jumps(11,14,11)==1\n\n",
-    "solution": "def min_Jumps(a, b, d): \r\n    temp = a \r\n    a = min(a, b) \r\n    b = max(temp, b) \r\n    if (d >= b): \r\n        return (d + b - 1) / b \r\n    if (d == 0): \r\n        return 0\r\n    if (d == a): \r\n        return 1\r\n    else:\r\n        return 2",
-    "test": "assert min_Jumps(3,4,11)==3.5\nassert min_Jumps(3,4,0)==0\nassert min_Jumps(11,14,11)==1",
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the length of the shortest word.\n\nYour code should pass these tests:\n\nassert len_log([\"win\",\"lose\",\"great\"]) == 3\nassert len_log([\"a\",\"ab\",\"abc\"]) == 1\nassert len_log([\"12\",\"12\",\"1234\"]) == 2\n\n",
+    "solution": "def len_log(list1):\r\n    min=len(list1[0])\r\n    for i in list1:\r\n        if len(i)<min:\r\n            min=len(i)\r\n    return min",
+    "test": "assert len_log([\"win\",\"lose\",\"great\"]) == 3\nassert len_log([\"a\",\"ab\",\"abc\"]) == 1\nassert len_log([\"12\",\"12\",\"1234\"]) == 2",
     "tags": [
         "reasoning/coding"
     ]

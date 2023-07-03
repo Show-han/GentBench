@@ -1,7 +1,7 @@
 {
-    "problem": "There are 6 warehouses in a warehouse, in order from 1 to 6.There are 6 kinds of goods F, G, L, M, P, T.Each warehouse stores exactly one of 6 kinds of goods, and different kinds of goods cannot be stored in the same warehouse.The following conditions must also be met when storing goods? (1) The warehouse number for storing G is larger than the warehouse number for storing L.(2) The warehouse number storing L is larger than the warehouse number storing T.(3) The warehouse number storing P is larger than the warehouse number storing F.(4) The warehouse storing T is next to the warehouse storing P.Q: Which of the following goods cannot be stored in warehouse No.4? Answer Choices: (A)L (B)G (C)M (D)P\nA: Among A through D, the answer is",
+    "problem": "近年来我国房价快速攀升。2004年第四季度政府各部门出台多项措施，以压制房价的过快增长，但2005 年第一季度全国房价仍逆势上扬。有人断言：地价上涨是房价猛涨的罪魁。问题：以下哪项如果为真，最能对断言提出质疑？ 选项：(A)2005 年第一季度上海房价比去年同期增长19.1% ，地价上升了6.53% 。 (B)2005 年第一季度北京住宅价格比去年同期增长7.2%，住宅用地价格上涨了0.37% 。 (C)华远地产董事长认为，随着土地开发成本的提高，房价一定会增加。 (D)永泰开发公司董事长说：“房价的暴涨是因为供应量没有跟上需求。”\n答案：从A到D, 我们应选择",
     "solution": "B",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to remove the parenthesis area in a string.\n\nYour code should pass these tests:\n\nassert remove_parenthesis([\"python (chrome)\"])==(\"python\")\nassert remove_parenthesis([\"string(.abc)\"])==(\"string\")\nassert remove_parenthesis([\"alpha(num)\"])==(\"alpha\")\n\n",
-    "solution": "import re\r\ndef remove_parenthesis(items):\r\n for item in items:\r\n    return (re.sub(r\" ?\\([^)]+\\)\", \"\", item))",
-    "test": "assert remove_parenthesis([\"python (chrome)\"])==(\"python\")\nassert remove_parenthesis([\"string(.abc)\"])==(\"string\")\nassert remove_parenthesis([\"alpha(num)\"])==(\"alpha\")",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to remove lowercase substrings from a given string.\n\nYour code should pass these tests:\n\nassert remove_lowercase(\"PYTHon\")==('PYTH')\nassert remove_lowercase(\"FInD\")==('FID')\nassert remove_lowercase(\"STRinG\")==('STRG')\n\n",
+    "solution": "import re\r\ndef remove_lowercase(str1):\r\n remove_lower = lambda text: re.sub('[a-z]', '', text)\r\n result =  remove_lower(str1)\r\n return result",
+    "test": "assert remove_lowercase(\"PYTHon\")==('PYTH')\nassert remove_lowercase(\"FInD\")==('FID')\nassert remove_lowercase(\"STRinG\")==('STRG')",
     "tags": [
         "reasoning/coding"
     ]

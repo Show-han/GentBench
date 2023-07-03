@@ -1,6 +1,6 @@
 {
-    "problem": "Suppose the graph of $y=f(x)$ includes the points $(1,5),$ $(2,3),$ and $(3,1)$.\n\nBased only on this information, there are two points that must be on the graph of $y=f(f(x))$. If we call those points $(a,b)$ and $(c,d),$ what is $ab+cd$?",
-    "solution": "We know that $f(1)=5,$ $f(2)=3,$ and $f(3)=1$.\n\nTherefore, $f(f(2))=f(3)=1$ and $f(f(3))=f(1)=5$.\n\nThis tells us that the graph of $y=f(f(x))$ passes through $(2,1)$ and $(3,5)$, and the desired expression is $(2)(1)+(3)(5)=\\boxed{17}$.",
+    "problem": "Given that the point $(9,7)$ is on the graph of $y=f(x)$, there is one point that must be on the graph of $2y=\\frac{f(2x)}2+2$. What is the sum of coordinates of that point?",
+    "solution": "Since $(9,7)$ is on the graph of $y=f(x)$, we know  \\[7=f(9).\\]If we substitute $x=\\frac92$ into $2y=\\frac{f(2x)}2+2$ we get  \\[2y=\\frac{f(2\\cdot9/2)}2+2=\\frac72+2=\\frac{11}2.\\]Therefore $(x,y)=\\left(\\frac92,\\frac{11}4\\right)$ is on the graph of  \\[2y=\\frac{f(2x)}2+2.\\]The sum of these coordinates is  \\[\\frac92+\\frac{11}4=\\boxed{\\frac{29}4}.\\]",
     "tags": [
         "reasoning/math"
     ]

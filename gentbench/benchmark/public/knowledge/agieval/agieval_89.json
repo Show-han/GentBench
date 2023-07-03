@@ -1,7 +1,12 @@
 {
-    "problem": "Q: Compute $$1\\cdot 2^2+2\\cdot 3^2+3\\cdot4^2+\\cdots+19\\cdot 20^2.$$\nA: The answer is",
-    "solution": "41230",
+    "problem": "问题：英国是普通法系的发源地。下列关于英国普通法和衡平法的哪些表述是正确的? 选项：(A)普通法具有“程序先于权利”的特点 (B)普通法的形成是中央集权和司法统一的直接后果 (C)衡平法重实质而轻形式，审判时既不需要令状也不采用陪审制，程序简便灵活 (D)当衡平法与普通法的规则发生冲突时，衡平法优先\n答案：从A到D, 我们应选择",
+    "solution": [
+        "A",
+        "B",
+        "C",
+        "D"
+    ],
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

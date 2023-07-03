@@ -1,7 +1,0 @@
-{
-    "problem": "Janet has 9 cards more than Brenda. Mara has twice as many cards as Janet. How many cards do they have in all if Mara has 40 cards less than 150?",
-    "solution": "Mara has 150 - 40 = <<150-40=110>>110 cards.\nJanet has 110/2 = <<110/2=55>>55 cards since Mara has twice as many as Janet.\nBrenda has 55 - 9 = <<55-9=46>>46 cards since Janet has 9 cards more than Brenda.\nTherefore, they all have 110 + 55 + 46 = <<110+55+46=211>>211 cards.\n#### 211",
-    "tags": [
-        "reasoning/math"
-    ]
-}

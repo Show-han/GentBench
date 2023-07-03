@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to get the word with most number of occurrences in the given strings list.\n\nYour code should pass these tests:\n\nassert most_occurrences([\"UTS is best for RTF\", \"RTF love UTS\", \"UTS is best\"] ) == 'UTS'\nassert most_occurrences([\"Its been a great year\", \"this year is so worse\", \"this year is okay\"] ) == 'year'\nassert most_occurrences([\"Families can be reunited\", \"people can be reunited\", \"Tasks can be achieved \"] ) == 'can'\n\n",
-    "solution": "from collections import defaultdict \r\n\r\ndef most_occurrences(test_list):\r\n  temp = defaultdict(int)\r\n  for sub in test_list:\r\n    for wrd in sub.split():\r\n      temp[wrd] += 1\r\n  res = max(temp, key=temp.get)\r\n  return (str(res)) ",
-    "test": "assert most_occurrences([\"UTS is best for RTF\", \"RTF love UTS\", \"UTS is best\"] ) == 'UTS'\nassert most_occurrences([\"Its been a great year\", \"this year is so worse\", \"this year is okay\"] ) == 'year'\nassert most_occurrences([\"Families can be reunited\", \"people can be reunited\", \"Tasks can be achieved \"] ) == 'can'",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the perimeter of a pentagon.\n\nYour code should pass these tests:\n\nassert perimeter_pentagon(5)==25\nassert perimeter_pentagon(10)==50\nassert perimeter_pentagon(15)==75\n\n",
+    "solution": "import math\r\ndef perimeter_pentagon(a):\r\n  perimeter=(5*a)\r\n  return perimeter",
+    "test": "assert perimeter_pentagon(5)==25\nassert perimeter_pentagon(10)==50\nassert perimeter_pentagon(15)==75",
     "tags": [
         "reasoning/coding"
     ]

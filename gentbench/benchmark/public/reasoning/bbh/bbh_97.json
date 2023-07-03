@@ -1,6 +1,6 @@
 {
-    "problem": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are seven books: a brown book, a gray book, an orange book, a green book, a black book, a purple book, and a yellow book. The purple book is the leftmost. The brown book is to the right of the yellow book. The green book is to the left of the orange book. The orange book is to the left of the gray book. The black book is the third from the left. The green book is the third from the right.\nOptions:\n(A) The brown book is the second from the left\n(B) The gray book is the second from the left\n(C) The orange book is the second from the left\n(D) The green book is the second from the left\n(E) The black book is the second from the left\n(F) The purple book is the second from the left\n(G) The yellow book is the second from the left",
-    "solution": "(G)",
+    "problem": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a green present, and Claire has a purple present.\nAs the event progresses, pairs of people swap gifts. First, Bob and Alice swap their gifts. Then, Claire and Alice swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) yellow present\n(B) green present\n(C) purple present",
+    "solution": "(B)",
     "tags": [
         "reasoning/commonsense"
     ]

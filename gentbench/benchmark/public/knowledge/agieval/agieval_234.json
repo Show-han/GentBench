@@ -1,7 +1,0 @@
-{
-    "problem": "Economist:Some sociologists argue that because capitalism intrinsically involves competition, it weakens the ties between the people of a community. Although this may formerly have been true, modern capitalism requires that there be large corporations. Thus, modern capitalism promotes, rather than weakens, communal ties.Q: Which one of the following is an assumption on which the economist's argument depends? Answer Choices: (A)Few economic systems are more successful than modern capitalism in fostering communal ties between citizens. (B)Modern capitalism is designed primarily to distribute goods and services, not to create communal ties between people. (C)Corporations that compete with each other must develop some ties to each other in order to reach agreement on the rules of the competition. (D)Having large corporations in a modern capitalist system promotes the strength of communal ties. (E)An economic system that does not encourage large corporations will be less successful economically than one that does.\nA: Among A through E, the answer is",
-    "solution": "D",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

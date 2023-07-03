@@ -1,7 +1,7 @@
 {
-    "problem": "A number $x$ equals $2^{15}\\cdot3^6$. What number's cube equals $x$?\nA. 288\nB. 27\nC. 125\nD. 121\nAmong A through D, the answer is",
-    "solution": "A",
+    "problem": "How do you get to school? Do you walk or take a bus? You could try a new way to go around Ningbo City from May, 2014. That is Ningbo Rail Transit. It is about 247.5 kilometers in all. The Line 1(1) started construction  in June, 2009 and people could take the first half of Line 1 in May,2014. It is between Gaoqiao and Ningbo East New Town. And the second half opened in 2015. There are also other five lines to connect   Haishu, Jiangdong, Jiangbei, Beilun and Yinzhou after Line1. The logo of Ningbo Rail Transit is a dynamic  \"Yong\". It is another name for Ningbo. It says the traffic in Ningbo is active and fast. And the color of the logo is blue because Ningbo is a sea city. On the wall of six rail transit stops, there are a lot of beautiful pictures. They are about Ningbo culture. For example, at the Ximenkou Stop, it paints Tianyige Museum and many books. And it draws Moon Lake on the wall of Drum-tower Stop. All these pictures tell people the history of Ningbo. There are   _   lines in all in Ningbo?\nA. 1\nB. 2\nC. 5\nD. 6\nAmong A through D, the answer is",
+    "solution": "D",
     "tags": [
-        "reasoning/world_knowledge"
+        "knowledge/world_knowledge"
     ]
 }

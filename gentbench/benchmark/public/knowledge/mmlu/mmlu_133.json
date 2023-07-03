@@ -1,7 +1,0 @@
-{
-    "problem": "What do you call three consecutive strikes in bowling?\nA. yahtzee\nB. mulligan\nC. turkey\nD. ace\nAmong A through D, the answer is",
-    "solution": "C",
-    "tags": [
-        "reasoning/world_knowledge"
-    ]
-}

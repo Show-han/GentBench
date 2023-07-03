@@ -1,7 +1,7 @@
 {
-    "problem": "Q: What is the remainder when $5^{30}$ is divided by 7?\nA: The answer is",
-    "solution": "1",
+    "problem": " 青海湖的湟鱼是味道鲜美的鱼，近年来由于自然环境的恶化和人的过度捕捞，数量大为减少，成了珍稀动物。凡是珍稀动物都是需要保护的动物。问题：如果以上陈述为真，以下陈述都必然为真，除了 选项：(A)有些珍稀动物是味道鲜美的鱼。    　 (B)有些需要保护的动物不是青海湖的湟鱼。 (C)有些味道鲜美的鱼是需要保护的动物。 (D)所有不需要保护的动物都不是青海湖的湟鱼。\n答案：从A到D, 我们应选择",
+    "solution": "B",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

@@ -1,7 +1,7 @@
 {
-    "problem": "Q: Find the reflection of $\\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix}$ over the vector $\\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}.$\nA: The answer is",
-    "solution": "\\begin{pmatrix} 6/5 \\\\ -17/5 \\end{pmatrix}",
+    "problem": "Wildlife Conservation Organization? There is no killing without trading; without killing, people and nature can live in harmony.Q: If the above statement is true, which of the following statements must be true? Answer Choices: (A)As long as there is killing, there must be business. (B)As long as trading is prohibited, people and nature will live in harmony. (C)Only when trading is prohibited, people and nature will live in harmony. (D)The reason why man and nature cannot get along in harmony is because of the existence of killing.\nA: Among A through D, the answer is",
+    "solution": "A",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

@@ -1,6 +1,6 @@
 {
-    "problem": "Sort the following words alphabetically: List: breezy germinal biplane canada nutrient archipelago peloponnese thigh conspiracy constructor accrue dobbin lost hamburger insubstantial malleable ted laramie",
-    "solution": "accrue archipelago biplane breezy canada conspiracy constructor dobbin germinal hamburger insubstantial laramie lost malleable nutrient peloponnese ted thigh",
+    "problem": "\"Here comes a perfectly valid argument: First, being a rare consumer of Nubian Heritage soap is necessary for being an owner of a Lever soap. Second, being an infrequent user of American Crew shampoo is sufficient for being a rare consumer of Nubian Heritage soap. In consequence, every infrequent user of American Crew shampoo is an owner of a Lever soap.\"\nIs the argument, given the explicitly stated premises, deductively valid or invalid?\nOptions:\n- valid \n- invalid",
+    "solution": "invalid",
     "tags": [
         "reasoning/commonsense"
     ]

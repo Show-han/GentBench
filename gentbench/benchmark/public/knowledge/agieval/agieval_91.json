@@ -1,7 +1,7 @@
 {
-    "problem": "Q: What is the value of $$\\left( \\sqrt{100} - \\sqrt{36} \\right)^2?$$\nA: The answer is",
-    "solution": "16",
+    "problem": "Q: Which of the following expressions is equivalent to $\\frac{x^{2}-2 x-5}{x-3} ?$ Answer Choices: (A)$x-5-\\frac{20}{x-3}$ (B)$x-5-\\frac{10}{x-3}$ (C)$x+1-\\frac{8}{x-3}$ (D)$x+1-\\frac{2}{x-3}$\nA: Among A through D, the answer is",
+    "solution": "D",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

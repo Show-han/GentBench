@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to rotate a given list by specified number of items to the right direction.\n\nYour code should pass these tests:\n\nassert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],3,4)==[8, 9, 10, 1, 2, 3, 4, 5, 6]\nassert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],2,2)==[9, 10, 1, 2, 3, 4, 5, 6, 7, 8]\nassert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],5,2)==[6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8]\n\n",
-    "solution": "def rotate_right(list1,m,n):\r\n  result =  list1[-(m):]+list1[:-(n)]\r\n  return result",
-    "test": "assert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],3,4)==[8, 9, 10, 1, 2, 3, 4, 5, 6]\nassert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],2,2)==[9, 10, 1, 2, 3, 4, 5, 6, 7, 8]\nassert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],5,2)==[6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8]",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the square root of a perfect number.\n\nYour code should pass these tests:\n\nassert sqrt_root(4)==2\nassert sqrt_root(16)==4\nassert sqrt_root(400)==20\n\n",
+    "solution": "import math\r\ndef sqrt_root(num):\r\n sqrt_root = math.pow(num, 0.5)\r\n return sqrt_root ",
+    "test": "assert sqrt_root(4)==2\nassert sqrt_root(16)==4\nassert sqrt_root(400)==20",
     "tags": [
         "reasoning/coding"
     ]

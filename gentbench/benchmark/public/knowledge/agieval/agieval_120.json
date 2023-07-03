@@ -1,7 +1,0 @@
-{
-    "problem": "In 2005, an environmental group conducted a study measuring the levels of toxic—chemicals in the bodies of eleven volunteers. Scientifically valid inferences could not be drawn from the study because of the small sample size, but the results were interesting nonetheless. Among the subjects tested, younger subjects showed much lower levels of PCBs-toxic chemicals that were banned in the 1970s. This proves that the regulation banning PCBs was effective in reducing human exposure to those chemicals.Q: The reasoning in the argument is most vulnerable to criticism on the grounds that the argument Answer Choices: (A)takes an inconsistent stance regarding the status of the inferences that can be drawn from the study (B)overlooks the possibility that two or more chemicals produce the same effects (C)concludes that a generalization has been proven true merely on the grounds that it has not been proven false (D)takes something to be the cause of a reduction when it could have been an effect of that reduction (E)does not consider the possibility that PCBs have detrimental effects on human health several years after exposure\nA: Among A through E, the answer is",
-    "solution": "A",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

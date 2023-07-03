@@ -1,6 +1,6 @@
 {
-    "problem": "Kim's dad would buy her 2 candy bars a week.  She would eat 1 candy bar every 4 weeks, saving the rest.  After 16 weeks, how many candy bars did Kim have saved?",
-    "solution": "Kim got 2 candy bars a week for 16 weeks so she got 2*16 = <<2*16=32>>32 candy bars\nShe would only eat 1 candy bar every 4 weeks so in 16 weeks she only ate 16/4 = <<16/4=4>>4 candy bars\nShe saved 32 candy bars and only ate 4 so she still has 32-4 = <<32-4=28>>28 candy bars\n#### 28",
+    "problem": "Gumball was counting his water intake for the previous week. He checked his list and saw that he had drank 60 liters of water for the week. He drank nine liters of water on Monday, Thursday and Saturday and 8 liters of water on Tuesday, Friday and Sunday. Unfortunately, no data was input on Wednesday. How many liters of water did he drink on Wednesday?",
+    "solution": "Gumball's total water intake on Monday, Thursday, and Saturday is 9 x 3 = <<9*3=27>>27 liters.\nAnd his total water intake on Tuesday, Friday, and Sunday is 8 x 3 = <<8*3=24>>24 liters.\nSo his total water intake for 6 days is 24 + 27 = <<24+27=51>>51 liters.\nTherefore Gumball's water intake on Wednesday is 60 - 51 = <<60-51=9>>9 liters.\n#### 9",
     "tags": [
         "reasoning/math"
     ]

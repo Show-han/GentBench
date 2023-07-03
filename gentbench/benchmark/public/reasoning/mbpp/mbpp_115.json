@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to set the right most unset bit.\n\nYour code should pass these tests:\n\nassert set_Right_most_Unset_Bit(21) == 23\nassert set_Right_most_Unset_Bit(11) == 15\nassert set_Right_most_Unset_Bit(15) == 15\n\n",
-    "solution": "import math \r\ndef get_Pos_Of_Right_most_Set_Bit(n): \r\n    return int(math.log2(n&-n)+1)   \r\ndef set_Right_most_Unset_Bit(n): \r\n    if (n == 0): \r\n        return 1\r\n    if ((n & (n + 1)) == 0):     \r\n        return n \r\n    pos = get_Pos_Of_Right_most_Set_Bit(~n)      \r\n    return ((1 << (pos - 1)) | n) ",
-    "test": "assert set_Right_most_Unset_Bit(21) == 23\nassert set_Right_most_Unset_Bit(11) == 15\nassert set_Right_most_Unset_Bit(15) == 15",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

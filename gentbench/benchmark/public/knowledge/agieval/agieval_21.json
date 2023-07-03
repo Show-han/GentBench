@@ -1,7 +1,11 @@
 {
-    "problem": "When inflation or economic overheating occurs in a country, the government often adopts tight monetary policies such as tightening monetary policy, raising interest rates, and increasing discount rates.However, in 1990, the Japanese government continued to increase the discount rate in order to suppress the excessive stock market and real estate bubbles, and finally caused deflation, which caused the Japanese economy to stagnate for more than a decade.From 1995 to 1996, the Central Bank of Thailand continued to tighten the monetary policy to suppress asset price bubbles, continue to raise interest rates, and suppressed investment and consumption, which led to a major economic recession.Q: Which of the following statements is most suitable as the conclusion of the above discussion? Answer Choices: (A)Increasing bank deposit interest rates can suppress inflation. (B)Tight monetary policy may lead to economic decline. (C)Economic development is cyclical. (D)Using monetary policy can control economic development\nA: Among A through D, the answer is",
-    "solution": "B",
+    "problem": "问题：重复保险是指投保人对分别向两个以上保险人订立保险合同的保险。 选项：(A)同一保险责任 (B)同一保险利益 (C)同一保险标的 (D)同一保险事故\n答案：从A到D, 我们应选择",
+    "solution": [
+        "B",
+        "C",
+        "D"
+    ],
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

@@ -1,6 +1,6 @@
 {
-    "problem": "Sort the following words alphabetically: List: coypu anharmonic inflammation beauteous",
-    "solution": "anharmonic beauteous coypu inflammation",
+    "problem": "((0 + 3 * 4 * 9) - (4 - -5 + -4 - 4)) =",
+    "solution": "107",
     "tags": [
         "reasoning/commonsense"
     ]

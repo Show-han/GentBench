@@ -1,7 +1,0 @@
-{
-    "problem": "At an upcoming exhibition, four art students—Franz, Greene, Hidalgo, and Isaacs—will each display exactly two paintings—an oil and a watercolor. Exactly two paintings will be displayed on each of the walls of the exhibition room—walls 1, 2, 3, and 4—with one painting in the upper position and one in the lower position. The following conditions will apply: No wall has only watercolors displayed on it. No wall has the work of only one student displayed on it. No wall has both a painting by Franz and a painting by Isaacs displayed on it. Greene's watercolor is displayed in the upper position of the wall on which Franz's oil is displayed. Isaacs's oil is displayed in the lower position of wall 4.Q: If Isaacs's watercolor is displayed on wall 2 and Franz's oil is displayed on wall 3, which one of the following must be displayed on wall 1? Answer Choices: (A)Franz's watercolor (B)Greene's oil (C)Greene's watercolor (D)Hidalgo's oil (E)Hidalgo's watercolor\nA: Among A through E, the answer is",
-    "solution": "A",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

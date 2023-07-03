@@ -1,6 +1,6 @@
 {
-    "problem": "Roosevelt High school plays a basketball tournament with Greendale High school. Roosevelt high school scores 30 points in the first game, half as much in the second game, and triple as much as the second game in the third game. At the end of the tournament, Roosevelt high school receives 50 bonus points and Greendale high school has 10 points less than Roosevelt high school. How many points does Greendale high school have?",
-    "solution": "The points Roosevelt high school has for the second game are 30/2=<<30/2=15>>15 points.\nThe points Roosevelt high school has for the third game are 15*3=<<15*3=45>>45 points.\nThe total points Roosevelt high school has for the tournament are 30+15+45+50=<<30+15+45+50=140>>140 points.\nThe total points Greendale high school has for the tournament are 140-10=<<140-10=130>>130 points.\n#### 130",
+    "problem": "Jordan has a new hit song on Spotify. 3 months are left in the year, and she currently has 60,000 listens. If the number of listens per month doubles, how many listens will the song have by the end of the year?",
+    "solution": "In the first month, the song will have 60,000 * 2 = <<60000*2=120000>>120,000 listens.\nIn the second month, the song will have 120000 * 2 = <<120000*2=240000>>240,000 listens.\nIn the third month, the song will have 240000 * 2 = <<240000*2=480000>>480,000 listens.\nBy the end of the year Jordan's song will have a total of 60,000 + 120,000 + 240,000 + 480,000 = <<60000+120000+240000+480000=900000>>900,000 listens.\n#### 900000",
     "tags": [
         "reasoning/math"
     ]

@@ -1,6 +1,6 @@
 {
-    "problem": "Noah, who loves his Grammy, calls her every week to talk about his day. If each call lasts 30 minutes and he is charged $0.05 per call minute, how much would he be billed if he makes the calls for a year?",
-    "solution": "A year has 52 weeks, so if he talks for 30 minutes every week, the total number of call hours is 52*30 = <<52*30=1560>>1560 minutes.\nSince he is charged 0.05 cents per call, the total cost is 1560*.05 = <<1560*.05=78>>78 dollars\n#### 78",
+    "problem": "Hammond carves life-sized statues out of marble. His latest set of four statues started with an 80-pound block of marble. The first statue he carved weighed 10 pounds. The second statue weighed 18. The remaining two statues weighed the same amount. The marble he discarded after carving it off the statues weighed 22 pounds. How much did each of the remaining statues Hammond carved weigh?",
+    "solution": "Hammond\u2019s statues weighed 80 - 22 = <<80-22=58>>58 pounds after the discarded marble was carved off.\nMinus the first statue, the statues weighed 58 - 10 = <<58-10=48>>48 pounds.\nMinus the second statue, the statues weighed 48 - 18 = <<48-18=30>>30 pounds.\nThe remaining two statues weighed the same amount, so each weighed 30 / 2 = <<30/2=15>>15 pounds.\n#### 15",
     "tags": [
         "reasoning/math"
     ]

@@ -1,7 +1,0 @@
-{
-    "problem": "问题：设集合 $A=\\{1,2\\}, B=\\{2,4,6\\}$, 则 $A \\cup B=(\\qquad)$\\\\\n 选项：(A)$\\{2\\}$ (B)$\\{1,2\\}$ (C)$\\{2,4,6\\}$ (D)$\\{1,2,4,6\\}$\n答案：从A到D, 我们应选择",
-    "solution": "B",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to get an item of a tuple.\n\nYour code should pass these tests:\n\nassert get_item((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),3)==('e')\nassert get_item((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),-4)==('u')\nassert get_item((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),-3)==('r')\n\n",
-    "solution": "def get_item(tup1,index):\r\n  item = tup1[index]\r\n  return item",
-    "test": "assert get_item((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),3)==('e')\nassert get_item((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),-4)==('u')\nassert get_item((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),-3)==('r')",
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the element occurring odd number of times.\n\nYour code should pass these tests:\n\nassert get_Odd_Occurrence([1,2,3,1,2,3,1],7) == 1\nassert get_Odd_Occurrence([1,2,3,2,3,1,3],7) == 3\nassert get_Odd_Occurrence([2,3,5,4,5,2,4,3,5,2,4,4,2],13) == 5\n\n",
+    "solution": "def get_Odd_Occurrence(arr,arr_size):   \r\n    for i in range(0,arr_size): \r\n        count = 0\r\n        for j in range(0,arr_size): \r\n            if arr[i] == arr[j]: \r\n                count+=1     \r\n        if (count % 2 != 0): \r\n            return arr[i]     \r\n    return -1",
+    "test": "assert get_Odd_Occurrence([1,2,3,1,2,3,1],7) == 1\nassert get_Odd_Occurrence([1,2,3,2,3,1,3],7) == 3\nassert get_Odd_Occurrence([2,3,5,4,5,2,4,3,5,2,4,4,2],13) == 5",
     "tags": [
         "reasoning/coding"
     ]

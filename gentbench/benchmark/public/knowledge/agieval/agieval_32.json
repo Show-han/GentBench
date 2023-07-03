@@ -1,7 +1,7 @@
 {
-    "problem": " 第二次世界大战时，美英空军对德国展开大轰炸，自身也损失惨重。专家们发现，所有返回的飞机腹部都遍布弹痕，但机翼却完好无损。他们由此推断：机腹非常容易受到炮火攻击，应该改进机腹的防护。后来证实，这些专家推断时受到“幸存者偏差”的影响，因为实际情况是：被击中机翼的飞机都坠落了，而仅被击中机腹的飞机大都返航了。问题：以下各项陈述都有类似的“幸存者偏差”，除了 选项：(A)美女、帅哥在职场竞争中有很大优势，他们容易获得高薪职位。 (B)读大学期间就退学创业容易获得成功，例如，比尔·盖茨就是如此。 (C) 抽烟或许有利于健康长寿，例如邓小平、黄永玉都是老烟民，但都很长寿。 (D)在样本足够大的随机抽样调查中发现，在中国，受众最多的电视节目是“新闻联播”。\n答案：从A到D, 我们应选择",
+    "problem": "A study shows that eating celery helps to suppress aggressive emotions.151 women were surveyed.Of the women who said they often eat celery, 95% said they rarely have aggressive feelings or are irritated.Among women who do not eat celery often, 53% report that they often have anxiety, anger and combative emotions.Q: The following statements all weaken the conclusions above, except Answer Choices: (A)Those women who often eat celery pay more attention to fitness, and fitness consumes a lot of physical energy, is very tired, and suppresses the aggressive mood. (B)Female interviewees are susceptible to hints and are more willing to cooperate.They will cooperate with researchers intentionally or unintentionally to answer questions in the direction they want. (C)Like the effect of placebo, eating celery will suppress the aggressive mood, which stimulated a series of psychological and mental activities of female respondents and made them feel less aggressive. (D)Celery has the effects of calming the liver, clearing away heat, removing annoyance and reducing swelling, detoxifying the lungs, strengthening the stomach and blood, lowering blood pressure, and brain sedation.\nA: Among A through D, the answer is",
     "solution": "D",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

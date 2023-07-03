@@ -1,7 +1,0 @@
-{
-    "problem": "Q: A sphere is inscribed inside a hemisphere of radius 2.  What is the volume of this sphere?\nA: The answer is",
-    "solution": "\\frac{4}{3}\\pi",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the maximum element in a sorted and rotated array.\n\nYour code should pass these tests:\n\nassert find_Max([2,3,5,6,9],0,4) == 9\nassert find_Max([3,4,5,2,1],0,4) == 5\nassert find_Max([1,2,3],0,2) == 3\n\n",
-    "solution": "def find_Max(arr,low,high): \r\n    if (high < low): \r\n        return arr[0] \r\n    if (high == low): \r\n        return arr[low] \r\n    mid = low + (high - low) // 2 \r\n    if (mid < high and arr[mid + 1] < arr[mid]): \r\n        return arr[mid] \r\n    if (mid > low and arr[mid] < arr[mid - 1]): \r\n        return arr[mid - 1]  \r\n    if (arr[low] > arr[mid]): \r\n        return find_Max(arr,low,mid - 1) \r\n    else: \r\n        return find_Max(arr,mid + 1,high) ",
-    "test": "assert find_Max([2,3,5,6,9],0,4) == 9\nassert find_Max([3,4,5,2,1],0,4) == 5\nassert find_Max([1,2,3],0,2) == 3",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the top or bottom surface area of a cylinder.\n\nYour code should pass these tests:\n\nassert topbottom_surfacearea(10)==314.15000000000003\nassert topbottom_surfacearea(5)==78.53750000000001\nassert topbottom_surfacearea(4)==50.264\n\n",
+    "solution": "def topbottom_surfacearea(r):\r\n  toporbottomarea=3.1415*r*r\r\n  return toporbottomarea",
+    "test": "assert topbottom_surfacearea(10)==314.15000000000003\nassert topbottom_surfacearea(5)==78.53750000000001\nassert topbottom_surfacearea(4)==50.264",
     "tags": [
         "reasoning/coding"
     ]

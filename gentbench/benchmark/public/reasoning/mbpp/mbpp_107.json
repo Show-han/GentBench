@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to check if a string represents an integer or not.\n\nYour code should pass these tests:\n\nassert check_integer(\"python\")==False\nassert check_integer(\"1\")==True\nassert check_integer(\"12345\")==True\n\n",
-    "solution": "def check_integer(text):\r\n text = text.strip()\r\n if len(text) < 1:\r\n    return None\r\n else:\r\n     if all(text[i] in \"0123456789\" for i in range(len(text))):\r\n          return True\r\n     elif (text[0] in \"+-\") and \\\r\n         all(text[i] in \"0123456789\" for i in range(1,len(text))):\r\n         return True\r\n     else:\r\n        return False",
-    "test": "assert check_integer(\"python\")==False\nassert check_integer(\"1\")==True\nassert check_integer(\"12345\")==True",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

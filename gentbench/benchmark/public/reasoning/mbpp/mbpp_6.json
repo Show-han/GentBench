@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to check whether an array contains only one distinct element or not.\n\nYour code should pass these tests:\n\nassert unique_Element([1,1,1],3) == 'YES'\nassert unique_Element([1,2,1,2],4) == 'NO'\nassert unique_Element([1,2,3,4,5],5) == 'NO'\n\n",
-    "solution": "def unique_Element(arr,n):\r\n    s = set(arr)\r\n    if (len(s) == 1):\r\n        return ('YES')\r\n    else:\r\n        return ('NO')",
-    "test": "assert unique_Element([1,1,1],3) == 'YES'\nassert unique_Element([1,2,1,2],4) == 'NO'\nassert unique_Element([1,2,3,4,5],5) == 'NO'",
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the largest prime factor of a given number.\n\nYour code should pass these tests:\n\nassert max_Prime_Factors(15) == 5\nassert max_Prime_Factors(6) == 3\nassert max_Prime_Factors(2) == 2\n\n",
+    "solution": "import math \r\ndef max_Prime_Factors (n): \r\n    maxPrime = -1 \r\n    while n%2 == 0: \r\n        maxPrime = 2\r\n        n >>= 1    \r\n    for i in range(3,int(math.sqrt(n))+1,2): \r\n        while n % i == 0: \r\n            maxPrime = i \r\n            n = n / i \r\n    if n > 2: \r\n        maxPrime = n  \r\n    return int(maxPrime)",
+    "test": "assert max_Prime_Factors(15) == 5\nassert max_Prime_Factors(6) == 3\nassert max_Prime_Factors(2) == 2",
     "tags": [
         "reasoning/coding"
     ]

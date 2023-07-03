@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to check if the string is a concatenation of another string.\n\nYour code should pass these tests:\n\nassert check_Concat(\"abcabcabc\",\"abc\") == True\nassert check_Concat(\"abcab\",\"abc\") == False\nassert check_Concat(\"aba\",\"ab\") == False\n\n",
-    "solution": "def check_Concat(str1,str2):\r\n    N = len(str1)\r\n    M = len(str2)\r\n    if (N % M != 0):\r\n        return False\r\n    for i in range(N):\r\n        if (str1[i] != str2[i % M]):\r\n            return False         \r\n    return True",
-    "test": "assert check_Concat(\"abcabcabc\",\"abc\") == True\nassert check_Concat(\"abcab\",\"abc\") == False\nassert check_Concat(\"aba\",\"ab\") == False",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

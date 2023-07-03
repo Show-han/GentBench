@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to convert complex numbers to polar coordinates.\n\nYour code should pass these tests:\n\nassert convert(1) == (1.0, 0.0)\nassert convert(4) == (4.0,0.0)\nassert convert(5) == (5.0,0.0)\n\n",
-    "solution": "import cmath  \r\ndef convert(numbers):    \r\n  num = cmath.polar(numbers)  \r\n  return (num) ",
-    "test": "assert convert(1) == (1.0, 0.0)\nassert convert(4) == (4.0,0.0)\nassert convert(5) == (5.0,0.0)",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

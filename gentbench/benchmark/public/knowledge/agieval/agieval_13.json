@@ -1,7 +1,7 @@
 {
-    "problem": "问题：已知 $a \\in \\mathrm{R}$, 函数 $f(x)=\\left\\{\\begin{array}{l}x^{2}-4, x>2 \\\\ |x-3|+a, x \\leq 2,\\end{array}\\right.$ 若 $f[f(\\sqrt{6})]=3$, 则 $a=(\\quad)$\n答案：",
-    "solution": "2",
+    "problem": "Welcome to one of the largest collections of  footwear（鞋类）in the world that will make you green with envy. Here at the Footwear Museum you can see exhibits（展品）from all over the world. You can find out about shoes worn by everyone from the Ancient Egyptians to pop stars.Room 1  The celebrity（名人）footwear section is probably the most popular in the entire museum. Stared in the 1950s there is a wide variety of shoes and boots belonging to everyone from queens and presidents to pop stars and actors! Most visitors find the celebrities’ choice of footwear extremely interesting.Room 2  Most of our visitors are amazed and shocked by the collection of “special purpose”shoes onExhibition here at the Museum of Footwear. For example , there are Chinese shoes made of    silk that was worn by women to tie their feet firmly to prevent them from growing too much!Room 3   As well as shoes and boots the museum also exhibits shoe shaped objects. The variety is unbelievable. For example, there is a metal lamp that resembles a pair of shoes, and Greek wine bottles that like legs!The footwear Library   People come from all over the world to study in our excellent footwear library. Designers and researchers come here to look up Information on anything and everything related to the subject of footwear.Q: The purpose of the text is to get more people to         . Answer Choices:    A. do research                          (B)design shoes (C)visit the museum                      (D)follow celebrities\nA: Among A through D, the answer is",
+    "solution": "C",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

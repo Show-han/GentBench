@@ -1,7 +1,0 @@
-{
-    "problem": "Q: Points A, B, C, D lie in this order on the circumference of a circle. Minor arc AC is 160°, and minor arc BD is 150°. If B bisects minor arc AC, then what is the measure of minor arc AD? Answer Choices: (A)80° (B)130° (C)140° (D)160° (E)220°\nA: Among A through E, the answer is",
-    "solution": "B",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

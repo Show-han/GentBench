@@ -1,6 +1,6 @@
 {
-    "problem": "A 10-by-12-inch page has margins of 1.5 inches on all sides. What fraction of the area of the page is taken up by the margins? Express your answer as a common fraction.",
-    "solution": "A 10-by-12-inch paper will have an area of $10 \\cdot 12 = 120$ square inches. If that paper has 1.5 inch margins on all sides, then the portion of the paper that is not covered by margins will be a rectangular section with length $12 - 2(1.5) = 9$ inches and width $10 - 2(1.5) = 7$ inches. Thus, $9 \\cdot 7 = 63$ square inches of the paper will not be taken up by the margins. Since the paper has a total area of $120$ square in, this means that $120-63=57$ square inches of the page is taken up by margins. Thus, margins take up $\\dfrac{57}{120}=\\boxed{\\dfrac{19}{40}}$ of the page.",
+    "problem": "Find the maximum value of\n\\[\\frac{x - y}{x^4 + y^4 + 6}\\]over all real numbers $x$ and $y.$",
+    "solution": "Clearly, the maximum occurs when $x$ is positive and $y$ is negative.  Let $z = -y,$ so $z$ is positive, and $y = -z.$  Then\n\\[\\frac{x - y}{x^4 + y^4 + 6} = \\frac{x + z}{x^4 + z^4 + 6}.\\]By AM-GM,\n\\[x^4 + 1 + 1 + 1 \\ge 4 \\sqrt[4]{x^4} = 4x,\\]and\n\\[z^4 + 1 + 1 + 1 \\ge 4 \\sqrt[4]{z^4} = 4z.\\]Then $x^4 + z^4 + 6 \\ge 4(x + z),$ which implies\n\\[\\frac{x + z}{x^4 + z^4 + 6} \\le \\frac{1}{4}.\\]Equality occurs when $x = z = 1,$ so the maximum value is $\\boxed{\\frac{1}{4}}.$",
     "tags": [
         "reasoning/math"
     ]

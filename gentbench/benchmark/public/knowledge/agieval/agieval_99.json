@@ -1,7 +1,7 @@
 {
-    "problem": "问题：葡萄糖酒酿制期间, 酵母细胞内由 ADP 转化为 ATP 的过程（ $）$ 选项：(A)在无氧条件下不能进行 (B)只能在线粒体中进行  (C)不需要能量的输入 (D)需要酶的催化\n答案：从A到D, 我们应选择",
-    "solution": "D",
+    "problem": "During the weeklong grand opening of a new antique shop, the antique dealer will auction exactly one antique per day for six consecutive days—June 1st through June 6th. The antiques to be auctioned are: a harmonica, a lamp, a mirror, a sundial, a table, and a vase. The following conditions apply: The sundial is not auctioned on June 1st. If the harmonica is auctioned on an earlier date than the lamp, then the mirror is also auctioned on an earlier date than the lamp. The sundial is auctioned on an earlier date than the mirror and also on an earlier date than the vase. The table is auctioned on an earlier date than the harmonica or on an earlier date than the vase, but not both.Q: Which one of the following CANNOT be the antique auctioned on the day immediately preceding the day on which the vase is auctioned? Answer Choices: (A)the harmonica (B)the lamp (C)the mirror (D)the sundial (E)the table\nA: Among A through E, the answer is",
+    "solution": "A",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

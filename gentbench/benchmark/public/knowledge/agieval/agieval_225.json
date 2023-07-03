@@ -1,7 +1,0 @@
-{
-    "problem": "Q: Suppose you want to arrange your English, Hindi, Mathematics, History, Geography and Science books on a shelf. In how many ways can you do it ? Answer Choices: (A)520 (B)720 (C)920 (D)None (E)Cannot be determined\nA: Among A through E, the answer is",
-    "solution": "B",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

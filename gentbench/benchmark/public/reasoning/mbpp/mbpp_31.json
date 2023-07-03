@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the smallest missing element in a sorted array.\n\nYour code should pass these tests:\n\nassert smallest_missing([0, 1, 2, 3, 4, 5, 6], 0, 6) == 7\nassert smallest_missing([0, 1, 2, 6, 9, 11, 15], 0, 6) == 3\nassert smallest_missing([1, 2, 3, 4, 6, 9, 11, 15], 0, 7) == 0\n\n",
-    "solution": "def smallest_missing(A, left_element, right_element):\r\n    if left_element > right_element:\r\n        return left_element\r\n    mid = left_element + (right_element - left_element) // 2\r\n    if A[mid] == mid:\r\n        return smallest_missing(A, mid + 1, right_element)\r\n    else:\r\n        return smallest_missing(A, left_element, mid - 1)",
-    "test": "assert smallest_missing([0, 1, 2, 3, 4, 5, 6], 0, 6) == 7\nassert smallest_missing([0, 1, 2, 6, 9, 11, 15], 0, 6) == 3\nassert smallest_missing([1, 2, 3, 4, 6, 9, 11, 15], 0, 7) == 0",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function for nth catalan number.\n\nYour code should pass these tests:\n\nassert catalan_number(10)==16796\nassert catalan_number(9)==4862\nassert catalan_number(7)==429\n\n",
+    "solution": "def catalan_number(num):\r\n    if num <=1:\r\n         return 1   \r\n    res_num = 0\r\n    for i in range(num):\r\n        res_num += catalan_number(i) * catalan_number(num-i-1)\r\n    return res_num",
+    "test": "assert catalan_number(10)==16796\nassert catalan_number(9)==4862\nassert catalan_number(7)==429",
     "tags": [
         "reasoning/coding"
     ]

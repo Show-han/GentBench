@@ -1,6 +1,6 @@
 {
-    "problem": "Half of Jerome's money was $43. He gave $8 to Meg and thrice as much to Bianca. How much does Jerome have left?",
-    "solution": "Jerome has $43 x 2 = $<<43*2=86>>86.\nAfter giving Meg $8, he had only $86 - $8 = $<<86-8=78>>78 left.\nThen he gave Bianca $8 x 3 = $<<8*3=24>>24.\nSo, Jerome has only $78 - $24 = $<<78-24=54>>54 left.\n#### 54",
+    "problem": "Andrew bought a big bag of balloons. The bag had 303 blue balloons and 453 purple balloons. If Andrew shares half of his balloons with his brother, how many balloons does he have left?",
+    "solution": "There are 303 + 453 = <<303+453=756>>756 balloons in the bag.\nOnce Andrew gives half of his balloons to his brother he has 756/2=<<756/2=378>>378 balloons left.\n#### 378",
     "tags": [
         "reasoning/math"
     ]

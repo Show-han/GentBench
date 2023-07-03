@@ -1,7 +1,0 @@
-{
-    "problem": "Q: What is $1^{(2^{235423523})}$?\nA: The answer is",
-    "solution": "1",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

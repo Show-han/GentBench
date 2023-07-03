@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the nth newman\u2013shanks\u2013williams prime number.\n\nYour code should pass these tests:\n\nassert newman_prime(3) == 7 \nassert newman_prime(4) == 17\nassert newman_prime(5) == 41\n\n",
-    "solution": "def newman_prime(n): \r\n\tif n == 0 or n == 1: \r\n\t\treturn 1\r\n\treturn 2 * newman_prime(n - 1) + newman_prime(n - 2)",
-    "test": "assert newman_prime(3) == 7 \nassert newman_prime(4) == 17\nassert newman_prime(5) == 41",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function that gives profit amount if the given amount has profit else return none.\n\nYour code should pass these tests:\n\nassert profit_amount(1500,1200)==300\nassert profit_amount(100,200)==None\nassert profit_amount(2000,5000)==None\n\n",
+    "solution": "def profit_amount(actual_cost,sale_amount): \r\n if(actual_cost > sale_amount):\r\n    amount = actual_cost - sale_amount\r\n    return amount\r\n else:\r\n    return None",
+    "test": "assert profit_amount(1500,1200)==300\nassert profit_amount(100,200)==None\nassert profit_amount(2000,5000)==None",
     "tags": [
         "reasoning/coding"
     ]

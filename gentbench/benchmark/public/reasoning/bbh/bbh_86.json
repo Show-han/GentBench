@@ -1,6 +1,6 @@
 {
-    "problem": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: an orange book, a white book, and a purple book. The orange book is to the left of the white book. The purple book is the rightmost.\nOptions:\n(A) The orange book is the rightmost\n(B) The white book is the rightmost\n(C) The purple book is the rightmost",
-    "solution": "(C)",
+    "problem": "Which sentence has the correct adjective order:\nOptions:\n(A) old drinking pyramidal brown monkey\n(B) old pyramidal brown drinking monkey",
+    "solution": "(B)",
     "tags": [
         "reasoning/commonsense"
     ]

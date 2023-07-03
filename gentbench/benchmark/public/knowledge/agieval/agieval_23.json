@@ -1,7 +1,7 @@
 {
-    "problem": "Q: What is the coefficient of $x^3$ when $$24x^4 + 6x^3 + 4x^2-7x - 5$$is multiplied by $$6x^3 + 3x^2 + 3x + 4$$and the like terms are combined?\nA: The answer is",
-    "solution": "-15",
+    "problem": "Helena: Extroversion, or sociability, is not biologically determined. Children whose biological parents are introverted, when adopted by extroverts, tend to be more sociable than children of introverted parents who are not adopted. Jay: Your conclusion does not follow. Some of these children adopted by extroverts remain introverted no matter how young they are when adopted.Q: Jay's response suggests that he interpreted Helena's remarks to mean that Answer Choices: (A)biological factors play only a partial role in a child being extroverted (B)most but not all children whose biological parents are introverted become extroverted when adopted by extroverts (C)children whose biological parents are introverted, when adopted by extroverts, tend not to be more sociable than children of introverted parents who are not adopted (D)biological factors do not play any role in a child being extroverted (E)environmental factors can sometimes be more influential than biological factors in determining extroversion\nA: Among A through E, the answer is",
+    "solution": "D",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

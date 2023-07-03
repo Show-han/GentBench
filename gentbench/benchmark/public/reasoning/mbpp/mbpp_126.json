@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to find all words which are at least 4 characters long in a string by using regex.\n\nYour code should pass these tests:\n\nassert find_char_long('Please move back to stream') == ['Please', 'move', 'back', 'stream']\nassert find_char_long('Jing Eco and Tech') == ['Jing', 'Tech']\nassert find_char_long('Jhingai wulu road Zone 3') == ['Jhingai', 'wulu', 'road', 'Zone']\n\n",
-    "solution": "import re\r\ndef find_char_long(text):\r\n  return (re.findall(r\"\\b\\w{4,}\\b\", text))",
-    "test": "assert find_char_long('Please move back to stream') == ['Please', 'move', 'back', 'stream']\nassert find_char_long('Jing Eco and Tech') == ['Jing', 'Tech']\nassert find_char_long('Jhingai wulu road Zone 3') == ['Jhingai', 'wulu', 'road', 'Zone']",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

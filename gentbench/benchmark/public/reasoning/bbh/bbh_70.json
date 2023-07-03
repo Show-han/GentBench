@@ -1,6 +1,6 @@
 {
-    "problem": "I have a grape, an apple, a strawberry, a nectarine, a banana, two raspberries, and a plum. How many fruits do I have?",
-    "solution": "8",
+    "problem": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eli, Mya, and Eve. Eli finished last. Mya finished second.\nOptions:\n(A) Eli finished second\n(B) Mya finished second\n(C) Eve finished second",
+    "solution": "(B)",
     "tags": [
         "reasoning/commonsense"
     ]

@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to get the sum of a non-negative integer.\n\nYour code should pass these tests:\n\nassert sum_digits(345)==12\nassert sum_digits(12)==3\nassert sum_digits(97)==16\n\n",
-    "solution": "def sum_digits(n):\r\n  if n == 0:\r\n    return 0\r\n  else:\r\n    return n % 10 + sum_digits(int(n / 10))",
-    "test": "assert sum_digits(345)==12\nassert sum_digits(12)==3\nassert sum_digits(97)==16",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to remove odd characters in a string.\n\nYour code should pass these tests:\n\nassert remove_odd(\"python\")==(\"yhn\")\nassert remove_odd(\"program\")==(\"rga\")\nassert remove_odd(\"language\")==(\"agae\")\n\n",
+    "solution": "def remove_odd(str1):\r\n str2 = ''\r\n for i in range(1, len(str1) + 1):\r\n    if(i % 2 == 0):\r\n        str2 = str2 + str1[i - 1]\r\n return str2",
+    "test": "assert remove_odd(\"python\")==(\"yhn\")\nassert remove_odd(\"program\")==(\"rga\")\nassert remove_odd(\"language\")==(\"agae\")",
     "tags": [
         "reasoning/coding"
     ]

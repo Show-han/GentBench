@@ -1,7 +1,9 @@
 {
-    "problem": "Critic: Fillmore, an influential television executive, argues that watching television regularly is not detrimental to very young children. Fillmore bases this on the claim, which I grant, that children can learn much that is beneficial from television. But we should reject Fillmore's argument, because clearly it is to Fillmore's benefit to convince parents that television is not harmful to their children.Q: Which one of the following most accurately describes a flaw in the critic's reasoning? Answer Choices: (A)It takes a necessary condition for something's being harmful to be a sufficient condition for being harmful. (B)It concludes that something is true merely on the grounds that there is no evidence to the contrary. (C)It rejects an argument solely on the grounds that the argument could serve the interests of the person making that argument. (D)It is based on an appeal to the views of someone with questionable authority on the subject matter. (E)It bases its conclusion on claims that are inconsistent with one another.\nA: Among A through E, the answer is",
-    "solution": "C",
+    "problem": "问题：关于剥夺政治权利，下列说法错误的有 选项：(A)对盗窃珍贵文物，情节严重的，必须附加适用剥夺政治权利 (B)对严重贪污犯罪的犯罪分子，可以附加适用剥夺政治权利 (C)附加于管制时，刑期与管制刑期相同 (D)附加于死刑、无期徒刑时，刑期是终身\n答案：从A到D, 我们应选择",
+    "solution": [
+        "A"
+    ],
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

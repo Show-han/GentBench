@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to return the sum of all divisors of a number.\n\nYour code should pass these tests:\n\nassert sum_div(8)==7\nassert sum_div(12)==16\nassert sum_div(7)==1\n\n",
-    "solution": "def sum_div(number):\r\n    divisors = [1]\r\n    for i in range(2, number):\r\n        if (number % i)==0:\r\n            divisors.append(i)\r\n    return sum(divisors)",
-    "test": "assert sum_div(8)==7\nassert sum_div(12)==16\nassert sum_div(7)==1",
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to check whether the first and last characters of a given string are equal or not.\n\nYour code should pass these tests:\n\nassert check_Equality(\"abcda\") == \"Equal\"\nassert check_Equality(\"ab\") == \"Not Equal\"\nassert check_Equality(\"mad\") == \"Not Equal\"\n\n",
+    "solution": "def check_Equality(str):\r\n  if (str[0] == str[-1]):  \r\n    return (\"Equal\") \r\n  else:  \r\n    return (\"Not Equal\") ",
+    "test": "assert check_Equality(\"abcda\") == \"Equal\"\nassert check_Equality(\"ab\") == \"Not Equal\"\nassert check_Equality(\"mad\") == \"Not Equal\"",
     "tags": [
         "reasoning/coding"
     ]

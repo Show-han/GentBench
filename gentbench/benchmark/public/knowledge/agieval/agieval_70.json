@@ -1,7 +1,7 @@
 {
-    "problem": "Both Zhang Fei and Li Bai applied for the MBA this year.There are four assertions about their exams? (1) They have at least one exam; (2) Zhang Fei is not necessarily exam; Bai did pass the exam; (4) Not that Zhang Fei might fail the exam.The final admission result shows that two of the four assertions are true and two are false.Q: Which of the following results can be derived from the above conditions? Answer Choices: (A)Zhang Fei was admitted, but Li Bai was not. (B)Both Zhang Fei and Li Bai were admitted. (C)Zhang Fei and Li Bai failed the exam (D)Li Bai was admitted, but Zhang Fei was not.\nA: Among A through D, the answer is",
-    "solution": "A",
+    "problem": "在某所大学征召的新兵有七名：F、G、H、I、W、X和Y，其中有一名是通信兵，三名是工程兵，另外三名是运输兵。新兵入伍的兵种分配条件如下：H与Y必须分配在同一个兵种。F与G不能分配在同一兵种。如果分配X做运输兵，就分配W当工程兵。分配F当工程兵。问题：50.如果X没有分配当工程兵，以下哪项陈述可能真？ 选项：A．W和G分配为工程兵 (B) H和W分配为运输兵。 C．F和Y分配为工程兵 (D) H和W分配为工程兵\n答案：从A到D, 我们应选择",
+    "solution": "C",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

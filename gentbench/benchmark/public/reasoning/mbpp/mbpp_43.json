@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find whether the given number is present in the infinite sequence or not.\n\nYour code should pass these tests:\n\nassert does_Contain_B(1,7,3) == True\nassert does_Contain_B(1,-3,5) == False\nassert does_Contain_B(3,2,5) == False\n\n",
-    "solution": "def does_Contain_B(a,b,c): \r\n    if (a == b): \r\n        return True\r\n    if ((b - a) * c > 0 and (b - a) % c == 0): \r\n        return True\r\n    return False",
-    "test": "assert does_Contain_B(1,7,3) == True\nassert does_Contain_B(1,-3,5) == False\nassert does_Contain_B(3,2,5) == False",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to convert the given string of integers into a tuple.\n\nYour code should pass these tests:\n\nassert str_to_tuple(\"1, -5, 4, 6, 7\") == (1, -5, 4, 6, 7)\nassert str_to_tuple(\"1, 2, 3, 4, 5\") == (1, 2, 3, 4, 5)\nassert str_to_tuple(\"4, 6, 9, 11, 13, 14\") == (4, 6, 9, 11, 13, 14)\n\n",
+    "solution": "def str_to_tuple(test_str):\r\n  res = tuple(map(int, test_str.split(', ')))\r\n  return (res) ",
+    "test": "assert str_to_tuple(\"1, -5, 4, 6, 7\") == (1, -5, 4, 6, 7)\nassert str_to_tuple(\"1, 2, 3, 4, 5\") == (1, 2, 3, 4, 5)\nassert str_to_tuple(\"4, 6, 9, 11, 13, 14\") == (4, 6, 9, 11, 13, 14)",
     "tags": [
         "reasoning/coding"
     ]

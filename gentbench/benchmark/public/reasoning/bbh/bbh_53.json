@@ -1,6 +1,6 @@
 {
-    "problem": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are seven vehicles: a bus, a motorcyle, a hatchback, a station wagon, a minivan, a truck, and a limousine. The station wagon is the fourth-newest. The motorcyle is newer than the truck. The station wagon is older than the hatchback. The minivan is newer than the hatchback. The bus is newer than the minivan. The truck is newer than the limousine.\nOptions:\n(A) The bus is the third-oldest\n(B) The motorcyle is the third-oldest\n(C) The hatchback is the third-oldest\n(D) The station wagon is the third-oldest\n(E) The minivan is the third-oldest\n(F) The truck is the third-oldest\n(G) The limousine is the third-oldest",
-    "solution": "(B)",
+    "problem": "not ( True ) and ( False ) is",
+    "solution": "False",
     "tags": [
         "reasoning/commonsense"
     ]

@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to check whether a given sequence is linear or not.\n\nYour code should pass these tests:\n\nassert Seq_Linear([0,2,4,6,8,10]) == \"Linear Sequence\"\nassert Seq_Linear([1,2,3]) == \"Linear Sequence\"\nassert Seq_Linear([1,5,2]) == \"Non Linear Sequence\"\n\n",
-    "solution": "def Seq_Linear(seq_nums):\r\n  seq_nums = [seq_nums[x] - seq_nums[x-1] for x in range(1, len(seq_nums))]\r\n  if len(set(seq_nums)) == 1: \r\n    return \"Linear Sequence\"\r\n  else:\r\n    return \"Non Linear Sequence\"",
-    "test": "assert Seq_Linear([0,2,4,6,8,10]) == \"Linear Sequence\"\nassert Seq_Linear([1,2,3]) == \"Linear Sequence\"\nassert Seq_Linear([1,5,2]) == \"Non Linear Sequence\"",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

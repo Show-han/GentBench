@@ -1,7 +1,10 @@
 {
-    "problem": "Q: $$\\begin{aligned}& y<-x+a \\\\& y>x+b\\end{aligned}$$In the $x y$-plane, if $(0,0)$ is a solution to the system of inequalities above, which of the following relationships between $a$ and $b$ must be true? Answer Choices: (A)$a>b$ (B)$b>a$ (C)$|a|>|b|$ (D)$a=-b$\nA: Among A through D, the answer is",
-    "solution": "A",
+    "problem": "问题：某县法院公开审判王某奸淫幼女案，县检察院以人员不足为由，未派人员出庭支持公诉。法院经审理，判处王某有期徒刑15年。法定期限内检察院没抗诉，被告没上诉，判决生效后，王某的亲属向原审法院提出申诉，本案在诉讼程序上的错误是: 选项：(A)王某的亲属向原法院提出申诉 (B)检察院未派人员出庭支持诉讼 (C)法定期限内检察院没抗诉 (D)公开审判\n答案：从A到D, 我们应选择",
+    "solution": [
+        "B",
+        "D"
+    ],
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

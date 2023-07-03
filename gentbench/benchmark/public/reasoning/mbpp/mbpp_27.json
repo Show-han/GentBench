@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to count numbers whose oth and nth bits are set.\n\nYour code should pass these tests:\n\nassert count_Num(2) == 1\nassert count_Num(3) == 2\nassert count_Num(1) == 1\n\n",
-    "solution": "def count_Num(n): \r\n    if (n == 1): \r\n        return 1\r\n    count = pow(2,n - 2) \r\n    return count ",
-    "test": "assert count_Num(2) == 1\nassert count_Num(3) == 2\nassert count_Num(1) == 1",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to replace all occurrences of spaces, commas, or dots with a colon in the given string by using regex.\n\nYour code should pass these tests:\n\nassert fill_spaces('Boult Curve Wireless Neckband') == 'Boult:Curve:Wireless:Neckband'\nassert fill_spaces('Stereo Sound Sweatproof') == 'Stereo:Sound:Sweatproof'\nassert fill_spaces('Probass Curve Audio') == 'Probass:Curve:Audio'\n\n",
+    "solution": "import re\r\ndef fill_spaces(text):\r\n  return (re.sub(\"[ ,.]\", \":\", text))",
+    "test": "assert fill_spaces('Boult Curve Wireless Neckband') == 'Boult:Curve:Wireless:Neckband'\nassert fill_spaces('Stereo Sound Sweatproof') == 'Stereo:Sound:Sweatproof'\nassert fill_spaces('Probass Curve Audio') == 'Probass:Curve:Audio'",
     "tags": [
         "reasoning/coding"
     ]

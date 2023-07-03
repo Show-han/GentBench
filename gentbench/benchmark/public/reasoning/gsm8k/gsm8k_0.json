@@ -1,6 +1,6 @@
 {
-    "problem": "Peyton has 3 children and they each get a juice box in their lunch, 5 days a week.  The school year is 25 weeks long.  How many juices boxes will she need for the entire school year for all of her children?",
-    "solution": "Each of the 3 children gets 1 juice box, 5 days a week, so she needs 3*5 = <<3*5=15>>15 juice boxes in 1 week\nThe school year is 25 weeks long and she needs 15 juice boxes per week so she needs 25*15 = <<25*15=375>>375 juice boxes\n#### 375",
+    "problem": "The Kwik-e-Tax Center charges $50 for a federal return, $30 for a state return, and $80 for quarterly business taxes. If they sell 60 federal returns, 20 state returns, and 10 quarterly returns in one day, what was their total revenue for the day?",
+    "solution": "First find the total income from the federal returns: $50/return * 60 returns = $<<50*60=3000>>3000\nThen find the total income from the state returns: $30/return * 20 returns = $<<30*20=600>>600\nThen find the total income from the quarterly returns: $80/return * 10 returns = $<<80*10=800>>800\nThen add the income from each source to find their total income: $3000 + $600 + $800 = $<<3000+600+800=4400>>4400\n#### 4400",
     "tags": [
         "reasoning/math"
     ]

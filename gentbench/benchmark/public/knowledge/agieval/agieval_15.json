@@ -1,7 +1,7 @@
 {
-    "problem": "In order to reduce the heavy academic burden on students, China has constantly reformed the content of the college entrance examination.The subjects of the college entrance examination were reduced from the original 7 subjects to 4 subjects.However, the difficulty of the exam increased, and the school had to strengthen the students' test-taking training.Some provinces and cities have tried to reduce the difficulty of the test a little bit, and as a result, students ’scores have generally improved, and the scores for college admissions have also risen.For college, students must score higher scores.Q: This shows which of the following can most logically complete the above discussion? Answer Choices: (A)The proportion of the ability test should be increased in the college entrance examination to change the tendency of exam-oriented education in the whole basic education. (B)Expanding the enrollment scale of colleges and universities can reduce students' academic burden. (C)Regarding the high school exam results as part of the college entrance examination results can reduce the student's academic burden. (D)Only reforming the content of the college entrance examination may not reduce the student's academic burden.\nA: Among A through D, the answer is",
-    "solution": "D",
+    "problem": " 欧洲蕨是一种有毒的野草，近年来在北半球蔓延并且毁坏了许多牧场。对付这种野草有一种花钱少而且能够自我维持的方法，就是引进这种植物的天敌。因此，一些科学家建议，将产于南半球的以欧洲蕨为食的蛾子放养到受这种野草影响的北半球地区，以此来控制欧洲蕨的生长。问题：如果科学家控制欧洲蕨的建议被采纳，以下哪一项是它获得成功的必要条件？ 选项：A．北半球的这种欧洲蕨也生长在南半球气候和土壤条件相近的地区。 B．所放养的蛾子除了吃欧洲蕨外，也吃生长在北半球的其他野草。 C．所放养的蛾子能够在北半球存活下来，并且能够形成一个足够大的群体，以便降低欧洲蕨的数量并阻止其生长。 D．欧洲蕨的数量减少后，牲畜将对这种野草引起的疾病产生免疫力。\n答案：从A到D, 我们应选择",
+    "solution": "C",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

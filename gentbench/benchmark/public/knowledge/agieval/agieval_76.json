@@ -1,7 +1,7 @@
 {
-    "problem": "In the past 12 months, the Shenzhen property market has experienced a thrilling decline.The average price of the property market has plummeted by 36%.If you count the crazy rise in the previous 18 months, the Shenzhen property market has been carrying Various people experienced a roller coaster-like dizziness.No one knows where the express train ends, and certainly no one knows how to get off.Q: If the above statement is true, which of the following statements must be false? Answer Choices: (A)No one knows where the express train ends, and no one knows how to get off. (B)Some people know where the express train ends, but all people do n’t know how to get off. (C)Some people do n’t know where the express train ends, and some people do n’t know how to get off. (D)No one knows where the express train ends, and some people do n’t know how to get off.\nA: Among A through D, the answer is",
-    "solution": "B",
+    "problem": "A netizen? Almost no one will support proposals that damage their interests.However, according to the \"Beijing Times\" report, in the 17-day \"I offer advice on public transport price reform\" activity, most of the tens of thousands of people who participated in the event agreed to raise subway and bus fares.Let everyone pay more and like it.This result must be fake.Q: If the following statement is true, all but one of them question the netizen's judgment? Answer Choices: (A)Only those who are interested in the reform of public transport pricing participate in the activity, and the statistical results only reflect the opinions of this group of people (B)People who participate in the activity rarely take the subway and bus, and raising the fare will not harm their interests (C)Some people who commute by subway and bus think that raising the fare can ease congestion during peak hours (D)Many citizens hope to increase the fare to improve the ride environment\nA: Among A through D, the answer is",
+    "solution": "D",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to count the number of rotations required to generate a sorted array.\n\nYour code should pass these tests:\n\nassert count_Rotation([3,2,1],3) == 1\nassert count_Rotation([4,5,1,2,3],5) == 2\nassert count_Rotation([7,8,9,1,2,3],6) == 3\n\n",
-    "solution": "def count_Rotation(arr,n):   \r\n    for i in range (1,n): \r\n        if (arr[i] < arr[i - 1]): \r\n            return i  \r\n    return 0",
-    "test": "assert count_Rotation([3,2,1],3) == 1\nassert count_Rotation([4,5,1,2,3],5) == 2\nassert count_Rotation([7,8,9,1,2,3],6) == 3",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

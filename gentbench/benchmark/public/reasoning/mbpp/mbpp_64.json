@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to check whether the given number is even or not using bitwise operator.\n\nYour code should pass these tests:\n\nassert is_Even(1) == False\nassert is_Even(2) == True\nassert is_Even(3) == False\n\n",
-    "solution": "def is_Even(n) : \r\n    if (n^1 == n+1) :\r\n        return True; \r\n    else :\r\n        return False; ",
-    "test": "assert is_Even(1) == False\nassert is_Even(2) == True\nassert is_Even(3) == False",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

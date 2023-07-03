@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to check whether all the characters are same or not.\n\nYour code should pass these tests:\n\nassert all_Characters_Same(\"python\") == False\nassert all_Characters_Same(\"aaa\") == True\nassert all_Characters_Same(\"data\") == False\n\n",
-    "solution": "def all_Characters_Same(s) :\r\n    n = len(s)\r\n    for i in range(1,n) :\r\n        if s[i] != s[0] :\r\n            return False\r\n    return True",
-    "test": "assert all_Characters_Same(\"python\") == False\nassert all_Characters_Same(\"aaa\") == True\nassert all_Characters_Same(\"data\") == False",
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to check whether the triangle is valid or not if sides are given.\n\nYour code should pass these tests:\n\nassert check_Validity(1,2,3) == False\nassert check_Validity(2,3,5) == False\nassert check_Validity(7,10,5) == True\n\n",
+    "solution": "def check_Validity(a,b,c):  \r\n    if (a + b <= c) or (a + c <= b) or (b + c <= a) : \r\n        return False\r\n    else: \r\n        return True        ",
+    "test": "assert check_Validity(1,2,3) == False\nassert check_Validity(2,3,5) == False\nassert check_Validity(7,10,5) == True",
     "tags": [
         "reasoning/coding"
     ]

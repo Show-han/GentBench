@@ -1,7 +1,0 @@
-{
-    "problem": "Q: Calculate the maximum distance you can travel with $8.50 on a cab which charges $3.50 for the first quarter-mile and 10 cents for each additional quarter mile. Answer Choices: (A)11.75 miles (B)12.75 miles (C)17.75 miles (D)14.75 miles (E)10.75 miles\nA: Among A through E, the answer is",
-    "solution": "B",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

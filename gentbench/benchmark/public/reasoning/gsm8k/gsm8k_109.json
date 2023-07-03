@@ -1,7 +1,0 @@
-{
-    "problem": "A train travels 360 miles in 3 hours. At the same rate, how many additional hours would it take to travel an additional 240 miles?",
-    "solution": "The rate is 360/3=<<360/3=120>>120 mph.\nThen it would take 240/120=<<240/120=2>>2 additional hours.\n#### 2",
-    "tags": [
-        "reasoning/math"
-    ]
-}

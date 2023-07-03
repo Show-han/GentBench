@@ -1,7 +1,0 @@
-{
-    "problem": "Q: $$\\left(x^{2} y-3 y^{2}+5 x y^{2}\\right)-\\left(-x^{2} y+3 x y^{2}-3 y^{2}\\right)$$Which of the following is equivalent to the expression above? Answer Choices: (A)$4 x^{2} y^{2}$ (B)$8 x y^{2}-6 y^{2}$ (C)$2 x^{2} y+2 x y^{2}$ (D)$2 x^{2} y+8 x y^{2}-6 y^{2}$\nA: Among A through D, the answer is",
-    "solution": "C",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

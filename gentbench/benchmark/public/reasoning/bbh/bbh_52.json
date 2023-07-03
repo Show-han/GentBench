@@ -1,6 +1,6 @@
 {
-    "problem": "((7 + 1 + 9 * 1) + (7 - -3 + 3 * 1)) =",
-    "solution": "30",
+    "problem": "True and not True or False and True is",
+    "solution": "False",
     "tags": [
         "reasoning/commonsense"
     ]

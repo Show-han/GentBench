@@ -1,6 +1,6 @@
 {
-    "problem": "Cassandra bought four dozen Granny Smith apples and used them to make four apple pies.  She cut each pie into 6 large pieces.  How many apples are in each slice of pie?",
-    "solution": "Four dozen apples contain 4*12=<<4*12=48>>48 apples.\nFour pies, each cut into 6 pieces, contain 4*6=<<4*6=24>>24 pieces.\nThus, there are 48/24=<<48/24=2>>2 apples in every slice of Cassandra's apple pie.\n#### 2",
+    "problem": "If it takes 20 minutes to paint a house, how many houses can you paint in 3 hours?",
+    "solution": "There are 3 hours * 60 minutes/hour =<<3*60=180>>180 minutes in 3 hours\nYou can paint 180 minutes / 20 houses/minute = 9 houses in 3 hours.\n#### 9",
     "tags": [
         "reasoning/math"
     ]

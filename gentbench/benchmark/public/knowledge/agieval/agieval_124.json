@@ -1,7 +1,0 @@
-{
-    "problem": "问题：已知 $F_{1}, F_{2}$ 为椭圆 $C: \\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1$ 的 两个焦点, $P, Q$ 为 $C$ 上关于坐标原点对称的两点, 且 $|P Q|=\\left|F_{1} F_{2}\\right|$, 则四边形 $P F_{1} Q F_{2}$ 的面积为 $(\\quad)$\n答案：",
-    "solution": "8",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

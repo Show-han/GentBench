@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to search some literals strings in a string by using regex.\n\nYour code should pass these tests:\n\nassert check_literals('The quick brown fox jumps over the lazy dog.',['fox']) == 'Matched!'\nassert check_literals('The quick brown fox jumps over the lazy dog.',['horse']) == 'Not Matched!'\nassert check_literals('The quick brown fox jumps over the lazy dog.',['lazy']) == 'Matched!'\n\n",
-    "solution": "import re\r\ndef check_literals(text, patterns):\r\n  for pattern in patterns:\r\n    if re.search(pattern,  text):\r\n        return ('Matched!')\r\n    else:\r\n        return ('Not Matched!')",
-    "test": "assert check_literals('The quick brown fox jumps over the lazy dog.',['fox']) == 'Matched!'\nassert check_literals('The quick brown fox jumps over the lazy dog.',['horse']) == 'Not Matched!'\nassert check_literals('The quick brown fox jumps over the lazy dog.',['lazy']) == 'Matched!'",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function that matches a string that has an a followed by zero or more b's.\n\nYour code should pass these tests:\n\nassert text_match(\"ac\")==('Found a match!')\nassert text_match(\"dc\")==('Not matched!')\nassert text_match(\"abba\")==('Found a match!')\n\n",
+    "solution": "import re\r\ndef text_match(text):\r\n        patterns = 'ab*?'\r\n        if re.search(patterns,  text):\r\n                return 'Found a match!'\r\n        else:\r\n                return('Not matched!')",
+    "test": "assert text_match(\"ac\")==('Found a match!')\nassert text_match(\"dc\")==('Not matched!')\nassert text_match(\"abba\")==('Found a match!')",
     "tags": [
         "reasoning/coding"
     ]

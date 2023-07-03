@@ -1,6 +1,6 @@
 {
-    "problem": "I have a garlic, a cabbage, a yam, a carrot, and a stalk of celery. How many vegetables do I have?",
-    "solution": "5",
+    "problem": "Which sentence has the correct adjective order:\nOptions:\n(A) archaic gold orange awful surfboard\n(B) awful archaic orange gold surfboard",
+    "solution": "(B)",
     "tags": [
         "reasoning/commonsense"
     ]

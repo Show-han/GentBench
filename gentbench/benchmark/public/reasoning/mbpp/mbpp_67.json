@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the number of flips required to make the given binary string a sequence of alternate characters.\n\nYour code should pass these tests:\n\nassert min_flip_to_make_string_alternate(\"0001010111\") == 2\nassert min_flip_to_make_string_alternate(\"001\") == 1\nassert min_flip_to_make_string_alternate(\"010111011\") == 2 \n\n",
-    "solution": "def make_flip(ch): \r\n\treturn '1' if (ch == '0') else '0'\r\ndef get_flip_with_starting_charcter(str, expected): \r\n\tflip_count = 0\r\n\tfor i in range(len( str)): \r\n\t\tif (str[i] != expected): \r\n\t\t\tflip_count += 1\r\n\t\texpected = make_flip(expected) \r\n\treturn flip_count \r\ndef min_flip_to_make_string_alternate(str): \r\n\treturn min(get_flip_with_starting_charcter(str, '0'),get_flip_with_starting_charcter(str, '1')) ",
-    "test": "assert min_flip_to_make_string_alternate(\"0001010111\") == 2\nassert min_flip_to_make_string_alternate(\"001\") == 1\nassert min_flip_to_make_string_alternate(\"010111011\") == 2 ",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

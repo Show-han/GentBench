@@ -1,7 +1,7 @@
 {
-    "problem": "Q: Right $\\triangle ABC$ with legs $AB=3$ cm and $CB=4$ cm is rotated about one of its legs. What is the greatest possible number of cubic centimeters in the volume of the resulting solid? Express your answer to the nearest whole number.\nA: The answer is",
-    "solution": "50",
+    "problem": "Q: A line in the $x y$-plane passes through the origin and has a slope of $\\frac{1}{7}$. Which of the following points lies on the line? Answer Choices: (A)$(0,7)$ (B)$(1,7)$ (C)$(7,7)$ (D)$(14,2)$\nA: Among A through D, the answer is",
+    "solution": "D",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

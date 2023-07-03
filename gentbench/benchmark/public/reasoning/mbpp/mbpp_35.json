@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the frequency of a number in a given array.\n\nYour code should pass these tests:\n\nassert frequency([1,2,3],4) == 0\nassert frequency([1,2,2,3,3,3,4],3) == 3\nassert frequency([0,1,2,3,1,2],1) == 2\n\n",
-    "solution": "def frequency(a,x): \r\n    count = 0  \r\n    for i in a: \r\n        if i == x: count += 1\r\n    return count ",
-    "test": "assert frequency([1,2,3],4) == 0\nassert frequency([1,2,2,3,3,3,4],3) == 3\nassert frequency([0,1,2,3,1,2],1) == 2",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to convert polar coordinates to rectangular coordinates.\n\nYour code should pass these tests:\n\nassert polar_rect(3,4)==((5.0, 0.9272952180016122), (-2+2.4492935982947064e-16j))\nassert polar_rect(4,7)==((8.06225774829855, 1.0516502125483738), (-2+2.4492935982947064e-16j))\nassert polar_rect(15,17)==((22.67156809750927, 0.8478169733934057), (-2+2.4492935982947064e-16j))\n\n",
+    "solution": "import cmath\r\ndef polar_rect(x,y):\r\n cn = complex(x,y)\r\n cn=cmath.polar(cn)\r\n cn1 = cmath.rect(2, cmath.pi)\r\n return (cn,cn1)",
+    "test": "assert polar_rect(3,4)==((5.0, 0.9272952180016122), (-2+2.4492935982947064e-16j))\nassert polar_rect(4,7)==((8.06225774829855, 1.0516502125483738), (-2+2.4492935982947064e-16j))\nassert polar_rect(15,17)==((22.67156809750927, 0.8478169733934057), (-2+2.4492935982947064e-16j))",
     "tags": [
         "reasoning/coding"
     ]

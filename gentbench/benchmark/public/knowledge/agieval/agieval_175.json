@@ -1,7 +1,0 @@
-{
-    "problem": "问题：已知 $F_{1}, F_{2}$ 是椭圆 $C: \\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1$ 的两个焦点, 点 $M$ 在 $C$ 上, 则 $\\left|M F_{1}\\right| \\cdot\\left|M F_{2}\\right|$ 的最大值为 ($\\quad$)\\\\\n 选项：(A)13 (B)12 (C)9 (D)6\n答案：从A到D, 我们应选择",
-    "solution": "C",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

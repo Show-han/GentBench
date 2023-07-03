@@ -1,7 +1,0 @@
-{
-    "problem": "There are 32 students in a statistics course.  25 percent of the class received an A.  1/4 of the remaining students got either a B or C, and the rest of the students failed.  How many students failed?",
-    "solution": "A grade:32(.25)=8\n32-8=<<32-8=24>>24 students remaining\nB/C grade:24/4=<<24/4=6>>6\n24-6=<<24-6=18>>18 students fail\n#### 18",
-    "tags": [
-        "reasoning/math"
-    ]
-}

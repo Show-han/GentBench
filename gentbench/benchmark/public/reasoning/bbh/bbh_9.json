@@ -1,6 +1,6 @@
 {
-    "problem": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are seven birds: a raven, a cardinal, a falcon, an owl, a blue jay, a quail, and a robin. The owl is the second from the right. The cardinal is the fourth from the left. The falcon is to the left of the blue jay. The quail is to the left of the falcon. The raven is the second from the left. The robin is to the left of the quail.\nOptions:\n(A) The raven is the second from the right\n(B) The cardinal is the second from the right\n(C) The falcon is the second from the right\n(D) The owl is the second from the right\n(E) The blue jay is the second from the right\n(F) The quail is the second from the right\n(G) The robin is the second from the right",
-    "solution": "(D)",
+    "problem": "Which sentence has the correct adjective order:\nOptions:\n(A) little pink Indonesian drinking repulsive dog\n(B) repulsive little pink Indonesian drinking dog",
+    "solution": "(B)",
     "tags": [
         "reasoning/commonsense"
     ]

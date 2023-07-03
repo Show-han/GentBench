@@ -1,12 +1,7 @@
 {
-    "problem": "问题：关于法的局限作用的表述，下列哪些选项是正确的 选项：(A)法律不能代替政策、道德的作用 (B)法律不能调整人们的思想、认识和信仰 (C)法律一般不能灵活适应社会的变化 (D)徒法不足以自行\n答案：从A到D, 我们应选择",
-    "solution": [
-        "A",
-        "B",
-        "C",
-        "D"
-    ],
+    "problem": "问题：“碳中和”有利于全球气候改善。下列有关 $\\mathrm{CO}_{2}$ 的说法错误的是 选项：(A)$\\mathrm{CO}_{2}$ 是 $\\mathrm{V}$ 形的极性分子 (B)$\\mathrm{CO}_{2}$ 可催化还原为甲酸 (C)$\\mathrm{CO}_{2}$ 晶体可用于人工增雨 (D)$\\mathrm{CO}_{2}$ 是侯氏制碱法的原料之一\n答案：从A到D, 我们应选择",
+    "solution": "A",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

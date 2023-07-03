@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to check whether a list contains the given sublist or not.\n\nYour code should pass these tests:\n\nassert is_sublist([2,4,3,5,7],[3,7])==False\nassert is_sublist([2,4,3,5,7],[4,3])==True\nassert is_sublist([2,4,3,5,7],[1,6])==False\n\n",
-    "solution": "def is_sublist(l, s):\r\n\tsub_set = False\r\n\tif s == []:\r\n\t\tsub_set = True\r\n\telif s == l:\r\n\t\tsub_set = True\r\n\telif len(s) > len(l):\r\n\t\tsub_set = False\r\n\telse:\r\n\t\tfor i in range(len(l)):\r\n\t\t\tif l[i] == s[0]:\r\n\t\t\t\tn = 1\r\n\t\t\t\twhile (n < len(s)) and (l[i+n] == s[n]):\r\n\t\t\t\t\tn += 1\t\t\t\t\r\n\t\t\t\tif n == len(s):\r\n\t\t\t\t\tsub_set = True\r\n\treturn sub_set",
-    "test": "assert is_sublist([2,4,3,5,7],[3,7])==False\nassert is_sublist([2,4,3,5,7],[4,3])==True\nassert is_sublist([2,4,3,5,7],[1,6])==False",
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the most significant bit number which is also a set bit.\n\nYour code should pass these tests:\n\nassert set_Bit_Number(6) == 4\nassert set_Bit_Number(10) == 8\nassert set_Bit_Number(18) == 16\n\n",
+    "solution": "def set_Bit_Number(n): \r\n    if (n == 0): \r\n        return 0; \r\n    msb = 0; \r\n    n = int(n / 2); \r\n    while (n > 0): \r\n        n = int(n / 2); \r\n        msb += 1; \r\n    return (1 << msb)",
+    "test": "assert set_Bit_Number(6) == 4\nassert set_Bit_Number(10) == 8\nassert set_Bit_Number(18) == 16",
     "tags": [
         "reasoning/coding"
     ]

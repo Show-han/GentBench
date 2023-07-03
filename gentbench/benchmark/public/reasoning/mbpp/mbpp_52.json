@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to add consecutive numbers of a given list.\n\nYour code should pass these tests:\n\nassert add_consecutive_nums([1, 1, 3, 4, 4, 5, 6, 7])==[2, 4, 7, 8, 9, 11, 13]\nassert add_consecutive_nums([4, 5, 8, 9, 6, 10])==[9, 13, 17, 15, 16]\nassert add_consecutive_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])==[3, 5, 7, 9, 11, 13, 15, 17, 19]\n\n",
-    "solution": "def add_consecutive_nums(nums):\r\n    result = [b+a for a, b in zip(nums[:-1], nums[1:])]\r\n    return result",
-    "test": "assert add_consecutive_nums([1, 1, 3, 4, 4, 5, 6, 7])==[2, 4, 7, 8, 9, 11, 13]\nassert add_consecutive_nums([4, 5, 8, 9, 6, 10])==[9, 13, 17, 15, 16]\nassert add_consecutive_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])==[3, 5, 7, 9, 11, 13, 15, 17, 19]",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

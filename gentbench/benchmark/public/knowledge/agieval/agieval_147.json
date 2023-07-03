@@ -1,7 +1,0 @@
-{
-    "problem": "Q: Evaluate\n\\[\\prod_{n = 1}^{2004} \\frac{n^2 + 2n - 1}{n^2 + n + \\sqrt{2} - 2}.\\]\nA: The answer is",
-    "solution": "2004 \\sqrt{2} - 2003",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

@@ -1,7 +1,0 @@
-{
-    "problem": "Q: The summary of a survey of 100 students listed the following totals:\n\n59 students did math homework\n\n49 students did English homework\n\n42 students did science homework\n\n20 students did English and science homework\n\n29 students did science and math homework\n\n31 students did math and English homework\n\n12 students did math, science and English homework\n\nHow many students did no math, no English and no science homework?\nA: The answer is",
-    "solution": "18",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

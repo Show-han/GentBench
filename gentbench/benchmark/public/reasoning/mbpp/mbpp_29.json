@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to iterate over all pairs of consecutive items in a given list.\n\nYour code should pass these tests:\n\nassert pair_wise([1,1,2,3,3,4,4,5])==[(1, 1), (1, 2), (2, 3), (3, 3), (3, 4), (4, 4), (4, 5)]\nassert pair_wise([1,5,7,9,10])==[(1, 5), (5, 7), (7, 9), (9, 10)]\nassert pair_wise([1,2,3,4,5,6,7,8,9,10])==[(1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 7), (7, 8), (8, 9), (9, 10)]\n\n",
-    "solution": "def pair_wise(l1):\r\n    temp = []\r\n    for i in range(len(l1) - 1):\r\n        current_element, next_element = l1[i], l1[i + 1]\r\n        x = (current_element, next_element)\r\n        temp.append(x)\r\n    return temp",
-    "test": "assert pair_wise([1,1,2,3,3,4,4,5])==[(1, 1), (1, 2), (2, 3), (3, 3), (3, 4), (4, 4), (4, 5)]\nassert pair_wise([1,5,7,9,10])==[(1, 5), (5, 7), (7, 9), (9, 10)]\nassert pair_wise([1,2,3,4,5,6,7,8,9,10])==[(1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 7), (7, 8), (8, 9), (9, 10)]",
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to count the number of distinct power of prime factor of given number.\n\nYour code should pass these tests:\n\nassert count_Fac(24) == 3\nassert count_Fac(12) == 2\nassert count_Fac(4) == 1\n\n",
+    "solution": "def count_Fac(n):  \r\n    m = n \r\n    count = 0\r\n    i = 2\r\n    while((i * i) <= m): \r\n        total = 0\r\n        while (n % i == 0): \r\n            n /= i \r\n            total += 1 \r\n        temp = 0\r\n        j = 1\r\n        while((temp + j) <= total): \r\n            temp += j \r\n            count += 1\r\n            j += 1 \r\n        i += 1\r\n    if (n != 1): \r\n        count += 1 \r\n    return count ",
+    "test": "assert count_Fac(24) == 3\nassert count_Fac(12) == 2\nassert count_Fac(4) == 1",
     "tags": [
         "reasoning/coding"
     ]

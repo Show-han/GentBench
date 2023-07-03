@@ -1,6 +1,6 @@
 {
-    "problem": "False or not True or False or False is",
-    "solution": "False",
+    "problem": "((3 - 3 - -3 + -2) + (8 - 2 + -8 - -6)) =",
+    "solution": "5",
     "tags": [
         "reasoning/commonsense"
     ]

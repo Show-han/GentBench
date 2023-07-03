@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to convert the given decimal number to its binary equivalent.\n\nYour code should pass these tests:\n\nassert decimal_to_binary(8) == '1000'\nassert decimal_to_binary(18) == '10010'\nassert decimal_to_binary(7) == '111' \n\n",
-    "solution": "def decimal_to_binary(n): \r\n    return bin(n).replace(\"0b\",\"\") ",
-    "test": "assert decimal_to_binary(8) == '1000'\nassert decimal_to_binary(18) == '10010'\nassert decimal_to_binary(7) == '111' ",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

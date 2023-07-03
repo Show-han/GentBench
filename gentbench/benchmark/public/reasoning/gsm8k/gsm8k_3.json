@@ -1,6 +1,6 @@
 {
-    "problem": "The cheerleading coach is ordering new uniforms. There are 4 cheerleaders who need a size 2, a certain number who need a size 6, and half that number who need a size 12. If there are 19 cheerleaders total, how many cheerleaders need a size 6?",
-    "solution": "Let s be the number of cheerleaders who need a size 6 and t be the number who need a size 12. We know that s = 2t and s + t + 4 = 19.\nSubstituting the first equation into the second equation, we get 2t + t + 4 = 19\nCombining like terms, we get 3t + 4 = 19\nSubtracting 4 from both sides, we get 3t = 15\nDividing both sides by 3, we get t = 5\nSubstituting that value back into the equation s = 2t, we get s = 2 * 5 = <<2*5=10>>10\n#### 10",
+    "problem": "Christine and Rachel went strawberry picking.  They want to make pies and need 3 pounds of strawberries per pie.  Christine picked 10 pounds of strawberries and Rachel picked twice as much as Rachel.  Together, how many pies can they make?",
+    "solution": "Christine picked 10 pounds and Rachel picked twice as much, so Rachel picked 10*2 = <<10*2=20>>20 pounds of strawberries\nChristine picked 10 pounds and Rachel picked 20 pounds for a combined total of 10+20 = <<10+20=30>>30 pounds of strawberries\nThey need 3 pounds of strawberries to make 1 pie and they have 30 pounds so they can make 30/3 = <<30/3=10>>10 strawberry pies\n#### 10",
     "tags": [
         "reasoning/math"
     ]

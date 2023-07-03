@@ -1,7 +1,7 @@
 {
-    "problem": "The work of Smart suggested that:\nA. the rates of violent crime were similar for men and women\nB. women's sexual delinquency was more likely to be normalized than men's\nC. women's criminal behaviour tended to reflect traditional gender roles\nD. all of the above\nAmong A through D, the answer is",
-    "solution": "C",
+    "problem": "The moon's surface\nA. is smooth on the entire surface\nB. contains large cavities cause by explosions\nC. contains an internal core of cheese\nD. is filled with lakes\nAmong A through D, the answer is",
+    "solution": "B",
     "tags": [
-        "reasoning/world_knowledge"
+        "knowledge/world_knowledge"
     ]
 }

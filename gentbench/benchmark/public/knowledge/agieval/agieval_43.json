@@ -1,7 +1,11 @@
 {
-    "problem": "Q: The foci of a certain ellipse are at $(3,10 + \\sqrt{105})$ and $(3,10 - \\sqrt{105}).$  The endpoints of one of the axes are $(-5,10)$ and $(11,10).$  Find the semi-major axis.\nA: The answer is",
-    "solution": "13",
+    "problem": "问题：某人于1996年5月8日向中国专利局提出发明专利申请，1997年5月6日就相同主题再次向该局提出申请，并声明要求优先权。对此，以下表述何者为正确? 选项：(A)该项发明的新颖性判断，以1996年5月8日为时间标准 (B)如果与1996年5月8日以后和1997年5月6日以前的已有技术相比，该项发明缺乏突出的实质性特点和显著进步，则不能授予专利权 (C)自1997年5月6日起，在先申请视为撤回 (D)如果新申请的技术方案与在先申请的技术方案有实质性差别，则新申请应予驳回\n答案：从A到D, 我们应选择",
+    "solution": [
+        "A",
+        "C",
+        "D"
+    ],
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

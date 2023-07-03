@@ -1,7 +1,7 @@
 {
-    "problem": "问题：酸雨指 $\\mathrm{pH}$ 小于 5.6 的大气降水. 在实验室中模拟酸雨喷淋樟树和楝 树的树苗. 结果发现, 楝树的高度比对照组低约 $40 \\%$, 而樟树的高度没有明 显差异. 结合生态学知识所作的合理推测是 ( $)$ 选项：(A)酸雨对楝树种群中个体的株高影响较明显 (B)酸雨对樟树种群密度的影响比对楝树的大 (C)森林生态系统物种丰 (富) 度不受酸雨影响 (D)楝树生长的群落中, 其他树种都不耐酸雨\n答案：从A到D, 我们应选择",
-    "solution": "A",
+    "problem": "According to probability theory, the probability of tossing a uniform coin with its front side up and its reverse side up is almost equal.I bet with people that if I flip a coin face up, I win; if it flips up, I lose.I tossed the coin 6 times, and the result was all turned upside down.I have lost 6 times in a row.Therefore, the next few tosses must be heads up and will definitely win back.Q: Which of the following options is a proper evaluation of the \"me\" reasoning? Answer Choices: (A)It makes sense, because God is fair and almost equal, he does not return bad luck. (B)It doesn't make sense, because each throw is an independent event and has nothing to do with the previous results. (C)The next few tossings turned out to be mostly up, which shows that the probability theory is correct. (D)This is just his personal conviction, which cannot be evaluated rationally or logically.\nA: Among A through D, the answer is",
+    "solution": "B",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

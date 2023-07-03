@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to check if two lists of tuples are identical or not.\n\nYour code should pass these tests:\n\nassert check_identical([(10, 4), (2, 5)], [(10, 4), (2, 5)]) == True\nassert check_identical([(1, 2), (3, 7)], [(12, 14), (12, 45)]) == False\nassert check_identical([(2, 14), (12, 25)], [(2, 14), (12, 25)]) == True\n\n",
-    "solution": "def check_identical(test_list1, test_list2):\r\n  res = test_list1 == test_list2\r\n  return (res) ",
-    "test": "assert check_identical([(10, 4), (2, 5)], [(10, 4), (2, 5)]) == True\nassert check_identical([(1, 2), (3, 7)], [(12, 14), (12, 45)]) == False\nassert check_identical([(2, 14), (12, 25)], [(2, 14), (12, 25)]) == True",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to convert the given binary number to its decimal equivalent.\n\nYour code should pass these tests:\n\nassert binary_to_decimal(100) == 4\nassert binary_to_decimal(1011) == 11\nassert binary_to_decimal(1101101) == 109\n\n",
+    "solution": "def binary_to_decimal(binary): \r\n    binary1 = binary \r\n    decimal, i, n = 0, 0, 0\r\n    while(binary != 0): \r\n        dec = binary % 10\r\n        decimal = decimal + dec * pow(2, i) \r\n        binary = binary//10\r\n        i += 1\r\n    return (decimal)",
+    "test": "assert binary_to_decimal(100) == 4\nassert binary_to_decimal(1011) == 11\nassert binary_to_decimal(1101101) == 109",
     "tags": [
         "reasoning/coding"
     ]

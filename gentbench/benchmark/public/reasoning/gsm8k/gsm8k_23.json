@@ -1,6 +1,6 @@
 {
-    "problem": "James has 20 friends. Yesterday at work he got into an argument with 2 of his friends. Now he no longer considers them as friends. On his way back home, he made one more friend. So how many friends does James have left?",
-    "solution": "James lost 2 friends, so he has 20 - 2 = <<20-2=18>>18 friends left.\nThen he made 1 friend, James now has 18 + 1 = <<18+1=19>>19 friends.\n#### 19",
+    "problem": "Police officer A patrols 36 streets in 4 hours. His colleague, officer B, patrols 55 streets in 5 hours. How many streets will both officers patrol in one hour?",
+    "solution": "Officer A patrols 36 streets / 4 hours = <<36/4=9>>9 streets/hour.\nOfficer B patrols 55 streets / 5 hours = <<55/5=11>>11 streets/hour\nTogether officer A and B patrol 9 streets/hour + 11 streets/hour = <<9+11=20>>20 streets/hour.\n#### 20",
     "tags": [
         "reasoning/math"
     ]

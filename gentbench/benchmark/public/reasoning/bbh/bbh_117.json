@@ -1,7 +1,0 @@
-{
-    "problem": "((-1 * -1 * -6 - 7) - (-4 * 0 - -4 - 9)) =",
-    "solution": "-8",
-    "tags": [
-        "reasoning/commonsense"
-    ]
-}

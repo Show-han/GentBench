@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to convert a given string list to a tuple.\n\nYour code should pass these tests:\n\nassert string_list_to_tuple((\"python 3.0\")) == ('p', 'y', 't', 'h', 'o', 'n', '3', '.', '0')\nassert string_list_to_tuple((\"bigdata\")) == ('b', 'i', 'g', 'd', 'a', 't', 'a')\nassert string_list_to_tuple((\"language\")) == ('l', 'a', 'n', 'g', 'u', 'a', 'g','e')\n\n",
-    "solution": "def string_list_to_tuple(str1):\r\n    result = tuple(x for x in str1 if not x.isspace()) \r\n    return result",
-    "test": "assert string_list_to_tuple((\"python 3.0\")) == ('p', 'y', 't', 'h', 'o', 'n', '3', '.', '0')\nassert string_list_to_tuple((\"bigdata\")) == ('b', 'i', 'g', 'd', 'a', 't', 'a')\nassert string_list_to_tuple((\"language\")) == ('l', 'a', 'n', 'g', 'u', 'a', 'g','e')",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the element count that occurs before the record in the given tuple.\n\nYour code should pass these tests:\n\nassert count_first_elements((1, 5, 7, (4, 6), 10) ) == 3\nassert count_first_elements((2, 9, (5, 7), 11) ) == 2\nassert count_first_elements((11, 15, 5, 8, (2, 3), 8) ) == 4\n\n",
+    "solution": "def count_first_elements(test_tup):\r\n  for count, ele in enumerate(test_tup):\r\n    if isinstance(ele, tuple):\r\n      break\r\n  return (count) ",
+    "test": "assert count_first_elements((1, 5, 7, (4, 6), 10) ) == 3\nassert count_first_elements((2, 9, (5, 7), 11) ) == 2\nassert count_first_elements((11, 15, 5, 8, (2, 3), 8) ) == 4",
     "tags": [
         "reasoning/coding"
     ]

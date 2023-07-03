@@ -1,7 +1,0 @@
-{
-    "problem": "Are strategies of Arms Control and Deterrence useful in cyber-security?\nA. No, arms control does not serve any purpose outside the realm of traditional military weapons.\nB. Yes, successful policies of arms control and deterrence have translated well from other security realms, such as nuclear weapons control strategies.\nC. Effective deterrence requires international cooperation which is achievable in theory, but the verification required for traditional arms control strategies is impossible in cyber(ed) warfare.\nD. Only arms control is unproblematic, deterrence has failed because international cooperation cannot be reached and common rules or practices cannot be established.\nAmong A through D, the answer is",
-    "solution": "C",
-    "tags": [
-        "reasoning/world_knowledge"
-    ]
-}

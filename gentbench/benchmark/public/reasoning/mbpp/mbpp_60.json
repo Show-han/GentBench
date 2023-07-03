@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the nth delannoy number.\n\nYour code should pass these tests:\n\nassert dealnnoy_num(3, 4) == 129\nassert dealnnoy_num(3, 3) == 63\nassert dealnnoy_num(4, 5) == 681\n\n",
-    "solution": "def dealnnoy_num(n, m): \r\n\tif (m == 0 or n == 0) : \r\n\t\treturn 1\r\n\treturn dealnnoy_num(m - 1, n) + dealnnoy_num(m - 1, n - 1) + dealnnoy_num(m, n - 1)",
-    "test": "assert dealnnoy_num(3, 4) == 129\nassert dealnnoy_num(3, 3) == 63\nassert dealnnoy_num(4, 5) == 681",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

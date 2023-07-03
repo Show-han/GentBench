@@ -1,6 +1,6 @@
 {
-    "problem": "If you follow these instructions, do you return to the starting point? Turn left. Take 9 steps. Take 3 steps. Turn right.\nOptions:\n- Yes\n- No",
-    "solution": "No",
+    "problem": "Which statement is sarcastic?\nOptions:\n(A) ARE U INSANE SAYIN U LIKE THIS SYSTEM HERE ??? Have my up vote for being rational\n(B) ARE U INSANE SAYIN U LIKE THIS SYSTEM HERE ??? Have my down vote for being rational",
+    "solution": "(B)",
     "tags": [
         "reasoning/commonsense"
     ]

@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to move all zeroes to the end of the given list.\n\nYour code should pass these tests:\n\nassert move_zero([1,0,2,0,3,4]) == [1,2,3,4,0,0]\nassert move_zero([2,3,2,0,0,4,0,5,0]) == [2,3,2,4,5,0,0,0,0]\nassert move_zero([0,1,0,1,1]) == [1,1,1,0,0]\n\n",
-    "solution": "def move_zero(num_list):\r\n    a = [0 for i in range(num_list.count(0))]\r\n    x = [ i for i in num_list if i != 0]\r\n    x.extend(a)\r\n    return (x)",
-    "test": "assert move_zero([1,0,2,0,3,4]) == [1,2,3,4,0,0]\nassert move_zero([2,3,2,0,0,4,0,5,0]) == [2,3,2,4,5,0,0,0,0]\nassert move_zero([0,1,0,1,1]) == [1,1,1,0,0]",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to get the word with most number of occurrences in the given strings list.\n\nYour code should pass these tests:\n\nassert most_occurrences([\"UTS is best for RTF\", \"RTF love UTS\", \"UTS is best\"] ) == 'UTS'\nassert most_occurrences([\"Its been a great year\", \"this year is so worse\", \"this year is okay\"] ) == 'year'\nassert most_occurrences([\"Families can be reunited\", \"people can be reunited\", \"Tasks can be achieved \"] ) == 'can'\n\n",
+    "solution": "from collections import defaultdict \r\n\r\ndef most_occurrences(test_list):\r\n  temp = defaultdict(int)\r\n  for sub in test_list:\r\n    for wrd in sub.split():\r\n      temp[wrd] += 1\r\n  res = max(temp, key=temp.get)\r\n  return (str(res)) ",
+    "test": "assert most_occurrences([\"UTS is best for RTF\", \"RTF love UTS\", \"UTS is best\"] ) == 'UTS'\nassert most_occurrences([\"Its been a great year\", \"this year is so worse\", \"this year is okay\"] ) == 'year'\nassert most_occurrences([\"Families can be reunited\", \"people can be reunited\", \"Tasks can be achieved \"] ) == 'can'",
     "tags": [
         "reasoning/coding"
     ]

@@ -1,7 +1,7 @@
 {
-    "problem": "Economist? Recently, Comrade W's report suggested that the pre-sale system of housing should be changed to the sale of existing homes, which caused a heated debate.Some people think that China's housing pre-sale system should be abolished long ago, while others say that abolishing this system will push up housing prices.I basically agree with the former.As for the latter, it is a ridiculous point of view.If the abolition of the pre-sale system of housing will push up housing prices, then this system will not need to be cancelled by the government, and real estate developers will do everything possible to circumvent the system.Q: Which of the following demonstration techniques is used in the above argument? Answer Choices: (A)By demonstrating the lack of factual support for a point of view, it is demonstrated that this point of view cannot be established. (B)Demonstrate that a viewpoint violates a general principle by demonstrating that it is wrong. (C)Demonstrate that this point of view is false by indicating that it contradicts another statement that has been determined to be true. (D)Demonstrate that this view is false by indicating that accepting it as true will lead to incredible results.\nA: Among A through D, the answer is",
-    "solution": "D",
+    "problem": "问题：1940年12月30日，中国共产党创建的第一个广播电台——延安新华广播电台第一次正式播音。当天可能播出的新闻是 选项：(A)百团大战的最新战况           (B)法西斯德国无条件投降 (C)人民解放军占领南京           (C)日本偷袭美国的珍珠港\n答案：从A到D, 我们应选择",
+    "solution": "A",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

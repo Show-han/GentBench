@@ -1,7 +1,9 @@
 {
-    "problem": "问题：由于通讯和广播等方面的需要, 许多国家发射了地球同步轨道卫星, 这些卫星的 选项：(A)质量可以不同 (B)轨道半径可以不同 (C)轨道平面可以不同 (D)速率可以不同\n答案：从A到D, 我们应选择",
-    "solution": "A",
+    "problem": "问题：下列可为物权客体的有: 选项：(A)月球上的土地 (B)一片枯叶 (C)商标 (D)商标权\n答案：从A到D, 我们应选择",
+    "solution": [
+        "D"
+    ],
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

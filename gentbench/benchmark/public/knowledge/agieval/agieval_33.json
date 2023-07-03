@@ -1,7 +1,9 @@
 {
-    "problem": "Mr.Chen is going to hold a gathering of friends and family.He came forward and invited his father's brother-in-law, his brother-in-law's father, his brother's mother-in-law, his brother-in-law's brother.Q: How many guests did Mr.Chen come forward to invite? Answer Choices: (A)No guest invited (B)1 guest (C)2 guests (D)3 guests\nA: Among A through D, the answer is",
-    "solution": "D",
+    "problem": "问题：犯罪嫌疑人邹某涉嫌故意伤害罪被甲县公安局立案侦查，侦查过程中邹某认为鉴定人是犯罪嫌疑人韩某的哥哥，因此，认为鉴定人对自己所作的伤情鉴定不公正。下列邹某可选择的做法正确的是哪一项? 选项：(A)不能申请重新鉴定 (B)可以申请重新鉴定 (C)可以自行鉴定 (D)可以申请补充鉴定\n答案：从A到D, 我们应选择",
+    "solution": [
+        "B"
+    ],
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

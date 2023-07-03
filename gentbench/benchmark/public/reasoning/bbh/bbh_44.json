@@ -1,6 +1,6 @@
 {
-    "problem": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a blue present, Bob has a red present, and Claire has a green present.\nAs the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) blue present\n(B) red present\n(C) green present",
-    "solution": "(A)",
+    "problem": "Is the following sentence plausible? \"Luis Robert was out at second.\"",
+    "solution": "yes",
     "tags": [
         "reasoning/commonsense"
     ]

@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to remove odd characters in a string.\n\nYour code should pass these tests:\n\nassert remove_odd(\"python\")==(\"yhn\")\nassert remove_odd(\"program\")==(\"rga\")\nassert remove_odd(\"language\")==(\"agae\")\n\n",
-    "solution": "def remove_odd(str1):\r\n str2 = ''\r\n for i in range(1, len(str1) + 1):\r\n    if(i % 2 == 0):\r\n        str2 = str2 + str1[i - 1]\r\n return str2",
-    "test": "assert remove_odd(\"python\")==(\"yhn\")\nassert remove_odd(\"program\")==(\"rga\")\nassert remove_odd(\"language\")==(\"agae\")",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function of recursion list sum.\n\nYour code should pass these tests:\n\nassert recursive_list_sum(([1, 2, [3,4],[5,6]]))==21\nassert recursive_list_sum(([7, 10, [15,14],[19,41]]))==106\nassert recursive_list_sum(([10, 20, [30,40],[50,60]]))==210\n\n",
+    "solution": "def recursive_list_sum(data_list):\r\n\ttotal = 0\r\n\tfor element in data_list:\r\n\t\tif type(element) == type([]):\r\n\t\t\ttotal = total + recursive_list_sum(element)\r\n\t\telse:\r\n\t\t\ttotal = total + element\r\n\treturn total",
+    "test": "assert recursive_list_sum(([1, 2, [3,4],[5,6]]))==21\nassert recursive_list_sum(([7, 10, [15,14],[19,41]]))==106\nassert recursive_list_sum(([10, 20, [30,40],[50,60]]))==210",
     "tags": [
         "reasoning/coding"
     ]

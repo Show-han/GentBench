@@ -1,7 +1,0 @@
-{
-    "problem": "In the 1500s, Nicolaus Copernicus proposed a new theory on the heliocentric structure of the solar system. Which of these statements best describes this new theory?\nA. Earth is at the center of the solar system.\nB. There are eight planets in the solar system.\nC. The Sun is at the center of the solar system.\nD. Moons have circular orbits in the solar system.\nAmong A through D, the answer is",
-    "solution": "C",
-    "tags": [
-        "reasoning/world_knowledge"
-    ]
-}

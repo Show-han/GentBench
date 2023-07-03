@@ -1,6 +1,6 @@
 {
-    "problem": "How would a typical person answer each of the following questions about causation?\nA sniper has been ordered to kill an enemy commander. So, after getting himself into position, he finally has the enemy commander in his sights. Before he pulls the trigger, however, the sniper realizes that the gunfire will probably alert the other enemy soldiers to his presence. But the sniper doesn't care at all about that -- he just wants to shoot his target. So, he pulls the trigger -- thereby shooting and killing the commander. Unfortunately, the enemy soldiers are alerted to his presence. Did the sniper intentionally alert the enemies to his presence?\nOptions:\n- Yes\n- No",
-    "solution": "No",
+    "problem": "Here is a table where the first line is a header and each subsequent line is a penguin:  name, age, height (cm), weight (kg) Louis, 7, 50, 11 Bernard, 5, 80, 13 Vincent, 9, 60, 11 Gwen, 8, 70, 15  For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.  Which penguin has a welsh name?\nOptions:\n(A) Louis\n(B) Bernard\n(C) Vincent\n(D) Gwen\n(E) James",
+    "solution": "(D)",
     "tags": [
         "reasoning/commonsense"
     ]

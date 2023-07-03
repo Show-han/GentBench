@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to check whether the product of numbers is even or not.\n\nYour code should pass these tests:\n\nassert is_Product_Even([1,2,3],3) == True\nassert is_Product_Even([1,2,1,4],4) == True\nassert is_Product_Even([1,1],2) == False\n\n",
-    "solution": "def is_Product_Even(arr,n): \r\n    for i in range(0,n): \r\n        if ((arr[i] & 1) == 0): \r\n            return True\r\n    return False",
-    "test": "assert is_Product_Even([1,2,3],3) == True\nassert is_Product_Even([1,2,1,4],4) == True\nassert is_Product_Even([1,1],2) == False",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

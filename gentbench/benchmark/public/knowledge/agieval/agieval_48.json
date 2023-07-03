@@ -1,7 +1,7 @@
 {
-    "problem": "问题：以下农民运动受基督教影响的是 选项：(A)秦末农民起义 (B)明末农民起义 (C)太平天国运动 (D)义和团运动\n答案：从A到D, 我们应选择",
+    "problem": "Q: In the $x y$-plane, the graph of the function $f(x)=x^{2}+5 x+4$ has two $x$-intercepts. What is the distance between the $x$-intercepts? Answer Choices: (A)1 (B)2 (C)3 (D)4\nA: Among A through D, the answer is",
     "solution": "C",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

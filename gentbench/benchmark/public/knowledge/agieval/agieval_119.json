@@ -1,7 +1,0 @@
-{
-    "problem": "Q: The line $y = \\frac{-12x + 74}{5}$ is parameterized in the form\n\\[\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\mathbf{v} + t \\mathbf{d},\\]so that for $x \\le 7,$ the distance between $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ and $\\begin{pmatrix} 7 \\\\ -2 \\end{pmatrix}$ is $t.$  Find $\\mathbf{d}.$\nA: The answer is",
-    "solution": "\\begin{pmatrix} -5/13 \\\\ 12/13 \\end{pmatrix}",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

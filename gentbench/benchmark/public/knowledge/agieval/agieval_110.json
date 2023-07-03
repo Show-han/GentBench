@@ -1,7 +1,0 @@
-{
-    "problem": "Professor: The number of new university students who enter as chemistry majors has not changed in the last ten years, and job prospects for graduates with chemistry degrees are better than ever. Despite this, there has been a significant decline over the past decade in the number of people earning chemistry degrees.Q: Which one of the following, if true, most helps to explain the decline? Answer Choices: (A)Many students enter universities without the academic background that is necessary for majoring in chemistry. (B)There has been a significant decline in the number of undergraduate degrees earned in the natural sciences as a whole. (C)Many students are very unsure of their choice when they pick a major upon entering universities. (D)Job prospects for graduates with chemistry degrees are no better than prospects for graduates with certain other science degrees. (E)Over the years, first-year chemistry has come to be taught in a more routinely methodical fashion, which dampens its intellectual appeal.\nA: Among A through E, the answer is",
-    "solution": "E",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

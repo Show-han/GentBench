@@ -1,7 +1,11 @@
 {
-    "problem": "Q: By himself, Jack can clean a yacht in 12 hours. On a particular day, he happens to finish two-thirds of the work. The remaining portion of the work is done by Jill, whose rate of cleaning is just 5% of what Jack can do. How long does it take Jill to finish the remaining work? Answer Choices: (A)4 (B)8 (C)22 (D)50 (E)20\nA: Among A through E, the answer is",
-    "solution": "E",
+    "problem": "问题：下列有关抵押的说法，正确的是: 选项：(A)学校以其教育设施以外的财产为其自身债务设定抵押，该抵押有效 (B)当事人以农作物和与其尚未分离的土地使用权同时抵押，该抵押无效 (C)以依法获准尚未建造的房屋设定抵押，并办理了抵押物登记的，该抵押有效 (D)按份共有人以其共有财产中享有的份额设定抵押的，该抵押有效\n答案：从A到D, 我们应选择",
+    "solution": [
+        "A",
+        "C",
+        "D"
+    ],
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

@@ -1,10 +1,7 @@
 {
-    "problem": "问题：秦的法律形式有哪些? 选项：(A)制、诏 (B)决事比 (C)程、式 (D)廷行事\n答案：从A到D, 我们应选择",
-    "solution": [
-        "A",
-        "D"
-    ],
+    "problem": "Q: The number of water lilies on a certain lake doubles every two days. If there is exactly one water lily on the lake, it takes 60 days for the lake to be fully covered with water lilies. In how many days will the lake be fully covered with lilies, if initially there were 64 water lilies on it? Answer Choices: (A)15 (B)28 (C)30 (D)53 (E)59\nA: Among A through E, the answer is",
+    "solution": "D",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

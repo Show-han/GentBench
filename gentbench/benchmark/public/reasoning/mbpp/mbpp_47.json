@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the last occurrence of a character in a string.\n\nYour code should pass these tests:\n\nassert last_occurence_char(\"hello world\",'l')==10\nassert last_occurence_char(\"language\",'g')==7\nassert last_occurence_char(\"little\",'y')==None\n\n",
-    "solution": "def last_occurence_char(string,char):\r\n flag = -1\r\n for i in range(len(string)):\r\n     if(string[i] == char):\r\n         flag = i\r\n if(flag == -1):\r\n    return None\r\n else:\r\n    return flag + 1",
-    "test": "assert last_occurence_char(\"hello world\",'l')==10\nassert last_occurence_char(\"language\",'g')==7\nassert last_occurence_char(\"little\",'y')==None",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to extract specified number of elements from a given list, which follow each other continuously.\n\nYour code should pass these tests:\n\nassert extract_elements([1, 1, 3, 4, 4, 5, 6, 7],2)==[1, 4]\nassert extract_elements([0, 1, 2, 3, 4, 4, 4, 4, 5, 7],4)==[4]\nassert extract_elements([0,0,0,0,0],5)==[0]\n\n",
+    "solution": "from itertools import groupby \r\ndef extract_elements(numbers, n):\r\n    result = [i for i, j in groupby(numbers) if len(list(j)) == n] \r\n    return result",
+    "test": "assert extract_elements([1, 1, 3, 4, 4, 5, 6, 7],2)==[1, 4]\nassert extract_elements([0, 1, 2, 3, 4, 4, 4, 4, 5, 7],4)==[4]\nassert extract_elements([0,0,0,0,0],5)==[0]",
     "tags": [
         "reasoning/coding"
     ]

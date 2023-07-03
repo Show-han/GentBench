@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to solve the fibonacci sequence using recursion.\n\nYour code should pass these tests:\n\nassert fibonacci(7) == 13\nassert fibonacci(8) == 21\nassert fibonacci(9) == 34\n\n",
-    "solution": "def fibonacci(n):\r\n  if n == 1 or n == 2:\r\n    return 1\r\n  else:\r\n    return (fibonacci(n - 1) + (fibonacci(n - 2)))",
-    "test": "assert fibonacci(7) == 13\nassert fibonacci(8) == 21\nassert fibonacci(9) == 34",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

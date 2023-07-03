@@ -1,6 +1,6 @@
 {
-    "problem": "How many times does the digit 9 appear in the list of all integers from 1 to 500? (The number $ 99 $, for example, is counted twice, because $9$ appears two times in it.)",
-    "solution": "The easiest approach is to consider how many times 9 can appear in the units place, how many times in the tens place, and how many times in the hundreds place. If we put a 9 in the units place, there are 10 choices for the tens place and 5 choices for the hundreds digit (including 0), for a total of 50 times. Likewise, if we put a 9 in the tens place, there are 10 choices for the units place and 5 choices for the hundreds digit, for a total of 50 times. Since 9 cannot appear in the hundreds digit, there are $50+50=\\boxed{100}$ appearances of the digit 9.",
+    "problem": "A license plate in a certain state consists of 4 digits, not necessarily distinct, and 2 letters, also not necessarily distinct. These six characters may appear in any order, except that the two letters must appear next to each other.  How many distinct license plates are possible?",
+    "solution": "Since the two letters have to be next to each other, think of them as forming a two-letter word $w$. So each license plate consists of 4 digits and $w$. For each digit there are 10 choices. There are $26\\cdot 26$ choices for the letters of $w$, and  there are 5 choices for the position of $w$. So the total number of distinct license plates is $5\\cdot10^4\\cdot26^2 = \\boxed{33,\\!800,\\!000}$.",
     "tags": [
         "reasoning/math"
     ]

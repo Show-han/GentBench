@@ -1,7 +1,0 @@
-{
-    "problem": "Q: Let $\\mathbf{a},$ $\\mathbf{b},$ $\\mathbf{c}$ be three vectors with equal magnitudes, and such that any pair of them are orthogonal.  If $\\theta$ is the angle between $\\mathbf{a}$ and $\\mathbf{a} + \\mathbf{b} + \\mathbf{c},$ then find $\\cos \\theta.$\nA: The answer is",
-    "solution": "\\frac{1}{\\sqrt{3}}",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

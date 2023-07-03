@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the occurrence and position of the substrings within a string.\n\nYour code should pass these tests:\n\nassert occurance_substring('python programming, python language','python')==('python', 0, 6)\nassert occurance_substring('python programming,programming language','programming')==('programming', 7, 18)\nassert occurance_substring('python programming,programming language','language')==('language', 31, 39)\n\n",
-    "solution": "import re\r\ndef occurance_substring(text,pattern):\r\n for match in re.finditer(pattern, text):\r\n    s = match.start()\r\n    e = match.end()\r\n    return (text[s:e], s, e)",
-    "test": "assert occurance_substring('python programming, python language','python')==('python', 0, 6)\nassert occurance_substring('python programming,programming language','programming')==('programming', 7, 18)\nassert occurance_substring('python programming,programming language','language')==('language', 31, 39)",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

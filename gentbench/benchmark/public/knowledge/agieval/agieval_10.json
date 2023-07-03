@@ -1,10 +1,7 @@
 {
-    "problem": "问题：下列哪些证据材料不能作为行政诉讼的定案依据? 选项：(A)当事人超出举证期限提供的证据材料 (B)违反法定程序收集的证据材料 (C)不能正确表达意志的证人提供的证言 (D)无法辨明真伪的证据材料\n答案：从A到D, 我们应选择",
-    "solution": [
-        "C",
-        "D"
-    ],
+    "problem": "In a certain class, L classmate is shorter than X classmate, Y classmate is shorter than L classmate, but M classmate is shorter than Y classmate, so Y classmate is shorter than J classmate.Q: Which of the following statement premises must be added to launch the above statement logically? Answer Choices: (A)Class J is taller than Class L. (B)X is taller than J. (C)Class L is taller than Class J. (D)J is taller than M.\nA: Among A through D, the answer is",
+    "solution": "A",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

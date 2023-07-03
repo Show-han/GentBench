@@ -1,7 +1,0 @@
-{
-    "problem": "问题：我国嫦娥五号探测器带回 $1.731 \\mathrm{~kg}$ 的月球土壤, 经分析发现其构成与地球士壤类似土壤 中含有的短周期元素 $\\mathrm{W} 、 \\mathrm{X} 、 \\mathrm{Y} 、 \\mathrm{Z}$, 原子序数依次增大, 最外层电子数之和为 $15, \\mathrm{X} 、 \\mathrm{Y} 、$ $\\mathrm{Z}$ 为同周期相邻元素, 且均不与 $\\mathrm{W}$ 同族, 下列结论正确的是 选项：(A)原子半径大小顺序为 $\\mathrm{W}>\\mathrm{X}>\\mathrm{Y}>\\mathrm{Z}$ (B)化合物 XW 中的化学键为离子键 (C)$\\mathrm{Y}$ 单质的导电性能弱于 $\\mathrm{Z}$ 单质的 (D)$\\mathrm{Z}$ 的氧化物的水化物的酸性强于碳酸\n答案：从A到D, 我们应选择",
-    "solution": "B",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

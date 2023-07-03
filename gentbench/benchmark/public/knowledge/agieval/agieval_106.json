@@ -1,7 +1,0 @@
-{
-    "problem": "问题：已知 $(1+a x)(1+x){ }^{5}$ 的展开式中 $x^{2}$ 的系数为 5 , 则 $a=(\\qquad)$\\\\\n 选项：(A)-4 (B)-3 (C)-2 (D)-1\n答案：从A到D, 我们应选择",
-    "solution": "D",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

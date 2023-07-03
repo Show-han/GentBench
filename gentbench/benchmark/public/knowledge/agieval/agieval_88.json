@@ -1,7 +1,12 @@
 {
-    "problem": "Q: Suppose for any real number x, [x] denotes the greatest integer less than or equal to x. Let L(x,y) = [x] + [y] + [x + y] and R(x,y) = [2x] + [2y]. Then it is impossible to find any two positive real numbers x and y for which Answer Choices: (A)L(x,y) = R(x,y) (B)L(x,y) ≠ R(x,y) (C)L(x,y) < R(x,y) (D)L(x,y) < R(x,y) (E)None\nA: Among A through E, the answer is",
-    "solution": "D",
+    "problem": "问题：汤姆公司研制出新型电子胃镜，并在A国和中国获得产品专利权。未经汤姆公司许可，甲、乙、丙、丁实施的下列四种行为中，不构成对汤姆公司该专利权的侵犯有哪些? 选项：(A)甲公司从A国购买汤姆公司在A国制造的该胃镜进口到中国销售 (B)乙医院购买2台甲公司进口的该胃镜在临床上使用 (C)丙公司制造2台该胃镜用于研发新型电子胃镜 (D)丁公司为了在汤姆公司的专利权保护期届满后制造销售该胃镜，制造3台该胃镜用于向药监局审批\n答案：从A到D, 我们应选择",
+    "solution": [
+        "A",
+        "B",
+        "C",
+        "D"
+    ],
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

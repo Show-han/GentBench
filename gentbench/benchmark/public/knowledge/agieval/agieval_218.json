@@ -1,7 +1,0 @@
-{
-    "problem": "Wang Gang? It is confirmed that more than 80% of heroin users have a history of smoking marijuana.Such data seem to indicate that smoking cannabis will definitely lead to heroin consumption.Li Yan? Perhaps smoking marijuana will indeed lead to heroin, but it is ridiculous to quote the statistics you mentioned to confirm this, because 100% of heroin users have a history of drinking water.Q: In response to Wang Gang's discussion, which of the following demonstration techniques did Li Yan use? Answer Choices: (A)Provide an example to show that anything that does not induce the use of heroin is unsafe. (B)Question the practice of establishing causality based solely on statistical data. (C)Provide evidence that the statistics used by Wang Gang to support his conclusions are inaccurate. (D)Show that his argument is flawed by showing that Wang Gang's argument will lead to an obviously wrong conclusion.\nA: Among A through D, the answer is",
-    "solution": "B",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

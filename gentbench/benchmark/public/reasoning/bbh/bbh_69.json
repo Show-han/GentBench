@@ -1,6 +1,6 @@
 {
-    "problem": "Is the following sentence plausible? \"Sean Couturier passed the puck in the Stanley Cup.\"",
-    "solution": "yes",
+    "problem": "Sort the following words alphabetically: List: yuh edt cheddar oblivion from poignant pang",
+    "solution": "cheddar edt from oblivion pang poignant yuh",
     "tags": [
         "reasoning/commonsense"
     ]

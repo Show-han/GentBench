@@ -1,7 +1,0 @@
-{
-    "problem": "Q: The mean score of 8 players in a basketball game was 14.5 points. If the highest individual score is removed, the mean score of the remaining 7 players becomes 12 points. What was the highest score? Answer Choices: (A)20 (B)24 (C)32 (D)36\nA: Among A through D, the answer is",
-    "solution": "C",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

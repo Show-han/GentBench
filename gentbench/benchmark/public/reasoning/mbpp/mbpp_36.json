@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to check if all values are same in a dictionary.\n\nYour code should pass these tests:\n\nassert check_value({'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12},10)==False\nassert check_value({'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12},12)==True\nassert check_value({'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12},5)==False\n\n",
-    "solution": "def check_value(dict, n):\r\n    result = all(x == n for x in dict.values()) \r\n    return result",
-    "test": "assert check_value({'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12},10)==False\nassert check_value({'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12},12)==True\nassert check_value({'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12},5)==False",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to check if there is a subset with sum divisible by m.\n\nYour code should pass these tests:\n\nassert modular_sum([3, 1, 7, 5], 4, 6) == True\nassert modular_sum([1, 7], 2, 5) == False\nassert modular_sum([1, 6], 2, 5) == False\n\n",
+    "solution": "def modular_sum(arr, n, m): \r\n\tif (n > m): \r\n\t\treturn True\r\n\tDP = [False for i in range(m)] \r\n\tfor i in range(n): \r\n\t\tif (DP[0]): \r\n\t\t\treturn True\r\n\t\ttemp = [False for i in range(m)] \r\n\t\tfor j in range(m): \r\n\t\t\tif (DP[j] == True): \r\n\t\t\t\tif (DP[(j + arr[i]) % m] == False): \r\n\t\t\t\t\ttemp[(j + arr[i]) % m] = True\r\n\t\tfor j in range(m): \r\n\t\t\tif (temp[j]): \r\n\t\t\t\tDP[j] = True\r\n\t\tDP[arr[i] % m] = True\r\n\treturn DP[0]",
+    "test": "assert modular_sum([3, 1, 7, 5], 4, 6) == True\nassert modular_sum([1, 7], 2, 5) == False\nassert modular_sum([1, 6], 2, 5) == False",
     "tags": [
         "reasoning/coding"
     ]

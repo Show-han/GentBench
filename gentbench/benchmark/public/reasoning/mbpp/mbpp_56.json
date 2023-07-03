@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to find maximum run of uppercase characters in the given string.\n\nYour code should pass these tests:\n\nassert max_run_uppercase('GeMKSForGERksISBESt') == 5\nassert max_run_uppercase('PrECIOusMOVemENTSYT') == 6\nassert max_run_uppercase('GooGLEFluTTER') == 4\n\n",
-    "solution": "def max_run_uppercase(test_str):\r\n  cnt = 0\r\n  res = 0\r\n  for idx in range(0, len(test_str)):\r\n    if test_str[idx].isupper():\r\n      cnt += 1\r\n    else:\r\n      res = cnt\r\n      cnt = 0\r\n  if test_str[len(test_str) - 1].isupper():\r\n    res = cnt\r\n  return (res)",
-    "test": "assert max_run_uppercase('GeMKSForGERksISBESt') == 5\nassert max_run_uppercase('PrECIOusMOVemENTSYT') == 6\nassert max_run_uppercase('GooGLEFluTTER') == 4",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

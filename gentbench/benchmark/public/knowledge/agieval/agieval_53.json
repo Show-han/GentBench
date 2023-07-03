@@ -1,7 +1,7 @@
 {
-    "problem": "在某个班级中，L同学比X同学个子矮，Y同学比L同学个子矮，但M同学比Y同学个子矮，所以Y同学比J同学个子矮。问题：必须增加以下哪项陈述前提，才能合逻辑地推出上述论述？ 选项：A．J同学比L同学个子高。 (B) X同学比J同学个子高。 C．L同学比J同学个子高。 (D) J同学比M同学个子高。\n答案：从A到D, 我们应选择",
-    "solution": "A",
+    "problem": "Q: $$m=\\frac{\\left(\\frac{r}{1,200}\\right)\\left(1+\\frac{r}{1,200}\\right)^{N}}{\\left(1+\\frac{r}{1,200}\\right)^{N}-1} P$$The formula above gives the monthly payment $m$ needed to pay off a loan of $P$ dollars at $r$ percent annual interest over $N$ months. Which of the following gives $P$ in terms of $m, r$, and $N$ ? Answer Choices: (A)$P=\\frac{\\left(\\frac{r}{1,200}\\right)\\left(1+\\frac{r}{1,200}\\right)^{N}}{\\left(1+\\frac{r}{1,200}\\right)^{N}-1} m$ (B)$P=\\frac{\\left(1+\\frac{r}{1,200}\\right)^{N}-1}{\\left(\\frac{r}{1,200}\\right)\\left(1+\\frac{r}{1,200}\\right)^{N}} m$ (C)$P=\\left(\\frac{r}{1,200}\\right) m$ (D)$P=\\left(\\frac{1,200}{r}\\right) m$\nA: Among A through D, the answer is",
+    "solution": "B",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

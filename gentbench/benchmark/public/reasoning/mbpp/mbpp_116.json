@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the median of a trapezium.\n\nYour code should pass these tests:\n\nassert median_trapezium(15,25,35)==20\nassert median_trapezium(10,20,30)==15\nassert median_trapezium(6,9,4)==7.5\n\n",
-    "solution": "def median_trapezium(base1,base2,height):\r\n median = 0.5 * (base1+ base2)\r\n return median",
-    "test": "assert median_trapezium(15,25,35)==20\nassert median_trapezium(10,20,30)==15\nassert median_trapezium(6,9,4)==7.5",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

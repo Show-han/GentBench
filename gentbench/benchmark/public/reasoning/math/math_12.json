@@ -1,6 +1,6 @@
 {
-    "problem": "Find the number of cubic centimeters in the volume of the cylinder formed by rotating a square with side length 14 centimeters about its vertical line of symmetry. Express your answer in terms of $\\pi$.",
-    "solution": "[asy]\nsize(100);\ndraw((-5,-.2)--(-3,-.2)--(-3,1.8)--(-5,1.8)--cycle); label(\"14\",((-3,1.8)--(-5,1.8)),N); label(\"14\",((-5,-.2)--(-5,1.8)),W);\ndraw((-2.5,.9)--(-1.5,.9),EndArrow);\nimport solids; import three; currentprojection = orthographic(5,0,2);\nrevolution c = cylinder((0,0,0), 1, 2);\ndraw((0,-1,2)--(0,1,2)); label(\"14\",((0,-1,2)--(0,1,2)),N); label(\"14\",(0,1,1),E);\ndraw(c,black);\n[/asy]\n\nRotating the square about its vertical line of symmetry creates a right circular cylinder with diameter 14 and height 14.  Thus, the cylinder has radius $14/2=7$ and volume $\\pi(7^2)(14)=\\pi(50-1)(14)=\\pi(700-14)=\\boxed{686\\pi}$.",
+    "problem": "If $x$ satisfies $x^2 + 3x + \\frac{3}x + \\frac{1}{x^2} = 26$ and $x$ can be written as $a + \\sqrt{b}$ where $a$ and $b$ are positive integers, then find $a + b$.",
+    "solution": "Let $k = x+\\frac 1x$. Notice that $k^2 = x^2 + 2 + \\frac 1{x^2}$, so $x^2 + \\frac 1{x^2} = k^2-2$. Substituting this into the equation gives $(k^2-2) + 3 \\cdot (k) = 26$, or $k^2 + 3k - 28 = (k+7)(k-4) = 0$. Since $x$ is positive, then $k > 0$, so $k = 4$. Substituting back, $x + \\frac 1x = 4 \\Longrightarrow x^2 - 4x + 1 = 0 \\Longrightarrow x = \\frac{4 \\pm \\sqrt{16 - 4}}{2} = 2 \\pm \\sqrt{3}$. To match the desired form, we take the solution $x = 2+\\sqrt{3}$, and the answer is $\\boxed{5}$.",
     "tags": [
         "reasoning/math"
     ]

@@ -1,7 +1,7 @@
 {
-    "problem": "The increasing complexity of scientific inquiry has led to a proliferation of multiauthored technical articles. Reports of clinical trials involving patients from several hospitals are usually coauthored by physicians from each participating hospital. Likewise, physics papers reporting results from experiments using subsystems developed at various laboratories generally have authors from each laboratory.Q: If all the statements above are true, which one of the following must be true? Answer Choices: (A)Clinical trials involving patients from several hospitals are never conducted solely by physicians from just one hospital. (B)Most reports of clinical trials involving patients from several hospitals have multiple authors. (C)When a technical article has multiple authors, they are usually from several different institutions. (D)Physics papers authored by researchers from multiple laboratories usually report results from experiments using subsystems developed at each laboratory. (E)Most technical articles are authored solely by the researchers who conducted the experiments these articles report.\nA: Among A through E, the answer is",
-    "solution": "B",
+    "problem": "Q: In triangle $ABC,$\n\\[a^4 + b^4 + c^4 = 2c^2 (a^2 + b^2).\\]Enter the possible values of $\\angle C,$ in degrees, separated by commas.\nA: The answer is",
+    "solution": "45^\\circ, 135^\\circ",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

@@ -1,7 +1,7 @@
 {
-    "problem": "Q: Richard is building a rectangular playground from 200 feet of fencing. The fencing must entirely enclose the playground. What is the maximum area of this playground?\nA: The answer is",
-    "solution": "2500",
+    "problem": "Conne Levi with a \"moe\" look looks like other newborns.But because it is the world's first test-tube baby screened by next-generation gene sequencing technology, his advent has attracted the attention of experts and scholars.Not long ago, this news detonated the audience at the \"European Society of Human Reproduction and Embryology Annual Meeting\" held in London, England.And ordinary people also believe that humans may usher in the era of \"customized babies\".Q: Which of the following, if true, would best refute the views of ordinary people? Answer Choices: (A)\"Artificial\" genetic screening does not rule out that there will be loopholes; in natural conception, the guidelines for survival of the fittest in nature seem to be more subtle and effective (B)It can be seen from the development history of modern science and technology that technological development is often faster than human cognition, and sometimes technology will go further and deviate from the track of human cognition (C)Gene screening is mainly to avoid reproductive defects, this technology brings opportunities for human eugenics and eugenics; as for \"customized babies\", the concept of cloning is more involved, the two should not be confused (D)\"Customized babies\" have not been tried globally, this concept also challenges the most controversial human reproductive ethics\nA: Among A through D, the answer is",
+    "solution": "C",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

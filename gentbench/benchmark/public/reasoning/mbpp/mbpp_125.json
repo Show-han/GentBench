@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to convert a decimal number to binary number.\n\nYour code should pass these tests:\n\nassert decimal_To_Binary(10) == 1010\nassert decimal_To_Binary(1) == 1\nassert decimal_To_Binary(20) == 10100\n\n",
-    "solution": "def decimal_To_Binary(N): \r\n    B_Number = 0\r\n    cnt = 0\r\n    while (N != 0): \r\n        rem = N % 2\r\n        c = pow(10,cnt)  \r\n        B_Number += rem*c  \r\n        N //= 2 \r\n        cnt += 1\r\n    return B_Number  ",
-    "test": "assert decimal_To_Binary(10) == 1010\nassert decimal_To_Binary(1) == 1\nassert decimal_To_Binary(20) == 10100",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

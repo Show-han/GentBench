@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to filter a dictionary based on values.\n\nYour code should pass these tests:\n\nassert dict_filter({'Cierra Vega': 175, 'Alden Cantrell': 180, 'Kierra Gentry': 165, 'Pierre Cox': 190},170)=={'Cierra Vega': 175, 'Alden Cantrell': 180, 'Pierre Cox': 190}\nassert dict_filter({'Cierra Vega': 175, 'Alden Cantrell': 180, 'Kierra Gentry': 165, 'Pierre Cox': 190},180)=={ 'Alden Cantrell': 180, 'Pierre Cox': 190}\nassert dict_filter({'Cierra Vega': 175, 'Alden Cantrell': 180, 'Kierra Gentry': 165, 'Pierre Cox': 190},190)=={ 'Pierre Cox': 190}\n\n",
-    "solution": "def dict_filter(dict,n):\r\n result = {key:value for (key, value) in dict.items() if value >=n}\r\n return result",
-    "test": "assert dict_filter({'Cierra Vega': 175, 'Alden Cantrell': 180, 'Kierra Gentry': 165, 'Pierre Cox': 190},170)=={'Cierra Vega': 175, 'Alden Cantrell': 180, 'Pierre Cox': 190}\nassert dict_filter({'Cierra Vega': 175, 'Alden Cantrell': 180, 'Kierra Gentry': 165, 'Pierre Cox': 190},180)=={ 'Alden Cantrell': 180, 'Pierre Cox': 190}\nassert dict_filter({'Cierra Vega': 175, 'Alden Cantrell': 180, 'Kierra Gentry': 165, 'Pierre Cox': 190},190)=={ 'Pierre Cox': 190}",
+    "problem": "You are an expert Python programmer, and here is your task: Write a function to check whether the given number is armstrong or not.\n\nYour code should pass these tests:\n\nassert armstrong_number(153)==True\nassert armstrong_number(259)==False\nassert armstrong_number(4458)==False\n\n",
+    "solution": "def armstrong_number(number):\r\n sum = 0\r\n times = 0\r\n temp = number\r\n while temp > 0:\r\n           times = times + 1\r\n           temp = temp // 10\r\n temp = number\r\n while temp > 0:\r\n           reminder = temp % 10\r\n           sum = sum + (reminder ** times)\r\n           temp //= 10\r\n if number == sum:\r\n           return True\r\n else:\r\n           return False",
+    "test": "assert armstrong_number(153)==True\nassert armstrong_number(259)==False\nassert armstrong_number(4458)==False",
     "tags": [
         "reasoning/coding"
     ]

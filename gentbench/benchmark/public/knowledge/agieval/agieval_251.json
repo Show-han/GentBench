@@ -1,7 +1,0 @@
-{
-    "problem": "问题：下列统计量中, 能度量样本 $x_{1}, x_{2}, \\cdots, x_{n}$ 的离散程度的是 ($\\quad$)\\\\\n 选项：(A)样本 $x_{1}, x_{2}, \\cdots, x_{n}$ 的标准差 (B)样本 $x_{1}, x_{2}, \\cdots, x_{n}$ 的中位数  (C)样本 $x_{1}, x_{2}, \\cdots, x_{n}$ 的极差 (D)样本 $x_{1}, x_{2}, \\cdots, x_{n}$ 的平均数\n答案：从A到D, 我们应选择",
-    "solution": "A",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

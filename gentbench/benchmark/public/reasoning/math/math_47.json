@@ -1,6 +1,6 @@
 {
-    "problem": "The volume of a cylinder is 60 cubic centimeters. What is the number of cubic centimeters in the volume of the sphere it circumscribes?",
-    "solution": "We begin by drawing a diagram: [asy]\nimport solids; size(150); import three; defaultpen(linewidth(0.8)); currentprojection = orthographic(5,0,2);\nrevolution c = cylinder((0,0,0), 1, 2);\ndraw(c,black);\ndraw(Circle((0,1),1));\ndraw((-1,1)..(0,.7)..(1,1)); draw((-1,1)..(0,1.3)..(1,1),linetype(\"2 4\")); dot((0,1));\n[/asy]\n\nLet the radius of the sphere be $r$.  We see the radius of the cylinder is $r$ and the height of the cylinder is $2r$.  Thus, from the cylinder's volume we have \\[60 = \\pi (r^2)(2r) = 2\\pi r^3.\\]  Dividing both sides by 2 yields $\\pi r^3 = 30$.  The volume of the sphere is \\[\\frac{4}{3}\\pi r^3 = \\frac{4}{3}(30) = \\boxed{40}\\] cubic centimeters.  (Notice that we didn't have to solve for $r$!)",
+    "problem": "If $x+\\frac{1}{y}=1$ and $y+\\frac{1}{z}=1$, what is the value of the product $xyz$?",
+    "solution": "Multiply both sides of the first equation by $y$ and both sides of the second equation by $z$ to obtain \\begin{align*}\nxy+1 &= y \\\\\nyz+1 &= z.\n\\end{align*} Substituting $xy+1$ for $y$ in the second equation, we find \\[\n(xy+1)z+1=z,\n\\] which simplifies to \\[\nxyz+z+1=z.\n\\] Subtracting $z+1$ from both sides, we find that $xyz=z-(z+1)=\\boxed{-1}.$",
     "tags": [
         "reasoning/math"
     ]

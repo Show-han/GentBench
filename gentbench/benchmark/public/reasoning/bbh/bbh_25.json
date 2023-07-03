@@ -1,6 +1,6 @@
 {
-    "problem": "Which statement is sarcastic?\nOptions:\n(A) Why would they have weapons drawn when they've been called to the scene of a fire?\n(B) Why would they have weapons drawn when they've been called to the scene of a shooting?",
-    "solution": "(B)",
+    "problem": "((-4 - -8 + 2 + -8) * (-3 * 0 + 4 * 1)) =",
+    "solution": "-8",
     "tags": [
         "reasoning/commonsense"
     ]

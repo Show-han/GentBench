@@ -1,6 +1,6 @@
 {
-    "problem": "Brandon has a collection of 20 baseball cards.  Malcom has 8 more cards than Brandon.  However, then Malcom gives half of his cards to his friend Mark.  How many cards does Malcom have left?",
-    "solution": "Malcom has 20 cards + 8 cards = <<20+8=28>>28 cards.\nMalcom gives away 1/2 * 28 cards = <<1/2*28=14>>14 cards to Mark.\nMalcom has 28-14 cards = <<28-14=14>>14 cards remaining.\n#### 14",
+    "problem": "Josiah is three times as old as Hans. Hans is 15 years old now. In three years, what is the sum of the ages of Josiah and Hans?",
+    "solution": "Josiah is 15 x 3 = <<15*3=45>>45 years old now.\nIn three years, Josiah will be 45 + 3 = <<45+3=48>>48 years old.\nHans will be 15 + 3 = <<15+3=18>>18 years old in three years.\nSo, the sum of their ages in three years is 48 + 18 = <<48+18=66>>66 years old.\n#### 66",
     "tags": [
         "reasoning/math"
     ]

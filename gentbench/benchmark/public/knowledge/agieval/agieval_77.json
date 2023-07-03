@@ -1,7 +1,7 @@
 {
-    "problem": "Real estate developers in a city can only raise more development funds through direct loans from banks or through pre-sale of commercial housing.The government does not allow banks to increase direct loans to the real estate industry.As a result, real estate developers in the city cannot raise more development funds because _______Q: Which of the following options can logically complete the above argument? Answer Choices: (A)Some real estate developers have pre-sold commercial housing and ran away with money, making the completion of the project far away. (B)The central bank canceled the pre-sale system for commercial housing. (C)Construction companies are reluctant to advance construction. (D)Some developers postpone delivery after the sale of off-plan houses, which makes many buyers doubt the developers.\nA: Among A through D, the answer is",
-    "solution": "B",
+    "problem": "Q: The expression $10x^2-x-24$ can be written as $(Ax-8)(Bx+3),$ where $A$ and $B$ are integers. What is $AB + B$?\nA: The answer is",
+    "solution": "12",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

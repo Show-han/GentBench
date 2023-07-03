@@ -1,7 +1,0 @@
-{
-    "problem": "Q: When all the girls at Madeline's school line up in rows of eight, there are seven left over.\n\nIf instead they line up in rows of four, how many are left over?\nA: The answer is",
-    "solution": "3",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

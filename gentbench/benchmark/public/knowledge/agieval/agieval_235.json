@@ -1,7 +1,0 @@
-{
-    "problem": "问题：实验室制备下列气体的方法可行的是\n\n\\begin{tabular}{|l|l|l|}\n\\hline & 气体 & 方法 \\\\\n\\hline A & 氨气 & 加热氯化铵固体 \\\\\n\\hline B & 二氧化氮 & 将铝片加到冷浓硝酸中 \\\\\n\\hline C & 硫化氢 & 向硫化钠固体滴加浓硫酸 \\\\\n\\hline D & 氧气 & 加热氯酸钾和二氧化锰的混合物 \\\\\n\\hline\n\\end{tabular} 选项：(A)A (B)$\\mathrm{B}$ (C)C (D)$\\mathrm{D}$\n答案：从A到D, 我们应选择",
-    "solution": "D",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

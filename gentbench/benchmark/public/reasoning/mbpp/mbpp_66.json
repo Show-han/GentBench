@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the largest negative number from the given list.\n\nYour code should pass these tests:\n\nassert largest_neg([1,2,3,-4,-6]) == -6\nassert largest_neg([1,2,3,-8,-9]) == -9\nassert largest_neg([1,2,3,4,-1]) == -1\n\n",
-    "solution": "def largest_neg(list1): \r\n    max = list1[0] \r\n    for x in list1: \r\n        if x < max : \r\n             max = x  \r\n    return max",
-    "test": "assert largest_neg([1,2,3,-4,-6]) == -6\nassert largest_neg([1,2,3,-8,-9]) == -9\nassert largest_neg([1,2,3,4,-1]) == -1",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

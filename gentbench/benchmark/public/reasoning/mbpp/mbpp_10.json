@@ -1,7 +1,7 @@
 {
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to check if the triangle is valid or not.\n\nYour code should pass these tests:\n\nassert validity_triangle(60,50,90)==False\nassert validity_triangle(45,75,60)==True\nassert validity_triangle(30,50,100)==True\n\n",
-    "solution": "def validity_triangle(a,b,c):\r\n total = a + b + c\r\n if total == 180:\r\n    return True\r\n else:\r\n    return False",
-    "test": "assert validity_triangle(60,50,90)==False\nassert validity_triangle(45,75,60)==True\nassert validity_triangle(30,50,100)==True",
+    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find lcm of two positive integers.\n\nYour code should pass these tests:\n\nassert lcm(4,6) == 12\nassert lcm(15,17) == 255\nassert lcm(2,6) == 6\n\n",
+    "solution": "def lcm(x, y):\r\n   if x > y:\r\n       z = x\r\n   else:\r\n       z = y\r\n   while(True):\r\n       if((z % x == 0) and (z % y == 0)):\r\n           lcm = z\r\n           break\r\n       z += 1\r\n   return lcm",
+    "test": "assert lcm(4,6) == 12\nassert lcm(15,17) == 255\nassert lcm(2,6) == 6",
     "tags": [
         "reasoning/coding"
     ]

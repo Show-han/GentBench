@@ -1,6 +1,6 @@
 {
-    "problem": "Sweet Hope hosts a casino with 3 roulette tables labeled A, B, and C. At 6:00 pm, Table B had twice as much money on it as table C, which had $20 more than table A. If there was $40 on table A, how much money was there on all the tables?",
-    "solution": "If table C had $20 more than table A, then table C had $20+$40=$<<20+40=60>>60\nRoulette tables A and C had $60+$40=$<<60+40=100>>100\nTable B had twice as much money on it as table C, meaning table B had $60*2=$<<60*2=120>>120\nTogether, the three roulette tables had $120+$100=$<<120+100=220>>220\n#### 220",
+    "problem": "There are 480 grains of rice in one cup. If half a cup is 8 tablespoons and one tablespoon is 3 teaspoons, how many grains of rice are in a teaspoon?",
+    "solution": "First find the number of tablespoons in a full cup: 8 tablespoons/half-cup * 2 half-cups/cup = <<8*2=16>>16 tablespoons\nThen find the total number of teaspoons in a cup: 16 tablespoons/cup * 3 teaspoons/tablespoon = <<16*3=48>>48 teaspoons\nThen find the number of grains of rice per teaspoon: 480 grains / 48 teaspoons = <<480/48=10>>10 grains/teaspoon\n#### 10",
     "tags": [
         "reasoning/math"
     ]

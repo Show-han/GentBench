@@ -1,6 +1,6 @@
 {
-    "problem": "The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Friedrich von Rothenstein war der Sohn von Konrad von Rothenstein, aus dem Adelsgeschlecht der von Rothenstein.\nTranslation: Friedrich von Rothenstein was the daughter of Konrad von Rothenstein, of the noble family of Rothenstein.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts",
-    "solution": "(C)",
+    "problem": "Find a movie similar to Apollo 13, Batman, Dances with Wolves, Braveheart:\nOptions:\n(A) Schindler's List\n(B) Crimes and Misdemeanors\n(C) King Kong\n(D) Gorillas in the Mist",
+    "solution": "(A)",
     "tags": [
         "reasoning/commonsense"
     ]

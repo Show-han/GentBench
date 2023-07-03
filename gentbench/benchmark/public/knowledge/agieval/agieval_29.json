@@ -1,9 +1,7 @@
 {
-    "problem": "问题：中国甲航空公司欲从美国波音公司购进两架波音757客机，该两架客机已在美国进行国籍登记，对该两架飞机的所有权何时从波音公司转移至甲航空公司的问题，我国法律的规定是: 选项：(A)首先应当适用双方选择的法律 (B)当事人未选择的，适用与该购机合同有最密切联系国家的法律 (C)适用美国法 (D)适用中国法\n答案：从A到D, 我们应选择",
-    "solution": [
-        "C"
-    ],
+    "problem": "Q: In triangle $ABC,$ $\\overline{CD}$ is the bisector of angle $C,$ with $D$ on $\\overline{AB}.$  If $\\cos \\frac{C}{2} = \\frac{1}{3}$ and $CD = 6,$ compute\n\\[\\frac{1}{BC} + \\frac{1}{AC}.\\]\nA: The answer is",
+    "solution": "\\frac{1}{9}",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

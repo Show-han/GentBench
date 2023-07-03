@@ -1,6 +1,6 @@
 {
-    "problem": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a truck, a motorcyle, a limousine, a station wagon, and a sedan. The limousine is older than the truck. The sedan is newer than the motorcyle. The station wagon is the oldest. The limousine is newer than the sedan.\nOptions:\n(A) The truck is the oldest\n(B) The motorcyle is the oldest\n(C) The limousine is the oldest\n(D) The station wagon is the oldest\n(E) The sedan is the oldest",
-    "solution": "(D)",
+    "problem": "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Frankenstein, Bob gets The Odyssey, and Claire gets The Great Gatsby.\nAs the semester proceeds, they start trading around the new books. First, Alice and Claire swap books. Then, Alice and Bob swap books. Finally, Alice and Claire swap books. At the end of the semester, Claire has\nOptions:\n(A) Frankenstein\n(B) The Odyssey\n(C) The Great Gatsby",
+    "solution": "(B)",
     "tags": [
         "reasoning/commonsense"
     ]

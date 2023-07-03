@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a python function to find the first repeated character in a given string.\n\nYour code should pass these tests:\n\nassert first_repeated_char(\"abcabc\") == \"a\"\nassert first_repeated_char(\"abc\") == \"None\"\nassert first_repeated_char(\"123123\") == \"1\"\n\n",
-    "solution": "def first_repeated_char(str1):\r\n  for index,c in enumerate(str1):\r\n    if str1[:index+1].count(c) > 1:\r\n      return c \r\n  return \"None\"",
-    "test": "assert first_repeated_char(\"abcabc\") == \"a\"\nassert first_repeated_char(\"abc\") == \"None\"\nassert first_repeated_char(\"123123\") == \"1\"",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

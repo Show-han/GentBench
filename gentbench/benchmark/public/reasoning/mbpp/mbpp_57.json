@@ -1,8 +1,0 @@
-{
-    "problem": "You are an expert Python programmer, and here is your task: Write a function to find the maximum product from the pairs of tuples within a given list.\n\nYour code should pass these tests:\n\nassert max_product_tuple([(2, 7), (2, 6), (1, 8), (4, 9)] )==36\nassert max_product_tuple([(10,20), (15,2), (5,10)] )==200\nassert max_product_tuple([(11,44), (10,15), (20,5), (12, 9)] )==484\n\n",
-    "solution": "def max_product_tuple(list1):\r\n    result_max = max([abs(x * y) for x, y in list1] )\r\n    return result_max",
-    "test": "assert max_product_tuple([(2, 7), (2, 6), (1, 8), (4, 9)] )==36\nassert max_product_tuple([(10,20), (15,2), (5,10)] )==200\nassert max_product_tuple([(11,44), (10,15), (20,5), (12, 9)] )==484",
-    "tags": [
-        "reasoning/coding"
-    ]
-}

@@ -1,7 +1,7 @@
 {
-    "problem": "问题：$(1+\\sqrt{3} i)^{3}=(\\qquad)$\\\\\n 选项：(A)-8 (B)8 (C)$-8 \\mathrm{i}$ (D)$8 \\mathrm{i}$\n答案：从A到D, 我们应选择",
-    "solution": "A",
+    "problem": "Q: Given that $(-2,3)$ is on the graph of $y=f(x)$, find a point on the graph of $y=f(2x+1)+3$. Express your answer as an ordered pair $(a,b)$ where $a$ and $b$ are real numbers.\nA: The answer is",
+    "solution": "(-\\frac{3}{2},6)",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

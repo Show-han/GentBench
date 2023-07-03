@@ -1,7 +1,0 @@
-{
-    "problem": "问题：“嫦娥一号”是我国首次发射的探月卫星, 它在距月球表面高度为 $200 \\mathrm{~km}$ 的圆形轨道上运行, 运行周期为 127 分钟. 已知引力常量 $G=6.67 \\times 10$ - $11 \\mathrm{~N} \\cdot \\mathrm{m}^{2} / \\mathrm{kg}^{2}$, 月球的半径为 $1.74 \\times 10^{3} \\mathrm{~km}$. 利用以上数据估算月球的质量约 为  选项：(A)$8.1 \\times 10^{10} \\mathrm{~kg}$ (B)$7.4 \\times 10^{13} \\mathrm{~kg}$ (C)$5.4 \\times 10^{19} \\mathrm{~kg}$ (D)$7.4 \\times 10^{22} \\mathrm{~kg}$\n答案：从A到D, 我们应选择",
-    "solution": "D",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

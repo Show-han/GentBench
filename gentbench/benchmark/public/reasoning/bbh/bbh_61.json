@@ -1,6 +1,6 @@
 {
-    "problem": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are seven birds: a cardinal, a blue jay, a robin, a crow, a falcon, a hawk, and a raven. The hawk is the second from the right. The raven is the fourth from the left. The robin is the second from the left. The cardinal is to the left of the raven. The falcon is to the left of the robin. The crow is to the right of the blue jay.\nOptions:\n(A) The cardinal is the fourth from the left\n(B) The blue jay is the fourth from the left\n(C) The robin is the fourth from the left\n(D) The crow is the fourth from the left\n(E) The falcon is the fourth from the left\n(F) The hawk is the fourth from the left\n(G) The raven is the fourth from the left",
-    "solution": "(G)",
+    "problem": "How would a typical person answer each of the following questions about causation?\nA bear and a hedgehog were shown a box full of colored pencils. Only bears were allowed to take pencils, whereas hedgehogs were not allowed to take them. The hedgehog was absent when the new rule about pencil use was announced. Therefore, the hedgehog did not know about the new norm. Both animals alternately took pencils out of the box six times. At last, the hedgehog and the bear came to the box and simultaneously took a pencil. A short time later, another animal, a polar bear, approached the box seeking a pencil to do his homework with. However, there were no pencils left in the box. The polar bear could not finish his homework. Did the hedgehog cause the problem?\nOptions:\n- Yes\n- No",
+    "solution": "Yes",
     "tags": [
         "reasoning/commonsense"
     ]

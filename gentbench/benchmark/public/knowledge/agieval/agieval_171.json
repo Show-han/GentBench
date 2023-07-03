@@ -1,7 +1,0 @@
-{
-    "problem": "Q: If $f(x)=5 x^{2}-3$ and $f(x+a)=5 x^{2}+30 x+42$, what is the value of $a$ ? Answer Choices: (A)-30 (B)$\\quad-3$ (C)3 (D)30\nA: Among A through D, the answer is",
-    "solution": "C",
-    "tags": [
-        "reasoning/domain_specific_knowledge"
-    ]
-}

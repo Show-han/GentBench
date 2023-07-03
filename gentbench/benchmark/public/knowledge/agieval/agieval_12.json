@@ -1,7 +1,7 @@
 {
-    "problem": "Q: Which of the following statements is true about the graph of the equation $2 y-3 x=-4$ in the $x y$-plane? Answer Choices: (A)It has a negative slope and a positive $y$-intercept. (B)It has a negative slope and a negative $y$-intercept. (C)It has a positive slope and a positive $y$-intercept. (D)It has a positive slope and a negative $y$-intercept.\nA: Among A through D, the answer is",
-    "solution": "D",
+    "problem": "Q: There are real numbers $a$ and $b$ such that for every positive number $x$, we have the identity\n\\[\n  \\tan^{-1} \\left( \\frac{1}{x} - \\frac{x}{8} \\right) + \\tan^{-1}(ax) + \\tan^{-1}(bx) \n    = \\frac{\\pi}{2} \\, .\n\\](Throughout this equation, $\\tan^{-1}$ means the inverse tangent function, sometimes written $\\arctan$.)  What is the value of $a^2 + b^2$?\nA: The answer is",
+    "solution": "\\frac{3}{4}",
     "tags": [
-        "reasoning/domain_specific_knowledge"
+        "knowledge/domain_specific_knowledge"
     ]
 }

@@ -1,6 +1,6 @@
 {
-    "problem": "I have an orange, a grape, a strawberry, three apples, a plum, a banana, a raspberry, a blackberry, a nectarine, and three peaches. How many fruits do I have?",
-    "solution": "14",
+    "problem": "Is the following sentence plausible? \"Malcolm Brogdon eurostepped to the basket in the NBA Championship.\"",
+    "solution": "yes",
     "tags": [
         "reasoning/commonsense"
     ]

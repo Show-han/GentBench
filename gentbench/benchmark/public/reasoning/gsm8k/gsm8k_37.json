@@ -1,6 +1,6 @@
 {
-    "problem": "Jose bought 20,000 square meters of land and needs to divide it equally with his four siblings. How much land, in the square meters, will Jose have after dividing it with his siblings?",
-    "solution": "The land will be divided into 1 (Jose) + 4 siblings = <<1+4=5>>5 pieces.\nSo, Jose will have 20,000/5 = <<20000/5=4000>>4000 square meters of land.\n#### 4000",
+    "problem": "Jennifer wants to go to a museum. There is one 5 miles away from her home and one 15 miles away. If Jennifer goes to both museums on two separate days, how many miles total will she travel?",
+    "solution": "Jennifer's home is 5 miles away from the first museum, so the round trip back and forth is 5 miles there + 5 miles back = <<5+5=10>>10 miles altogether.\nOn another day Jennifer goes to a museum 15 miles away + 15 miles to return home = <<15+15=30>>30 miles total.\nCombined, Jennifer travels 10 miles on the first day + 30 miles on the second day = <<10+30=40>>40 miles Jennifer travels total.\n#### 40",
     "tags": [
         "reasoning/math"
     ]
